@@ -1,0 +1,4 @@
+.dotfiles
+.vim/autoload
+.vim/plugged
+.vim/.netrwhist
