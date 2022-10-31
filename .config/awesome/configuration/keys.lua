@@ -259,6 +259,15 @@ awful.keyboard.append_global_keybindings({
 	awful.key({ modkey, }, "[", function() volume_widget:dec(5) end),
 	awful.key({ modkey, }, "\\", function() volume_widget:toggle() end),
 })
+
+
+-- ===================
+-- BRIGHTNESS
+-- =================== 
+awful.keyboard.append_global_keybindings({
+    awful.key({modkey, shift }, "]", function() awful.util.spawn("brightnessctl set 5%+", false) end),
+    awful.key({modkey, shift }, "[", function() awful.util.spawn("brightnessctl set 5%-", false) end),
+})
     
 --[[
 -- Media Control :

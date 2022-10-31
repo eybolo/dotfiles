@@ -80,6 +80,7 @@ end
 -- Widgets :
 
 local clock_widget = require('widget.clock')
+local brightness_widget = require("widget.brightness")
 local keyboardlayout_widget = require('widget.keyboardlayout')
 --local brightness_widget = require('widget.brightness')
 local mem_widget = require('widget.memory')
@@ -92,7 +93,12 @@ local volume_widget = require('awesome-wm-widgets.volume-widget.volume')
 local batteryarc_widget = require("awesome-wm-widgets.batteryarc-widget.batteryarc")
 local ram_widget = require("awesome-wm-widgets.ram-widget.ram-widget")
 
-
+ -- set binary path (optional)
+---redshift.redshift = "/usr/bin/redshift"
+    -- set additional redshift arguments (optional)
+--redshift.options = "-c ~/.config/redshift/redshift.conf"
+   -- 1 for dim, 0 for not dimmed
+--redshift.init(1)
 --[[
 --\\
 local function set_wallpaper(s)
@@ -280,6 +286,7 @@ awful.screen.connect_for_each_screen(function(s)
                     barcontainer(s.mytaglist),
                     barcontainer(cpu_widget()),
                     barcontainer(mem_widget),
+                    barcontainer(brightness_widget),
                     --[[barcontainer(ram_widget(
                                {
                                 widget_height	= 45,
