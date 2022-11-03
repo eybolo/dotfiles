@@ -63,7 +63,7 @@ awful.keyboard.append_global_keybindings({
 		{description = "open a terminal", group = "awesome - launcher"}),              
 
 	-- Rofi Launchers
-    awful.key({ modkey }, "p", function () awful.spawn(string.format(HOME_DIR .. "/.config/rofi/launchers/type-6/launcher.sh")) end,
+    awful.key({ modkey }, "r", function () awful.spawn(string.format(HOME_DIR .. "/.config/rofi/launchers/type-6/launcher.sh")) end,
 		{description = "rofi launcher", group = "awesome - launcher"}),
 })
 
@@ -317,11 +317,11 @@ awful.key({ modkey }, "\\", function() volume_widget:toggle() end),
 -- Standard program :
 awful.keyboard.append_global_keybindings({
     -- Screenshots Keys :
-    awful.key({}, "Print", function () awful.util.spawn("screenshot")end,
-		{description = "Maim", group = "screenshot"}),
+    --awful.key({}, "Print", function () awful.util.spawn("flameshot gui")end,
+		--{description = "Maim", group = "screenshot"}),
 					  
-    awful.key({ modkey }, "Print", function () awful.util.spawn("screenshot-select")end,
-		{description = "Maim", group = "screenshot"}),
+    awful.key({ modkey }, "p", function () awful.util.spawn("flameshot gui")end,
+		{description = "Flameshot", group = "screenshot"}),
 })
 
 

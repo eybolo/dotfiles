@@ -45,7 +45,8 @@ colors.brightwhite       = "#cccccc"
 
 theme = {}
 
-theme.font          = "sans 8"
+--theme.font          = "sans 8"
+theme.font          = "Cascadia Code Bold 10"
 
 --theme.bg_normal 							= colors.transparent
 --theme.bg_normal 							= "#22222299" 
@@ -87,7 +88,8 @@ theme.fg_minimize   = "#ffffff"
 -- theme icons widget :
 
 theme.icon_size = 12
-theme.iconfont = "Font Awesome 5 Free-Solid-900"
+--theme.iconfont = "Font Awesome 5 Free-Solid-900"
+theme.iconfont = "Font Awesome 6 free Solid 10"
 theme.icon_color = "#587D8D"
 
 theme.useless_gap   = dpi(2)
