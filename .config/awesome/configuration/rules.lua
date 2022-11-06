@@ -91,11 +91,24 @@ ruled.client.connect_signal("request::rules", function()
         properties = { titlebars_enabled = false      }
     }
 
-    -- Set Firefox to always map on the tag named "2" on screen 1.
-    -- ruled.client.append_rule {
-    --     rule       = { class = "Firefox"     },
-    --     properties = { screen = 1, tag = "2" }
-    -- }
+    ruled.client.append_rule {
+        rule_any    = {
+            class = {"firefox"}
+    },
+        properties = {
+            tag = screen[1].tags[2],
+            --switch_to_tags = true
+    },
+}
+    ruled.client.append_rule {
+        rule_any    = {
+            class = {"kitty"}
+    },
+        properties = {
+            tag = screen[1].tags[1],
+            --switch_to_tags = true
+    },
+}
 end)
 
 ruled.notification.connect_signal('request::rules', function()
@@ -110,6 +123,16 @@ ruled.notification.connect_signal('request::rules', function()
     }
 end)
 
+------------------------------------------------- 
+--
+-- Select tag by object reference:
+
+-- Spawn firefox and thunderbird
+awful.spawn.single_instance("firefox")
+awful.spawn.single_instance("kitty")
+
+
+-------------------------------------------
 -- Round Corners :
 client.connect_signal("manage", function (c)
     c.shape = function(cr,w,h)

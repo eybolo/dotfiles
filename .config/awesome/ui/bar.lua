@@ -78,27 +78,17 @@ return wibox.widget{
 end
 
 -- Widgets :
-
 local clock_widget = require('widget.clock')
 local brightness_widget = require("widget.brightness")
 local keyboardlayout_widget = require('widget.keyboardlayout')
---local brightness_widget = require('widget.brightness')
 local mem_widget = require('widget.memory')
---local cpu_widget = require('widget.cpu')
 local temprature_widget = require('widget.temprature')
---local j = require('widget.battery')
 local updates_widget = require('widget.updates')
 local cpu_widget = require("widget.cpu.cpu")
 local volume_widget = require('awesome-wm-widgets.volume-widget.volume')
 local batteryarc_widget = require("awesome-wm-widgets.batteryarc-widget.batteryarc")
 local ram_widget = require("awesome-wm-widgets.ram-widget.ram-widget")
 
- -- set binary path (optional)
----redshift.redshift = "/usr/bin/redshift"
-    -- set additional redshift arguments (optional)
---redshift.options = "-c ~/.config/redshift/redshift.conf"
-   -- 1 for dim, 0 for not dimmed
---redshift.init(1)
 --[[
 --\\
 local function set_wallpaper(s)
@@ -120,7 +110,6 @@ screen.connect_signal("property::geometry", set_wallpaper)
 
 awful.screen.connect_for_each_screen(function(s)
    
-
     -- Each screen has its own tag table.
     awful.tag(awful.util.tagnames, s, awful.layout.layouts[1])
    
@@ -143,7 +132,7 @@ awful.screen.connect_for_each_screen(function(s)
     }
     s.mylayoutbox = wibox.container.margin(s.mylayoutbox, dpi(0), dpi(5), dpi(5), dpi(5))
     
-   -- local tag_colors = {"#ff0000", "#00ff00", "#0000ff", "#ff0000", "#00ff00", "#0000ff","#ff0000", "#00ff00", "#0000ff"}
+   --  local tag_colors = {"#ff0000", "#00ff00", "#0000ff", "#ff0000", "#00ff00", "#0000ff","#ff0000", "#00ff00", "#0000ff"}
 
     -- Create a taglist widget
     s.mytaglist = awful.widget.taglist {
@@ -163,17 +152,6 @@ awful.screen.connect_for_each_screen(function(s)
 				end
 			end),
         },
-        --[[widget_template = {
-       {
-          id     = 'text_role',
-          widget = wibox.widget.textbox,
-       },
-       widget = wibox.container.background,
-       id = 'background_role',
-       create_callback = function(self, t, index, objects)
-          self:get_children_by_id('background_role')[1].fg = tag_colors[t.index]
-       end
-    }--]]
     }
     
     -- Create a tasklist widget
@@ -243,6 +221,7 @@ awful.screen.connect_for_each_screen(function(s)
     }
                                   
                                      
+    --[[
 	-- Systemtry :
 	s.systray = wibox.widget {
 		visible = false,
@@ -252,7 +231,7 @@ awful.screen.connect_for_each_screen(function(s)
 		widget = wibox.widget.systray
 	}
 	s.tray_toggler  		= require('widget.tray-toggle')
-	
+--]]	
 	-- Create the wibar
 	----------------------
 	s.mywibar = awful.wibar({
@@ -264,13 +243,12 @@ awful.screen.connect_for_each_screen(function(s)
 		height = dpi(30),
 		width = s.geometry.width - dpi(20),
 		screen = s,
-		--bg = '#000000' .. '66',
 		bg = colors.transparent,
 	})
 
 	awful.placement.top(s.mywibar, { margins = beautiful.useless_gap * 2 })
 	s.mywibar:struts({
-		top = dpi(45),
+		top = dpi(35),
 		--bottom = dpi(10),
 	})
 	
@@ -281,51 +259,33 @@ awful.screen.connect_for_each_screen(function(s)
 				layout = wibox.layout.align.horizontal,
                 expand = "none",
 				{ -- Left widgets :
-					--mylauncher,
-					--s.mytaglist,
                     barcontainer(s.mytaglist),
                     barcontainer(cpu_widget()),
+					barcontainer(temprature_widget),
                     barcontainer(mem_widget),
                     barcontainer(brightness_widget),
-                    --[[barcontainer(ram_widget(
-                               {
-                                widget_height	= 45,
-                                widget_width = 35,
-                                })),
---]]
-					spacing = dpi(2),
+					spacing = dpi(0),
 					layout = wibox.layout.fixed.horizontal,
 				},
+
 				{ -- Middle widget :
                   layout = wibox.layout.fixed.horizontal,
 				  s.mytasklist,
-
 				},
+
 				{ -- Right widgets :
-                    net_wired,
+                    barcontainer(net_wired),
                     barcontainer(net_wireless),
-					-- Updates :
 					barcontainer(updates_widget),
-					-- # CPU TEMP :
-					barcontainer(temprature_widget),
-					-- # CPU :
-					--barcontainer(cpu_widget),
-					-- # RAM :
-					--barcontainer(mem_widget),
-					-- # Keybord :
                     barcontainer(volume_widget{widget_type = 'arc'}), 
-
-                    barcontainer(keyboardlayout_widget),
-                 		
                     barcontainer(batteryarc_widget()),		
-
-					-- # Clock :
+                    barcontainer(keyboardlayout_widget),
 					barcontainer(clock_widget),					
-					{
-						s.systray,
-						margins = dpi(4),
-						widget = wibox.container.margin,
-					},
+					--{
+                      -- 	s.systray,
+					--	margins = dpi(4),
+					--	widget = wibox.container.margin,
+					--},
 					--s.tray_toggler,
 					s.mylayoutbox,
 					layout = wibox.layout.fixed.horizontal,

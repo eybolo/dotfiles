@@ -154,3 +154,10 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+URXVT_INSTANCES=0
+for pid in $(pidof -x kitty); do
+    URXVT_INSTANCES=$((URXVT_INSTANCES+1))
+done
+if [ $URXVT_INSTANCES -eq 2 ]; then
+    neofetch
+fi

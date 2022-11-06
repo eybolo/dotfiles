@@ -7,7 +7,6 @@ local awful         = require("awful")
 local hotkeys_popup = require("awful.hotkeys_popup")
 local HOME_DIR = os.getenv("HOME")
 local volume_widget = require('awesome-wm-widgets.volume-widget.volume')
-
 --require "awful.hotkeys_popup.keys.vim"
 require "awful.hotkeys_popup.keys.kitty"
 
@@ -335,7 +334,8 @@ awful.keyboard.append_global_keybindings({
 	{description = "Power Menu", group = "System"}),
 	
 -- Betterlockscreeen
-	awful.key({ modkey  }, "b", function () awful.util.spawn_with_shell("betterlockscreen --lock blur") end,
+--	awful.key({ modkey  }, "b", function () awful.util.spawn_with_shell("betterlockscreen --lock --blur") end,
+	awful.key({ modkey  }, "b", function () awful.util.spawn_with_shell("betterlockscreen --lock blur && betterlockscreen -u $HOME/image/wallpaper/") end,
 	{description = "block system", group = "System"}),
 	
 -- Clipmenu
@@ -409,7 +409,7 @@ end)
     
     
     
-
+--[[
 -- Sloppy focus :
 client.connect_signal("mouse::enter", function(c)
     c:activate { context = "mouse_enter", raise = false }
@@ -418,3 +418,4 @@ end)
 client.connect_signal("focus", function(c) c.border_color = theme.border_focus end)
 client.connect_signal("unfocus", function(c) c.border_color = theme.border_normal end)
 -- }}}
+-- ]]

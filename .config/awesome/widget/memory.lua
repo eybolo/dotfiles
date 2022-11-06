@@ -28,7 +28,7 @@ end)
 --return memory
 memory_icon = wibox.widget {
 	--markup = '<span font="' .. theme.iconfont .. '">' .. '\u{f538}' .. '</span>',
-    markup = ' <span color="'.. theme.icon_color ..'">\u{f538}</span> ',
+    markup = ' <span color="'.. colors.green ..'">\u{f538}</span> ',
 
 	widget = wibox.widget.textbox,
 }

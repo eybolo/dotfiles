@@ -1,53 +1,20 @@
-: 1667221867:0;ls
 : 1667221873:0;cat README.md
-: 1667221882:0;history
-: 1667221885:0;clear
-: 1667221890:0;source .zshrc
-: 1667221903:0;cd .cache
-: 1667221903:0;ls
-: 1667221958:0;reboot
-: 1667221992:0;ls
-: 1667221997:0;history
 : 1667222002:0;cd .cache
-: 1667222002:0;ls
 : 1667222014:0;cd zsh
-: 1667222014:0;ls
-: 1667222015:0;clear
-: 1667222063:0;cd
-: 1667222063:0;ls
-: 1667222065:0;clear
-: 1667222065:0;ls
-: 1667222068:0;config status
 : 1667222082:0;config add .zshrc
-: 1667222085:0;config status
 : 1667222109:0;config commit 
 : 1667222123:0;config commit -m "change"
 : 1667222173:0;config push origin main
 : 1667222233:0;cd tmp
-: 1667222233:0;ls
-: 1667222236:0;cd
 : 1667222238:0;cd project
-: 1667222239:0;ls
-: 1667222241:0;cd easy_arch
 : 1667222245:0;ks
-: 1667222248:0;ls
-: 1667222251:0;config status
-: 1667222255:0;git status
-: 1667222563:0;clear
-: 1667244588:0;sudo pacman -S flameshot
 : 1667244610:0;nmtui
-: 1667244653:0;sudo pacman -S flameshot
-: 1667244678:0;ping 8.8.8.8
 : 1667244688:0;sudo pacman -Sy
 : 1667244696:0;sudo pacman -S flameshot
 : 1667244749:0;flameshot gui
-: 1667244921:0;cd
 : 1667244927:0;vim .config/awesome/configuration/keys.lua
 : 1667246312:0;vim project/easy_arch
 : 1667246323:0;vim project/easy_arch/install_arch.sh
-: 1667246340:0;vim project/easy_arch/mi_enviroment
-: 1667247639:0;vim .config/kitty/kitty.conf
-: 1667247871:0;fc-list
 : 1667247886:0;fc-list | grep iosevka
 : 1667247972:0;fc-list | grep nerd
 : 1667247975:0;fc-list | grep Nerd
@@ -55,263 +22,109 @@
 : 1667250176:0;echo hola mundo
 : 1667250221:0;/usr/share/font/TTF
 : 1667250269:0;hola mundo la concha de tu madre
-: 1667250270:0;ls
 : 1667250275:0;que onda la cocha de tu madre
-: 1667250277:0;ls
 : 1667250441:0;vim txt
-: 1667250567:0;vim project/easy_arch/mi_enviroment
 : 1667261461:0;git clone --depth 1 https://github.com/dexpota/kitty-themes.git ~/.config/kitty/kitty-themes
 : 1667261591:0;kl
 : 1667261592:0;lk
 : 1667261678:0;vim .config/kitty/kitty.conf
-: 1667261944:0;cd .config/kitty
-: 1667262194:0;\
-ln -s ./kitty-themes/themes/snazzy.conf ~/.config/kitty/theme.conf
-: 1667262220:0;ls
-: 1667262230:0;ls 
-: 1667262291:0;unlink ~/.config/kitty/theme.conf
-: 1667262607:0;\
-ln -s ./kitty-themes/themes/DotGov.conf ~/.config/kitty/theme.conf
-: 1667262630:0;ls
-: 1667263143:0;unlink ~/.config/kitty/theme.conf
-: 1667263395:0;cd .config/kitty
 : 1667263475:0;ln -s ./kitty-themes/themes/Tomorrow_Night.conf ~/.config/kitty/theme.conf
-: 1667263557:0;unlink  ~/.config/kitty/theme.conf
 : 1667263583:0;ln -s ./kitty-themes/themes/Tomorrow_Night_Bright.conf ~/.config/kitty/theme.conf
-: 1667266924:0;unlink  ~/.config/kitty/theme.conf
 : 1667266949:0;ln -s ./kitty-themes/themes/Wombat.conf ~/.config/kitty/theme.conf
 : 1667267053:0;i
-: 1667267096:0;ls
-: 1667267106:0;unlink  ~/.config/kitty/theme.conf
 : 1667267243:0;ln -s ./kitty-themes/themes/Afterglow.conf ~/.config/kitty/theme.conf
-: 1667267339:0;ps aux | grep redshi
 : 1667267353:0;kill -99 759
-: 1667267359:0;ps aux | grep redshi
 : 1667267364:0;kill -9 759
 : 1667267368:0;kill 9 759
-: 1667267375:0;ps aux | grep redshi
-: 1667267499:0;redshift
-: 1667267584:0;redshift -c ~/.config/flameshot/flameshot.ini
-: 1667267646:0;cd
-: 1667267654:0;vim .xinitrc
-: 1667267669:0;reboot
-: 1667267733:0;redshift -c ~/.config/flameshot/flameshot.ini
-: 1667268052:0;vim /etc/geoclue/geoclue.conf
-: 1667268110:0;sudo vim /etc/geoclue/geoclue.conf
 : 1667268271:0;echo "ho \ pep \" > mmmm
 : 1667268285:0;echo "ho \ pep \ " > mmmm
 : 1667268291:0;cat mmmm
 : 1667268815:0;sudo vim /etc/geoclue/geoclue.conf
-: 1667268863:0;redshift -c ~/.config/flameshot/flameshot.ini
 : 1667269063:0;sudo pacman -S geoclue
 : 1667269076:0;sudo pacman -S nvim
 : 1667269080:0;sudo pacman -S neovim
-: 1667269092:0;reboot
 : 1667269122:0;redshift -c ~/.config/flameshot/flameshot.ini
 : 1667269251:0;ls /usr/lib/geoclue-2.0/demos/agent 
 : 1667269261:0;ls -l /usr/lib/geoclue-2.0/demos/agent 
 : 1667269266:0;/usr/lib/geoclue-2.0/demos/agent 
 : 1667269294:0;vim /etc/geoclue/geoclue.conf
 : 1667269343:0;redshift
-: 1667269378:0;redshift -c .config/redshift/redshift.conf
-: 1667269405:0;cat .xinitrc
-: 1667269412:0;vim .xinitrc
-: 1667269430:0;redshift -c .config/redshift/redshift.conf &
 : 1667269444:0;ps aux | grep redshi
 : 1667269456:0;kill 9 3968
-: 1667269462:0;clear
-: 1667269489:0;vim project/easy_arch/mi_enviroment
-: 1667269835:0;unlink  ~/.config/kitty/theme.conf
 : 1667269867:0;cd .config/kitty
-: 1667269893:0;ln -s ./kitty-themes/themes/Argonaut.conf ~/.config/kitty/theme.conf
-: 1667269902:0;ls
-: 1667269904:0;clear
-: 1667269905:0;ls 
-: 1667269916:0;que onda la concha de tu madre jaja
 : 1667270017:0;vim ~/project/easy_arch/mi_enviroment
-: 1667270024:0;ls
-: 1667270025:0;clear
 : 1667270033:0;ehh
-: 1667270035:0;clear
-: 1667270037:0;ls
-: 1667270039:0;clear
-: 1667270039:0;ls
-: 1667270062:0;echo "hola mundo"
-: 1667270097:0;unlink  ~/.config/kitty/theme.conf
 : 1667270111:0;ln -s ./kitty-themes/themes/Cobalt ~/.config/kitty/theme.conf
-: 1667270115:0;ls
-: 1667270117:0;ls -l
-: 1667270131:0;unlink  ~/.config/kitty/theme.conf
 : 1667270138:0;ln -s ./kitty-themes/themes/Cobalt_Neon.conf ~/.config/kitty/theme.conf
 : 1667270143:0;hola mundo
-: 1667270159:0;unlink  ~/.config/kitty/theme.conf
 : 1667270168:0;ln -s ./kitty-themes/themes/Dark_Pastel.conf ~/.config/kitty/theme.conf
-: 1667270171:0;ls
-: 1667270179:0;unlink  ~/.config/kitty/theme.conf
-: 1667270189:0;ln -s ./kitty-themes/themes/Darkside.conf ~/.config/kitty/theme.conf
-: 1667270193:0;ls
-: 1667270199:0;clear
-: 1667270210:0;unlink  ~/.config/kitty/theme.conf
 : 1667270217:0;ln -s ./kitty-themes/themes/DotGov.conf ~/.config/kitty/theme.conf
-: 1667270220:0;ls
-: 1667270222:0;clear
-: 1667270222:0;ls
-: 1667270232:0;echo "hola mundo"
-: 1667270244:0;unlink  ~/.config/kitty/theme.conf
-: 1667270264:0;ln -s ./kitty-themes/themes/Dracula.conf ~/.config/kitty/theme.conf
-: 1667270274:0;ls
-: 1667270276:0;clear
 : 1667270277:0;ls 
-: 1667270415:0;unlink  ~/.config/kitty/theme.conf
-: 1667270442:0;ln -s ./kitty-themes/themes/Galaxy.conf ~/.config/kitty/theme.conf
-: 1667270446:0;ls
-: 1667270512:0;unlink  ~/.config/kitty/theme.conf
 : 1667270522:0;ln -s ./kitty-themes/themes/Molokai.conf ~/.config/kitty/theme.conf
-: 1667270551:0;unlink  ~/.config/kitty/theme.conf
-: 1667270569:0;ln -s ./kitty-themes/themes/NightLion_v1.conf ~/.config/kitty/theme.conf
-: 1667270573:0;ls
 : 1667270583:0;echo "hola mundo"
-: 1667270699:0;unlink  ~/.config/kitty/theme.conf
 : 1667270709:0;ln -s ./kitty-themes/themes/SeaShells.conf ~/.config/kitty/theme.conf
-: 1667270712:0;ls
 : 1667270718:0;cconifg status
-: 1667270720:0;clear
-: 1667270720:0;ls
-: 1667270722:0;clear
 : 1667270726:0;echo HOla mundo
 : 1667270731:0;que onda la concha de tu madre jaja
-: 1667270741:0;unlink  ~/.config/kitty/theme.conf
 : 1667270745:0;ln -s ./kitty-themes/themes/NightLion_v1.conf ~/.config/kitty/theme.conf
-: 1667270750:0;ls
-: 1667270769:0;unlink  ~/.config/kitty/theme.conf
 : 1667270776:0;ln -s ./kitty-themes/themes/snazzy.conf ~/.config/kitty/theme.conf
-: 1667270779:0;ls
-: 1667270783:0;unlink  ~/.config/kitty/theme.conf
 : 1667270809:0;ln -s ./kitty-themes/themes/Spacedust.conf ~/.config/kitty/theme.conf
-: 1667270811:0;ls
-: 1667270815:0;unlink  ~/.config/kitty/theme.conf
 : 1667270841:0;ln -s ./kitty-themes/themes/Symfonic.conf ~/.config/kitty/theme.conf
-: 1667270853:0;unlink  ~/.config/kitty/theme.conf
 : 1667270881:0;ln -s ./kitty-themes/themes/NightLion_v1 ~/.config/kitty/theme.conf
-: 1667270950:0;unlink  ~/.config/kitty/theme.conf
 : 1667270959:0;ln -s ./kitty-themes/themes/Neutron.conf ~/.config/kitty/theme.conf
-: 1667271022:0;unlink  ~/.config/kitty/theme.conf
 : 1667271030:0;ln -s ./kitty-themes/themes/Galaxy.conf ~/.config/kitty/theme.conf
 : 1667271045:0;echo "hola mundo" 
-: 1667271066:0;unlink  ~/.config/kitty/theme.conf
 : 1667271075:0;ln -s ./kitty-themes/themes/Dracula.conf ~/.config/kitty/theme.conf
-: 1667271107:0;unlink  ~/.config/kitty/theme.conf
 : 1667271116:0;ln -s ./kitty-themes/themes/Darkside.conf ~/.config/kitty/theme.conf
-: 1667271119:0;ls
-: 1667271146:0;unlink  ~/.config/kitty/theme.conf
 : 1667271156:0;ln -s ./kitty-themes/themes/Atom.conf ~/.config/kitty/theme.conf
 : 1667271176:0;unlink  ~/.config/kitty/theme.conf
 : 1667271190:0;ln -s ./kitty-themes/themes/Argonaut.conf ~/.config/kitty/theme.conf
-: 1667271194:0;clear
-: 1667271195:0;ls
-: 1667271594:0;redshift -c .config/redshift/redshift.conf &
-: 1667271608:0;cd
-: 1667271612:0;redshift -c .config/redshift/redshift.conf &
 : 1667272590:0;yay -S picom-jonaburg-git
-: 1667273012:0;sudo find / -name picom.conf
 : 1667273025:0;sudo find / -name picom
 : 1667273049:0;vim .cache/yay/picom-jonaburg-git/picom/config
 : 1667273232:0;vim .cache/yay/picom-jonaburg-git/picom/
-: 1667273405:0;picom --experimental-backend
 : 1667273590:0;sudo find / -name  "*picom*"
-: 1667273674:0;picom --experimental-backend
 : 1667273789:0;sudo find / -name  "*picom.conf"
 : 1667273793:0;sudo find / -name  "picom.conf"
 : 1667273813:0;sudo find / -name  picom.conf
 : 1667273839:0;vim /etc/xdg/picom.conf.example
 : 1667274900:0;ls  .config/pi
-: 1667274902:0;ls .config
 : 1667274911:0;mkdir .config/picom
 : 1667274932:0;cp /etc/xdg/picom.conf.example .config/picom/picom.conf
-: 1667274947:0;vim .config/picom/picom.conf
 : 1667274978:0;picom --experimental-backend
 : 1667275848:0;jhjjhkh
 : 1667275849:0;kj
 : 1667277369:0;cat /etc/xdg/picom.conf.example
 : 1667277955:0;vim .xinitrc
 : 1667277980:0;picom --h
-: 1667278070:0;reboot
-: 1667278167:0;vim .config/picom/picom.conf
-: 1667279494:0;ps aux | grep picom
 : 1667279573:0;picom h
 : 1667279583:0;picom --help | grep check
 : 1667279590:0;picom 
-: 1667279609:0;vim .config/picom/picom.conf
-: 1667279659:0;ps aux | grep picom
 : 1667279667:0;kill 9 15380
-: 1667279693:0;cat .xinitrc
-: 1667279705:0;picom --experimental-backend 
-: 1667279776:0;vim .config/picom/picom.conf
-: 1667279790:0;history
-: 1667279797:0;vim .config/picom/picom.conf
-: 1667280235:0;picom --experimental-backend 
-: 1667281034:0;reboot
-: 1667281660:0;vim .config/picom/picom.conf
-: 1667281914:0;ps aux | grep picom
 : 1667281919:0;kill 9 767
-: 1667281928:0;picom --experimental-backend 
-: 1667342439:0;ps aux | grep red
 : 1667342458:0;ping 8.8.8.8
-: 1667342478:0;redshift -c .config/redshift/redshift.conf
-: 1667342521:0;reboot
-: 1667342565:0;cat .xinitrc
 : 1667348856:0;cd .config
-: 1667348857:0;ls
 : 1667349065:0;sudo find / -name firefox.css
-: 1667352088:0;ls
 : 1667352103:0;sudo find / -name mozilla
-: 1667353353:0;cd
 : 1667353354:0;cd Desktop
 : 1667353471:0;sudo pacman  -S zip
 : 1667353489:0;sudo pacman  -S unzip
-: 1667353498:0;cd
-: 1667353538:0;vim project/easy_arch/mi_enviroment
 : 1667353604:0;cd Downloads
-: 1667353605:0;ls
 : 1667353617:0;unzip theme.zip
-: 1667353618:0;ls
 : 1667353629:0;cd images
-: 1667353630:0;ls
-: 1667354609:0;cd
 : 1667354625:0;cd .cache/mozilla/firefox/
-: 1667354625:0;ls
 : 1667354628:0;ls 2rpeaa9c.default
 : 1667354632:0;ls 98xq4iev.default-release
 : 1667354766:0;ls 98xq4iev.default-release/settings
-: 1667391013:0;cd
 : 1667391018:0;vim easy_arch/mi_enviroment
-: 1667391107:0;git status
-: 1667391126:0;ls
 : 1667391134:0;ls -l
-: 1667391137:0;cd easy_arch
-: 1667391138:0;ls
-: 1667391143:0;git status
-: 1667391148:0;reboot
 : 1667391294:0;cd easy_arch
-: 1667391298:0;config status
 : 1667391302:0;git status
 : 1667391307:0;vim mi_enviroment
-: 1667391341:0;ls
-: 1667391342:0;cd
-: 1667391343:0;ls
-: 1667391357:0;vim project/easy_arch/mi_enviroment
-: 1667391364:0;cd
 : 1667391369:0;rm -r easy_arch
-: 1667391373:0;ls
 : 1667391382:0;rm -rf easy_arch
-: 1667391386:0;vim project/easy_arch/mi_enviroment
-: 1667392579:0;clear
 : 1667392597:0;sudo pacman -S otf-cascadia-code
-: 1667392609:0;fc-cache
-: 1667392623:0;fc-list | grep cascadia
 : 1667392628:0;fc
-: 1667392630:0;fc-list | grep cascadia
-: 1667392640:0;fc-cache
 : 1667392644:0;fc-list | grep cascadia
 : 1667392651:0;fc-list
 : 1667392707:0;fc-cache
@@ -320,113 +133,62 @@ ln -s ./kitty-themes/themes/DotGov.conf ~/.config/kitty/theme.conf
 : 1667392718:0;fc-list | grep Cas
 : 1667392720:0;fc-list | grep Cascadi
 : 1667392721:0;fc-list | grep Cascadia
-: 1667392741:0;vim .config/awesome/themes/theme.lua
 : 1667392935:0;fc-list | grep Font
 : 1667392942:0;fc-list | grep Font Aw
 : 1667392960:0;fc-list | grep "Font Awe"
-: 1667393114:0;vim project/easy_arch/mi_enviroment
 : 1667393528:0;jclear
-: 1667393529:0;clear
-: 1667393545:0;vim .config/picom/picom.conf
-: 1667393782:0;cat .xinitrc
-: 1667393789:0;ps aux | grep picom
 : 1667393810:0;kill 9 774
 : 1667393819:0;picom --experimental-backend 
-: 1667418329:0;cat .xinitrc
 : 1667418340:0;ps aux | grep picom
-: 1667418399:0;picom --experimental-backend -b
 : 1667419578:0;lf
 : 1667446630:0;sudo pacman -S btop
-: 1667446647:0;btop
 : 1667447004:0;vim .config/picom/picom.conf
 : 1667447060:0;picom --experimental-backend -b
 : 1667447112:0;cat .x
 : 1667447114:0;cat .xinitrc
-: 1667447122:0;redshift -c .config/redshift/redshift.conf
 : 1667448492:0;cd .config/btop/themes
-: 1667448493:0;ls
-: 1667448494:0;clear
-: 1667448494:0;ls
-: 1667448497:0;cd ..
-: 1667448497:0;ls
 : 1667448710:0;sudo find / -name btop.conf
-: 1667449323:0;vim btop.conf
 : 1667449445:0;vim themes/tokyo-night.theme
-: 1667449518:0;btop
 : 1667449701:0;systemctl restart btop
 : 1667449722:0;ls themes
-: 1667449756:0;vim btop.conf
 : 1667449785:0;bto
-: 1667449787:0;btop
-: 1667449847:0;vim btop.conf
-: 1667449868:0;btop
 : 1667449941:0;vim .config/btop/themes/onedark.theme
-: 1667449962:0;btop
 : 1667450120:0;vim .config/btop/themes/HotPurpleTrafficLight.theme
-: 1667450197:0;btop
-: 1667450568:0;vim btop.conf
-: 1667450606:0;btop
 : 1667450803:0;rm .config/btop/themes/tokyo-night.theme
 : 1667450810:0;rm .config/btop/themes/onedark.theme
 : 1667451044:0;vim btop.conf
 : 1667451151:0;btop
 : 1667452798:0;sudo pacman -S neofetch
-: 1667452814:0;vim project/easy_arch/mi_enviroment
-: 1667452846:0;neofetch
-: 1667453410:0;vim .config/neofetch/config.conf
 : 1667453432:0;cp .config/neofetch/config.conf .config/neofetch/config.conf-back
 : 1667453444:0;rm .config/neofetch/config.conf
-: 1667453448:0;vim .config/neofetch/config.conf
-: 1667453466:0;neofetch
-: 1667453468:0;clear
-: 1667453470:0;neofetch
-: 1667453492:0;vim .config/neofetch/config.conf
-: 1667453585:0;neofetch
 : 1667453832:0;vim .config/neofetch/config.conf-back
 : 1667454322:0;which neofetch
 : 1667454330:0;vim /usr/bin/neofetch
 : 1667454472:0;dc
 : 1667454474:0;cd
 : 1667454480:0;vim .config/neofetch/config.conf
-: 1667454675:0;neofetch
 : 1667454786:0;J
 : 1667454794:0;neofetch
-: 1667476638:0;clear
 : 1667476707:0;vim .zshrc
-: 1667476750:0;vim .p10k.zsh
 : 1667476769:0;jls
 : 1667476770:0;cleqar
-: 1667476771:0;clear
 : 1667476782:0;echo "hola mundo "
-: 1667476804:0;source .zshrc
 : 1667477063:0;vim .p10k.zsh
 : 1667477077:0;source .zshrc
-: 1667477079:0;clea
-: 1667477080:0;clear
 : 1667477462:0;sudo pacman -S virtualbox
 : 1667477710:0;df -h
 : 1667478196:0;cat -n redshift.conf
-: 1667478620:0;history
 : 1667478628:0;history | grep picom
-: 1667478640:0;vim project/easy_arch/mi_enviroment
-: 1667478843:0;clear
 : 1667478853:0;vim .config/redshift/redshift.conf
-: 1667478940:0;ps aux | grep red
-: 1667478949:0;kill 9 778
-: 1667478954:0;ps aux | grep red
 : 1667478977:0;kill 9 778
-: 1667478980:0;ps aux | grep red
-: 1667478982:0;clear
 : 1667478987:0;redshift -c .config/redshift/redshift.conf
 : 1667479136:0;redshift -c .config/redshift/redshift.conf &
 : 1667479139:0;ps aux | grep red
 : 1667479142:0;clea
-: 1667479144:0;clear
 : 1667493177:0;cd project/j
 : 1667493180:0;cd project/
 : 1667493182:0;cd ..
 : 1667493231:0;ls -a --color=auto
-: 1667493234:0;ls
 : 1667493618:0;ls --color=auto
 : 1667493640:0;ls --color=auto project
 : 1667493838:0;ssh eojeda@192.168.248.70
@@ -442,44 +204,28 @@ ln -s ./kitty-themes/themes/DotGov.conf ~/.config/kitty/theme.conf
 : 1667493977:0;ping 192.168.248.65
 : 1667493982:0;ping 192.168.248.42
 : 1667493986:0;ping 192.168.248.332
-: 1667493990:0;clear
 : 1667494029:0;vi hola
 : 1667494031:0;vi
 : 1667510233:0;ls /etc/X11/xorg.conf.d
-: 1667510261:0;vim /usr/share/X11/xorg.conf.d/30-touchpad.conf
-: 1667510285:0;sudo vim /usr/share/X11/xorg.conf.d/30-touchpad.conf
 : 1667510301:0;restart xorg
 : 1667510308:0;Xorg restart
 : 1667510315:0;Xorg -h
 : 1667510319:0;Xorg -help
 : 1667510322:0;Xorg --help
 : 1667510337:0;sudo systemctl restart xorg
-: 1667510341:0;reboot
 : 1667510624:0;vim /usr/share/X11/xorg.conf.d/30-touchpad.conf
-: 1667510644:0;sudo vim /usr/share/X11/xorg.conf.d/30-touchpad.conf
 : 1667510701:0;sudo systemctl restart display-manager
-: 1667510804:0;reboot
 : 1667510941:0;sudo vim /usr/share/X11/xorg.conf.d/30-touchpad.conf
-: 1667510950:0;reboot
 : 1667511096:0;vim project/easy_arch/mi_enviroment
-: 1667511171:0;ls
 : 1667511175:0;ls /bin
-: 1667511179:0;ls .bin
-: 1667511181:0;clear
-: 1667511183:0;ls .bin
 : 1667511228:0;sudo mv /usr/share/X11/xorg.conf.d/30-touchpad.conf .bin
 : 1667511233:0;cd .bin
 : 1667511234:0;ls
 : 1667511347:0;ls  /usr/share/X11/xorg.conf.d/30-touchpad.conf 
-: 1667511355:0;ls -l  /usr/share/X11/xorg.conf.d/30-touchpad.conf 
-: 1667511369:0;config status
-: 1667511396:0;reboot
 : 1667511465:0;ls -l  /usr/share/X11/xorg.conf.d/30-touchpad.conf 
 : 1667511489:0;unlink /usr/share/X11/xorg.conf.d/30-touchpad.conf
 : 1667511498:0;sudo unlink /usr/share/X11/xorg.conf.d/30-touchpad.conf
 : 1667511527:0;history
-: 1667511550:0;clear
-: 1667511582:0;ls .bin
 : 1667511645:0;sudo ln -sf /home/manu/.bin/30-touchpad.conf /usr/share/X11/xorg.conf.d/30-touchpad.conf
 : 1667511649:0;reboot
 : 1667515972:0;cat .config/redshift/redshift.conf
@@ -487,31 +233,24 @@ ln -s ./kitty-themes/themes/DotGov.conf ~/.config/kitty/theme.conf
 : 1667516043:0;vim .config/awesome/ui/bar.lua
 : 1667516217:0;clear
 : 1667516253:0;config
-: 1667516256:0;config status
 : 1667516313:0;config add .config/awesome/configuration/keys.lua
-: 1667516318:0;config status
 : 1667516351:0;config .config/awesome/ui/bar.lua
 : 1667516368:0;config add .config/awesome/ui/bar.lua
 : 1667516384:0;config add .config/kitty/kitty.conf
 : 1667516403:0;config add .p10k.zsh
 : 1667516420:0;config add .xinitrc
 : 1667516436:0;ls .config/neofetch/config.conf
-: 1667516440:0;ls .config/neofetch/
 : 1667516460:0;rm .config/neofetch/config.conf-back
 : 1667516467:0;ls .config/neofetch/config.conf-back
 : 1667516476:0;ls .config/neofetch/
 : 1667516542:0;config add .config/neofetch/config.conf
-: 1667516556:0;config status
 : 1667516598:0;config add .config/awesome/themes/theme.lua
-: 1667516601:0;config status
 : 1667516610:0;ls -l .config
 : 1667516633:0;ls .config/btop/
 : 1667516650:0;config add .config/btop/
-: 1667516653:0;config status
 : 1667516775:0;ls .bin
 : 1667516792:0;config add .bin/30-touchpad.conf
 : 1667516797:0;config sattus
-: 1667516799:0;config status
 : 1667516839:0;config add .config/picom
 : 1667516842:0;config status
 : 1667516876:0;ls .config
@@ -519,3 +258,209 @@ ln -s ./kitty-themes/themes/DotGov.conf ~/.config/kitty/theme.conf
 : 1667516928:0;cat .zshrc
 : 1667516944:0;cat
 : 1667516977:0;config add .cache/history
+: 1667694150:0;nmtui
+: 1667694175:0;ping 8.8.8.8	
+: 1667694244:0;vim
+: 1667694274:0;sudo pacman -Sy
+: 1667694290:0;sudo pacman -S virtualbox
+: 1667694401:0;clear
+: 1667694421:0;virtualbox
+: 1667694916:0;mkdir vm
+: 1667695244:0;cat /usr/lib/modules-load.d/virtualbox-host-modules-arch.conf
+: 1667695264:0;sudo systemctl status systemd-modules-load.service
+: 1667695320:0;systemctl --failed
+: 1667695330:0;sudo systemctl status systemd-modules-load.service
+: 1667695356:0;sudo systemctl restart systemd-modules-load.service
+: 1667695459:0;journalctl 
+: 1667695777:0;sudo /sbin/vboxconfig
+: 1667695866:0;modprobe vboxdrv 
+: 1667696012:0;ls vm
+: 1667696032:0;reboot
+: 1667698532:0;clear
+: 1667698586:0;cat .config/redshift/redshift.conf
+: 1667698672:0;vim .config/awesome/ui/bar.lua
+: 1667699890:0;clear
+: 1667699936:0;vim .config/awesome/configuration/signals.lua
+: 1667699959:0;vim .config/awesome/configuration/rules.lua
+: 1667699996:0;vim .config/awesome/configuration/notifications.lua
+: 1667700012:0;vim .config/awesome/configuration/keys.lua
+: 1667700148:0;vim .config/awesome/themes/theme.lua
+: 1667700302:0;vim .config/awesome/widget/memory.lua 
+: 1667702336:0;vim .config/awesome/configuration/keys.lua
+: 1667702360:0;vim .config/awesome/ui/bar.lua
+: 1667702585:0;vim .config/picom/picom.conf
+: 1667703146:0;cd Downloads
+: 1667703146:0;ls
+: 1667703482:0;ls 
+: 1667703651:0;lf
+: 1667703798:0;rm 6432456\(1\).jpg
+: 1667703799:0;ls
+: 1667703824:0;mv 4624* ../image/wallpaper
+: 1667703839:0;ls
+: 1667703848:0;mv 64324* ../image/wallpaper
+: 1667703849:0;ls
+: 1667703860:0;betterlockscreen --h
+: 1667703987:0;cd
+: 1667703994:0;vim .config/awesome/configuration/keys.lua 
+: 1667704021:0;cat .x
+: 1667704023:0;cat .xinitrc
+: 1667704036:0;vim .xinitrc
+: 1667704061:0;reboot
+: 1667704156:0;vim .config/picom/picom.conf
+: 1667704295:0;jkjk w wlf
+: 1667704298:0;lf
+: 1667704331:0;reboot
+: 1667704362:0;cd Downloads
+: 1667704362:0;ls
+: 1667704363:0;cd
+: 1667704367:0;cd image/wallpaper
+: 1667704367:0;ls
+: 1667704406:0;cd
+: 1667704410:0;cat .xinitrc
+: 1667704453:0;ls
+: 1667704458:0;ls -la
+: 1667704467:0;cat .x
+: 1667704469:0;cat .xinitrc
+: 1667704483:0;cat .config/feh/random-wallpaper.sh
+: 1667704523:0;lf 
+: 1667704537:0;icat image/wallpaper/462370.jpg
+: 1667704546:0;rm image/wallpaper/462370.jpg
+: 1667704550:0;rm image/wallpaper/4624876.jpg
+: 1667704564:0;ls
+: 1667704626:0;icat image/wallpaper/4624866.jpg
+: 1667704633:0;icat image/wallpaper/4624905.jpg
+: 1667704642:0;icat image/wallpaper/6432456.jpg
+: 1667704647:0;icat image/wallpaper/6432463.jpg
+: 1667704651:0;icat image/wallpaper/6432467.jpg
+: 1667704659:0;icat image/wallpaper/6432499.jpg
+: 1667704668:0;rm image/wallpaper/6432499.jpg
+: 1667705006:0;betterlockscreen --display 2 image/wallpaper/6432456.jpg
+: 1667705129:0;cd Downloads
+: 1667705131:0;ls
+: 1667705154:0;mv 223663120_10158404259532374_6380970003562127032_n.jpg ../image/wallpaper/
+: 1667705183:0;mv lza9vo04eaq21.jpg ../image/wallpaper
+: 1667705187:0;reboot
+: 1667705369:0;vim cat .xinitrc
+: 1667705379:0;cat .xinitrc
+: 1667705407:0;vim .config/awesome/configuration/keys.lua 
+: 1667705620:0;betterlockscreen -u image/wallpaper
+: 1667705692:0;vim .config/picom/picom.conf
+: 1667705747:0;reboot
+: 1667706073:0;ls -l
+: 1667706120:0;vim .config/picom/picom.conf
+: 1667706167:0;reboot
+: 1667706286:0;ls -l
+: 1667706607:0;vim .config/awesome/configuration/keys.lua 
+: 1667710287:0;ls -l
+: 1667710295:0;cat .config/betterlockscreenrc
+: 1667710377:0;cat .xinitrc
+: 1667710423:0;betterlockscreen --lock blur
+: 1667710442:0;betterlockscreen -u image/wallpaper --lock blur
+: 1667710548:0;betterlockscreen --h
+: 1667710833:0;cat .xinitrc
+: 1667711138:0;betterlockscreen -u image/wallpaper --lock blur
+: 1667711267:0;betterlockscreen -l && betterlockscreen -u image/wallpaper
+: 1667711579:0;vim .xinitrc
+: 1667711589:0;reboot
+: 1667711938:0;vim .config/awesome/configuration/keys.lua 
+: 1667712056:0;clear
+: 1667712061:0;vim .xinitrc
+: 1667712079:0;clear
+: 1667712345:0;vim .config/awesome/configuration/keys.lua 
+: 1667712482:0;reboot
+: 1667712506:0;vim .config/awesome/configuration/keys.lua 
+: 1667712629:0;betterlockscreen -u image/wallpaper
+: 1667712750:0;betterlockscreen -u image/wallpaper  --blur
+: 1667712770:0;vim .xinitrc
+: 1667712805:0;reboot
+: 1667712847:0;betterlockscreen -u image/wallpaper  --blur
+: 1667712907:0;vim .config/be
+: 1667712931:0;betterlockscreen -u image/wallpaper  
+: 1667712963:0;vim .config/betterlockscreenrc
+: 1667713056:0;betterlockscreen
+: 1667713141:0;betterlockscreen -u image/wallpaper  -l --blur
+: 1667713160:0;betterlockscreen -u image/wallpaper  --lock --blur
+: 1667713173:0;betterlockscreen --lock --blur
+: 1667713194:0;cat .xinitrc
+: 1667713221:0;vim .config/awesome/configuration/keys.lua 
+: 1667713296:0;betterlockscreen --h
+: 1667713307:0;betterlockscreen --lock --blur
+: 1667713329:0;betterlockscreen -u image/wallpaper
+: 1667713340:0;betterlockscreen --lock --blur
+: 1667713353:0;123123
+: 1667713358:0;betterlockscreen --lock --blur
+: 1667713459:0;betterlockscreen -u image/wallpaper &
+: 1667713474:0;betterlockscreen --lock --blur
+: 1667713484:0;betterlockscreen --blur
+: 1667713490:0;betterlockscreen --blur --lock
+: 1667713497:0;betterlockscreen --lock --blur 
+: 1667713570:0;vim .xinitrc
+: 1667713610:0;reboot
+: 1667713687:0;cat .xinitrc
+: 1667713704:0;ls image/wallpaper
+: 1667713727:0;betterlockscreen --lock --blur
+: 1667713731:0;betterlockscreen --lock --blur 1
+: 1667713766:0;betterlockscreen --lock blur 
+: 1667713771:0;betterlockscreen --lock blur 05
+: 1667713777:0;betterlockscreen --lock blur 0.5
+: 1667713781:0;betterlockscreen --lock blur 0.2
+: 1667713785:0;betterlockscreen --lock blur 0.8
+: 1667713789:0;betterlockscreen --lock blur 0.1
+: 1667713792:0;betterlockscreen --lock blur 
+: 1667713801:0;betterlockscreen --lock blur 0.9
+: 1667713804:0;betterlockscreen --lock blur 0.1
+: 1667713808:0;betterlockscreen --lock blur
+: 1667713843:0;betterlockscreen --lock dim
+: 1667713850:0;betterlockscreen --lock dim 50
+: 1667713854:0;betterlockscreen --lock dim 10
+: 1667713860:0;betterlockscreen --lock dim 99
+: 1667713864:0;betterlockscreen --lock
+: 1667713881:0;betterlockscreen --lock pixel
+: 1667713891:0;betterlockscreen --lock color
+: 1667713950:0;betterlockscreen --lock blur 2
+: 1667713960:0;betterlockscreen --lock blur 0.5
+: 1667713993:0;betterlockscreen --lock blur 0.1
+: 1667714010:0;betterlockscreen --lock blur 1
+: 1667714033:0;betterlockscreen --lock blur 0.1
+: 1667714041:0;betterlockscreen --lock blur 1
+: 1667714044:0;betterlockscreen --lock blur 0.1
+: 1667714059:0;vim .config/awesome/configuration/keys.lua 
+: 1667714162:0;vim .xinitrc
+: 1667714175:0;reboot
+: 1667714251:0;ls -l
+: 1667714265:0;vim .xinitrc
+: 1667714274:0;vim .config/picom/picom.conf
+: 1667714466:0;reboot
+: 1667715309:0;vim .config/awesome/configuration/rules.lua
+: 1667718430:0;reboot
+: 1667718544:0;vim .config/awesome/configuration/rules.lua
+: 1667719184:0;vim .zshrc
+: 1667719539:0;reboot
+: 1667719594:0;vim .zshrc
+: 1667719619:0;pidof -xkitty
+: 1667719621:0;pidof -x kitty
+: 1667719678:0;pidof --h
+: 1667719703:0;ps aux | grep kitty
+: 1667720093:0;btop
+: 1667720137:0;top
+: 1667720287:0;vim .zshrc
+: 1667720355:0;pidof -x kitty
+: 1667720360:0;vim .zshrc
+: 1667720499:0;clear
+: 1667720505:0;sudo pacman -S btop
+: 1667720518:0;df -h
+: 1667720529:0;ls
+: 1667720566:0;rm vm
+: 1667720570:0;rm -r vm
+: 1667720573:0;df -h
+: 1667720580:0;rm Downloads/archlinux-2022.11.01-x86_64.iso
+: 1667720582:0;df -h
+: 1667720590:0;cd Downloads
+: 1667720590:0;ls
+: 1667720592:0;cd 
+: 1667720593:0;ls
+: 1667720630:0;config status
+: 1667720650:0;config .
+: 1667720655:0;config add .
+: 1667720704:0;config status
+: 1667720744:0;config add .cache/history
