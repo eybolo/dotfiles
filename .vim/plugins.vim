@@ -31,6 +31,10 @@ Plug 'jiangmiao/auto-pairs'
 "Plug 'dense-analysis/ale'
 Plug 'preservim/NERDTree'
 " Plug 'christoomey/vim-tmux-navigator',
+
+Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
+
 Plug 'morhetz/gruvbox'
 
 Plug 'mhinz/vim-signify'

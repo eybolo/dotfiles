@@ -18,7 +18,7 @@ net_wired = net_widgets.indicator({
     })
 
 -- Tags 
-awful.util.tagnames =  { "1", "2" , "3", "4", "5", "6", "7", "8", "9" }
+awful.util.tagnames =  { "", "", "", "","", " "}
 -- awful.util.tagnames =  { "", " ", "", "", "", "", "", "", "" }
 -- awful.util.tagnames =  { "dev",  "www", "sys", "doc", "vbox", "chat", "mus", "vid", "gfx" }
 -- awful.util.tagnames =  { "", "", " ", "","", "", "", "", "", "", "" }
@@ -111,9 +111,8 @@ screen.connect_signal("property::geometry", set_wallpaper)
 awful.screen.connect_for_each_screen(function(s)
    
     -- Each screen has its own tag table.
-    awful.tag(awful.util.tagnames, s, awful.layout.layouts[1])
-   
-    -- Create a promptbox for each screen
+    awful.tag(awful.util.tagnames, s,awful.layout.layouts[1])
+     -- Create a promptbox for each screen
     s.mypromptbox = awful.widget.prompt()
 	
 	-- Create a launcher for each screen

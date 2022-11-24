@@ -15,6 +15,7 @@ require "awful.hotkeys_popup.keys.kitty"
 
 -- modkey
 local modkey    = "Mod4"
+
 -- modifer keys
 local shift     = "Shift"
 local ctrl      = "Control"
@@ -32,9 +33,9 @@ awful.mouse.append_global_mousebindings({
     awful.button({ }, 3, function () mymainmenu:toggle() end)
 })
 
---===================
+-- ===================
 -- General AWESOME
---=================== 
+-- =================== 
 
 awful.keyboard.append_global_keybindings({
     awful.key({ modkey,           }, "s",      hotkeys_popup.show_help,
@@ -86,7 +87,7 @@ awful.keyboard.append_global_keybindings({
         end,
         {description = "focus previous by index", group = "awesome - client"}
     ),
-    
+   --[[ 
     awful.key({ modkey,           }, "Tab",
         function ()
             awful.client.focus.history.previous()
@@ -95,7 +96,7 @@ awful.keyboard.append_global_keybindings({
             end
         end,
         {description = "go back", group = "awesome - client"}),
-        
+     --]]   
               
     awful.key({ modkey, ctrl }, "n",
 		function ()
@@ -169,10 +170,10 @@ awful.keyboard.append_global_keybindings({
 -- Tags related keybindings
 awful.keyboard.append_global_keybindings({
 
-    awful.key({ modkey,           }, "Left",   awful.tag.viewprev,
+    awful.key({ modkey, shift          }, "Tab",   awful.tag.viewprev,
 		{description = "view previous", group = "awesome - tag"}),
               
-    awful.key({ modkey,           }, "Right",  awful.tag.viewnext,
+    awful.key({ modkey,           }, "Tab",  awful.tag.viewnext,
 		{description = "view next", group = "awesome - tag"}),
               
     awful.key({ modkey,           }, "Escape", awful.tag.history.restore,
@@ -340,7 +341,10 @@ awful.keyboard.append_global_keybindings({
 	
 -- Clipmenu
 	awful.key({ modkey  }, "i", function () awful.util.spawn_with_shell("clipmenu") end,
-           {description = "clipboard history by rofi/clipmenud", group = "System"})
+           {description = "clipboard history by rofi/clipmenud", group = "System"}),
+
+	awful.key({ modkey  }, "a", function () awful.util.spawn_with_shell(terminal .. " -T 'FileManager' -e lf") end,
+            {description = "lf file manager", group = "System"}),
 })
 
 

@@ -8,8 +8,8 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # History in cache directory:
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=1000000
+SAVEHIST=1000000
 HISTFILE=~/.cache/history
 
 setopt HIST_EXPIRE_DUPS_FIRST
@@ -21,7 +21,11 @@ setopt HIST_SAVE_NO_DUPS
 setopt histignorealldups
 
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+path+=(
+    $(ruby -e 'puts File.join(Gem.user_dir, "bin")')
+)
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -139,25 +143,53 @@ MODE_INDICATOR="%F{white}+%f"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-
-# =====================================================
-# Alias
-# =====================================================
+# ============================
+# ALIAS 
+# ============================
 
 # kitty
 alias d="kitty +kitten diff"
 alias icat="kitty +kitten icat"
-
+alias ll="colorls"
+alias rm="rm -ivr"
+alias mv="mv -iv"
+alias cp="cp -iv"
+alias s="kitty +kitten ssh"
 # git dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-URXVT_INSTANCES=0
-for pid in $(pidof -x kitty); do
-    URXVT_INSTANCES=$((URXVT_INSTANCES+1))
-done
-if [ $URXVT_INSTANCES -eq 2 ]; then
-    neofetch
-fi
+# colorls :
+source $(dirname $(gem which colorls))/tab_complete.sh
+
+# fzf :
+source /usr/share/fzf/key-bindings.zsh
+source /usr/share/fzf/completion.zsh
+source $HOME/.config/fzf/fzfrc
+
+# bat :
+
+# help colors
+alias bathelp='bat --plain --language=help'
+help() {
+    "$@" --help 2>&1 | bathelp
+}
+
+# man colors
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
+alias p='ps aux | grep -i '
+unsetopt beep
+#######################
+#   neofetch       
+#######################
+
+#URXVT_INSTANCES=0
+#for pid in $(pidof -x kitty); do
+#    URXVT_INSTANCES=$((URXVT_INSTANCES+1))
+#done
+##if [ $URXVT_INSTANCES -eq 0 ]; then
+ #   neofetch
+#fi

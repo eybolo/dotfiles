@@ -33,7 +33,7 @@ ruled.client.connect_signal("request::rules", function()
 			class = {
 				"Arandr",
 				"Steam",
-				"XTerm",
+				--"XTerm",
 				"Virt-manager",
 				"Nm-connection-editor",
 				"Xfce4-power-manager-settings",
@@ -74,7 +74,8 @@ ruled.client.connect_signal("request::rules", function()
 
     -- Center Placement
     ruled.client.append_rule {
-        id = "center_placement",
+        --id = "center_placement",
+        id = "tile",
         rule_any = {
             type = {"dialog"},
             class = {"Steam", "discord", "markdown_input", "nemo", "thunar", "pcmanfm" },
@@ -91,25 +92,41 @@ ruled.client.connect_signal("request::rules", function()
         properties = { titlebars_enabled = false      }
     }
 
+    --[[
     ruled.client.append_rule {
         rule_any    = {
             class = {"firefox"}
     },
         properties = {
             tag = screen[1].tags[2],
-            --switch_to_tags = true
     },
-}
-    ruled.client.append_rule {
+    }--]]
+
+--
+ruled.client.append_rule {
         rule_any    = {
             class = {"kitty"}
     },
-        properties = {
-            tag = screen[1].tags[1],
-            --switch_to_tags = true
-    },
+    --[[    properties = {
+            tag = screen[1].tags[1][2],
+            switch_to_tags = true
+    },--]]
 }
+--[[
+    ruled.client.append_rule {
+        rule_any    = {
+            class = {"obsidian"}
+    },
+        properties = {
+            tag = screen[1].tags[3],
+    },
+}--]]
 end)
+
+awful.spawn.single_instance("kitty")
+--awful.spawn.single_instance("firefox")
+--awful.spawn.single_instance("obsidian")
+
 
 ruled.notification.connect_signal('request::rules', function()
     -- All notifications will match this rule.
@@ -123,16 +140,6 @@ ruled.notification.connect_signal('request::rules', function()
     }
 end)
 
-------------------------------------------------- 
---
--- Select tag by object reference:
-
--- Spawn firefox and thunderbird
-awful.spawn.single_instance("firefox")
-awful.spawn.single_instance("kitty")
-
-
--------------------------------------------
 -- Round Corners :
 client.connect_signal("manage", function (c)
     c.shape = function(cr,w,h)

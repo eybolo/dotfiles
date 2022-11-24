@@ -1,0 +1,12 @@
+## TAB 1
+#new_tab HOME 
+#enabled_layouts tall 
+#layout tall
+#launch zsh
+# wait
+
+## TAB 2
+#new_tab RANGER
+#enabled_layouts tall
+#layout tall
+#launch lf 
