@@ -95,7 +95,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Plugins
 # =====================================================
 
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=8"
+# colour using 256 palets
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=244"
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
@@ -168,7 +169,7 @@ source $(dirname $(gem which colorls))/tab_complete.sh
 source /usr/share/fzf/key-bindings.zsh
 source /usr/share/fzf/completion.zsh
 source $HOME/.config/fzf/fzfrc
-
+source $HOME/.config/cheat/cheat.zsh
 # bat :
 
 # help colors

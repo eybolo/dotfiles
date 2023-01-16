@@ -31,3 +31,7 @@ export CM_MAX_CLIPS=10
 
 # bat
 export BAT_CONFIG_PATH="$HOME/.config/bat/bat.conf"
+
+# cheat
+export CHEAT_CONFIG_PATH="$HOME/.config/cheat/conf.yml"
+export CHEAT_USE_FZF=true
