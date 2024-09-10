@@ -22,6 +22,13 @@ set scrolloff=10
 " Enable clipboard system
 set clipboard=unnamedplus
 
+" Copiar al portapapeles
+vnoremap <C-c> "+y
+nnoremap <C-c> "+y
+
+" Pegar desde el portapapeles
+nnoremap <C-v> "+p
+
 " syntax highlighting on.
 syntax on
 

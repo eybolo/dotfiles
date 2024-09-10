@@ -369,15 +369,13 @@ let g:coc_global_extensions = [
       \ 'coc-python', 
       \ 'coc-json', 
       \ 'coc-yaml', 
-      \ 'coc-ansible', 
       \ 'coc-lua', 
       \ 'coc-git', 
       \ 'coc-highlight', 
       \ 'coc-sh', 
       \ 'coc-sql', 
       \ 'coc-svg', 
-      \ 'coc-nginx', 
-      \]
+      \ ]
 
 "===========================
 " vim-gitgutter

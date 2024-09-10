@@ -9,6 +9,7 @@ local dpi = xresources.apply_dpi
 local gfs = require("gears.filesystem")
 local themes_path = gfs.get_themes_dir()
 
+local beautiful = require("beautiful")
 -- Layout Dir :
 local layout_icon_path  = os.getenv("HOME") .. "/.config/awesome/themes/icons/layouts/"
 local lip       = layout_icon_path
@@ -43,10 +44,13 @@ colors.brightwhite       = "#cccccc"
 
 theme = {}
 
-theme.font          = "Cascadia Code Bold 10"
-theme.iconfont          = "Font Awesome 6 free Solid 10"
---theme.icon_size         = 12
+--theme.font          = "Cascadia Code Bold 10"
+--theme.iconfont          = "Font Awesome 6 free Solid 10"
+theme.font          = "Hack Nerd Font Bold 10"
+theme.iconfont      = "Hack Nerd Font Bold 12"
 
+-- Establecer la fuente
+beautiful.font = "Hack Nerd Font 10"  -- Ajusta el tamaño según sea necesario
 theme.bg_normal 		= "#222222" 
 theme.bg_focus  		= colors.brightblack
 theme.bg_urgent     		= colors.black
@@ -55,7 +59,7 @@ theme.bg_systray    		= colors.black
 theme.systray_icon_spacing      = dpi(4)
 
 -- Taglist :
-theme.taglist_spacing 	    = dpi(2)
+theme.taglist_spacing 	    = dpi(1)
 --theme.taglist_bg_focus                          = colors.magenta
 theme.taglist_fg_focus      = colors.red
 theme.taglist_fg_empty      = colors.gris

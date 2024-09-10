@@ -171,7 +171,6 @@
 : 1667516351:0;config .config/awesome/ui/bar.lua
 : 1667516368:0;config add .config/awesome/ui/bar.lua
 : 1667516403:0;config add .p10k.zsh
-: 1667516420:0;config add .xinitrc
 : 1667516436:0;ls .config/neofetch/config.conf
 : 1667516460:0;rm .config/neofetch/config.conf-back
 : 1667516467:0;ls .config/neofetch/config.conf-back
@@ -346,8 +345,6 @@
 : 1667858912:0;fshow
 : 1667859042:0;fzf -m
 : 1667859373:0;fkill
-: 1667859380:0;btop
-: 1667859447:0;sudo find / -name fzf
 : 1667859454:0;sudo find / -name | fzf
 : 1667859473:0;sudo find / -name ${fzf}
 : 1667860422:0;bat --list-themes | fzf --preview="bat --theme={} --color=always /path/to/file"
@@ -456,9 +453,7 @@ done\
 : 1667958849:0;git status project/easy_arch/mi_enviroment
 : 1667958868:0;cd project/easy_arch/
 : 1667959220:0;vim mi_enviroment
-: 1667961258:0;vim .vim/plugins.vim
 : 1667961379:0;cd project/easy_arch/mi_enviroment
-: 1667966654:0;sudo pacman -S obsidian
 : 1667967915:0;ls doc
 : 1667967926:0;ls doc/obsidian
 : 1667967997:0;cd ob
@@ -478,7 +473,6 @@ done\
 : 1667971917:0;ls -la doc/obsidian/docs/.obsidian/
 : 1667971960:0;bat doc/obsidian/docs/.obsidian/hotkeys.json
 : 1667972148:0;bat doc/obsidian/docs/.obsidian/plugins/obsidian-vimrc-support/main.js
-: 1667972450:0;cat .vimrc
 : 1667972491:0;vim doc/obsidian/docs/.obsidian.vimrc
 : 1667995667:0;cd .dotfiles
 : 1668012367:0;kitty --session .config/kitty/sessions
@@ -898,7 +892,6 @@ TERMINFO=/home/ORIGINALUSER/.terminfo exec bash -i
 : 1669258615:0;config add .bin
 : 1669259191:0;git add .
 : 1669259250:0;git remove -v
-: 1669259256:0;git remote -v
 : 1669259318:0;git remote remove origin
 : 1669259353:0;git remote add origin git@github.com:eybolo/easy_arch.git
 : 1669261461:0;ssh eojeda@192.168.0.151
@@ -1300,7 +1293,6 @@ TERMINFO=/home/ORIGINALUSER/.terminfo exec bash -i
 : 1672326370:0;cat holamundo.txt
 : 1672328403:0;ls .bin
 : 1672328420:0;chmod +x .bin/cht.sh
-: 1672328434:0;cd .bin
 : 1672328476:0;bash cht.sh --standalone-install
 : 1672328612:0;yay -S cheat
 : 1672328727:0;echo $PATH | tr "
@@ -1631,7 +1623,6 @@ TERMINFO=/home/ORIGINALUSER/.terminfo exec bash -i
 : 1672940106:0;nano /etc/resolv.conf
 : 1672960510:0;cat /proc/cpuinfo 
 : 1672960643:0;fetch
-: 1672960645:0;neofetch
 : 1673001281:0;vim .config/feh/random-wallpaper.sh
 : 1673001496:0;bluetoothctl connect 30:53:C1:2C:3E:52h
 : 1673002093:0;docker volume ls
@@ -1919,10 +1910,8 @@ TERMINFO=/home/ORIGINALUSER/.terminfo exec bash -i
 : 1673965532:0;rm -rf Desktop
 : 1673965614:0;rm -rf README.md
 : 1673965617:0;rm -rf Spacedust.conf
-: 1673965692:0;cd Download
 : 1673965868:0;mkdir private
 : 1673965919:0;sclear
-: 1673966198:0;du -sh
 : 1673966700:0;ll code
 : 1673969577:0;oll
 : 1673969612:0;ll vpn
@@ -2123,7 +2112,6 @@ TERMINFO=/home/ORIGINALUSER/.terminfo exec bash -i
 : 1680010758:0;sudo mkdosfs -F 32 -l /dev/sdb1
 : 1680010876:0;sudo mkfs.vfat /dev/sdb1
 : 1680010899:0;sudo fsck /dev/sdb1
-: 1680010921:0;cd do
 : 1680010930:0;./balenaEtcher-1.18.4-x64.AppImage 
 : 1680010964:0;sudo ./balenaEtcher-1.18.4-x64\(1\).AppImage
 : 1680011116:0;sudo ./balenaEtcher-1.18.4-x64\(1\).AppImage --disable-gpu
@@ -2532,7 +2520,6 @@ done
 : 1702990830:0;ls /dev/shm/
 : 1702991108:0;ansible
 : 1702991111:0;sudo ansible
-: 1703159655:0;cd .config
 : 1703246201:0;cat /var/log/pacman.log 
 : 1703246236:0;pacman -Qtd
 : 1703246304:0;cat /etc/pacman.d/mirrorlist
@@ -2546,7 +2533,6 @@ done
 : 1703679177:0;vim .config/awesome/configuration/rules.lua
 : 1705927232:0;piing 192.168.254.67
 : 1705927234:0;ping 192.168.254.67
-: 1705927248:0;ping 192.168.254.66
 : 1706196422:0;ping 192.168.252.8
 : 1707911235:0;yay -Sy
 : 1707911257:0;yay -S google-chrome
@@ -2565,7 +2551,6 @@ done
 : 1708516465:0;help _tcptraceroute
 : 1708518269:0;ping 170.210.158.1
 : 1708518284:0;ping 177.200.236.1
-: 1708598984:0;sudo pacman -S traceroute 
 : 1708600851:0;cd v
 : 1708600877:0;cd private
 : 1708600882:0;cd vpn
@@ -2693,7 +2678,6 @@ done
 : 1710770488:0;telnet 192.168.254.69
 : 1710848664:0;sudo -v ; curl https://rclone.org/install.sh | sudo bash\
 
-: 1710850483:0;ll
 : 1710850948:0;sudo find / -name "*gdrive*"
 : 1710851051:0;sudo pacman -Sy rclone
 : 1710851115:0;sudo pacman --help
@@ -3244,7 +3228,6 @@ pwd
 : 1714993677:0;sudo pacman cups
 : 1714993683:0;sudo pacman -S cups
 : 1714993721:0;system-config-printer
-: 1715176292:0;
 : 1715177011:0;docker pull grafana/grafana
 : 1715177082:0;docker exec monitoreo_secundario-grafana-1 grafana-server --version\
 
@@ -3256,7 +3239,6 @@ pwd
 : 1715346634:0;ping mapuche.sistemas.unaj.edu.ar
 : 1715346658:0;ping pilaga.sistemas.unaj.edu.ar 192.168.110.56
 : 1715346682:0;ping mapuche.sistemas.unaj.edu.ar 192.168.110.56
-: 1715347235:0;ping google.com
 : 1715347581:0;ping facebook.com
 : 1715347654:0;ping pilaga.sistemas.unaj.edu.ar
 : 1715348412:0;cd projject/monitoreo_secundario
@@ -3360,13 +3342,11 @@ q
 : 1717594061:0;vim notifications.lua
 : 1717594072:0;cd ui
 : 1717594078:0;vim bar.lua
-: 1717594086:0;vim menu.lua
 : 1717594108:0;vim configuration/keys.lua
 : 1717604532:0;scp  -r /home/manu/project/monitoreo_secundario eojeda@192.168.248.100:/home/eojeda/
 : 1717767655:0;ping 192.168.248.100
 : 1717773781:0;ping 192.168.248.111
 : 1718020973:0;sudo systemctl start ntpd
-: 1718020974:0;sudo systemctl status ntpd
 : 1718020980:0;sudo systemctl enable ntpd
 : 1718030563:0;ssh eojeda@192.168.111.9
 : 1718032109:0;ping 192.168.254.48
@@ -3397,7 +3377,6 @@ q
 : 1718367551:0;ping 192.168.254.20
 : 1718372919:0;s eojeda@192.168.110.222 -p2222
 : 1718373066:0;ping 192.168.113.123
-: 1718714308:0;ping 192.168.254.65
 : 1718719112:0;ping 192.168.252.6
 : 1718719678:0;ping 192.168.245.3
 : 1718719681:0;ping 192.168.245.2
@@ -3554,7 +3533,6 @@ q
 : 1720197796:0;sudo journalctl -xe | grep bluetooth\
 
 : 1720199417:0;vim all_logs.log
-: 1720200510:0;rclear
 : 1720200540:0;tar -xf captures.tar
 : 1720200545:0;ls captu
 : 1720200552:0;ls -l captu
@@ -3643,7 +3621,6 @@ q
 : 1725132905:0;cat configg
 : 1725132994:0;scp eojeda@192.168.0.152:/home/eojeda/.ssh/config /home/manu/.ssh/
 : 1725276215:0;rebo
-: 1725279867:0;s eojeda@192.168.111.9
 : 1725293539:0;nslookup guarani.sistemas.unaj.edu.ar
 : 1725293721:0;ping 177.200.236.64
 : 1725293776:0;ping 177.200.236.55
@@ -3658,11 +3635,7 @@ q
 : 1725295255:0;ping ns2.innovacursos.com.ar
 : 1725295394:0;ping innovacursos.com.ar 170.210.158.3
 : 1725295404:0;nslookup innovacursos.com.ar 170.210.158.3
-: 1725295485:0;nslookup innovacursos.com.ar
-: 1725296900:0;cd Cerebro
 : 1725296912:0;cd Sin\ nombre
-: 1725296923:0;cd doc
-: 1725296927:0;cd obsidian
 : 1725296929:0;cd cerebro
 : 1725297654:0;ping innovacursos.com.ar
 : 1725297775:0;ssh eojeda@192.168.110.254 -p2222 /opt/vyatta/bin/vyatta-op-cmd-wrapper show configuration | grep -Ei "imp|IMPRESORA" -A1 
@@ -3708,7 +3681,6 @@ q
 : 1725451338:0;rm \==q 
 : 1725452276:0;vim /etc/hosts
 : 1725452612:0;:q
-: 1725452720:0;vim pepe
 : 1725452910:0;python3 telnet_script.py 192.168.254.42 28kk3mq9 "show vlan"\
 
 : 1725453064:0;ansible-playbook -i hosts telnet_cisco.yml > pepe\
@@ -3909,7 +3881,6 @@ q
 : 1725496843:0;dadas
 : 1725498048:0;cat telnet_script.py
 : 1725498413:0;vim switches.yml
-: 1725499984:0;v
 : 1725500216:0;cp -R ansible10 ansible
 : 1725500226:0;cp -Rf ansible10 ansible
 : 1725500241:0;cat telnet_
@@ -4038,7 +4009,6 @@ q
 
 : 1725558443:0;cat 192.168.254.21.csv
 : 1725558762:0;telnet 192.168.254.28
-: 1725621747:0;ping 8.8.8.8
 : 1725622523:0;vim telnet_cisco.yml
 : 1725623515:0;ping 192.168.110.254 -p2222
 : 1725623522:0;ping 192.168.111.254 -p2222
@@ -4062,7 +4032,6 @@ q
 : 1725889364:0;ping 192.168.251.246
 : 1725889584:0;nmap 192.168.251.246
 : 1725890095:0;telnet 192.168.251.246 8443
-: 1725890489:0;s eojeda@192.168.111.254 -p2222
 : 1725892356:0;cat /proc/diskstats
 : 1725892782:0;sudo lspci
 : 1725978251:0;cat targets.json
@@ -4202,7 +4171,6 @@ q
 : 1726152126:0;snmpwalk -v2c -c cactis 192.168.254.42 .1.3.6.1.2.1.2.2.1.8.2
 : 1726152130:0;snmpwalk -v2c -c cactis 192.168.254.42 .1.3.6.1.2.1.2.2.1.8.23
 : 1726152133:0;snmpwalk -v2c -c cactis 192.168.254.42 .1.3.6.1.2.1.2.2.1.8.24
-: 1726227595:0;nmtui
 : 1726227629:0;telnet localhost 22
 : 1726227657:0;ping 192.168.220.2
 : 1726228599:0;rfkill block bluetooth\
@@ -4212,14 +4180,11 @@ rfkill unblock bluetooth\
 : 1726243337:0;snmpwalk -v2c -c cactis 192.168.254.42 1.3.6.1.2.1.1
 : 1726486316:0;cd s
 : 1726486353:0;git clone https://github.com/prometheus/snmp_exporter.git
-: 1726486549:0;ks
 : 1726486572:0;cd generator
 : 1726486586:0;vim generator.yml
-: 1726487686:0;exit
 : 1726488073:0;snmpwalk -v2c -c cactis -m SNMPv2-MIB.my 192.168.254.42 
 : 1726488666:0;snmpwalk -v2c -c cactis 192.168.254.42 1.3.6.1.2.1.1.5.0 -vvvv\
 
-: 1726488681:0;clea
 : 1726488688:0;snmpwalk -v2c -c cactis -m SNMPv2-MIB.my 192.168.254.42 sysName\
 
 : 1726489464:0;cd snmp_exporter
@@ -4340,7 +4305,6 @@ dsa
 : 1726591832:0;]
 : 1726593163:0;snmptranslate -Tz -m LSTRAPS-MIB | wc -l
 : 1726593166:0;snmpwalk -v2c -c cactis 192.168.251.245 | wc -l
-: 1726594244:0;ip route
 : 1726613332:0;snmpwalk -v2c -c cactic 192.168.254.42 LM-SENSORS-MIB::lmSensors\
 
 : 1726613358:0;snmpwalk -v2c -c cactic 192.168.251.245 LM-SENSORS-MIB::lmSensors\
@@ -4772,7 +4736,6 @@ snmpwalk -v 2c -c public <IP_DEL_DISPOSITIVO> <OID>\
 : 1727716421:0;snmpwalk -v2c -c cactis 192.168.251.245
 : 1727726834:0;cd .config/keyd
 : 1727726896:0;scp -r keyd/default.conf manu@192.168.220.4:/home/manu/.config
-: 1727726906:0;ip a
 : 1727726912:0;mkdir keyd
 : 1727726918:0;cd keyd
 : 1727726931:0;cat keyd/default.conf
@@ -5554,8 +5517,6 @@ http://127.0.0.1/api_jsonrpc.php\
 : 1728061130:0;cat telefonos.yml
 : 1728061145:0;cd bash
 : 1728061156:0;cat show_configuration_vyatta.txt
-: 1728306417:0;cd .ssh
-: 1728306421:0;cat config
 : 1728307128:0;p a
 : 1728307132:0;ip -a
 : 1728307646:0;cat .ssh/config
@@ -5592,7 +5553,6 @@ http://127.0.0.1/api_jsonrpc.php\
 : 1728388090:0;rm id_rsa*
 : 1728388126:0;ssh-keygen -t rsa -b 2048 "grafana@grafana"
 : 1728388135:0;ssh-keygen -t rsa -b 2048 -C "grafana@grafana"
-: 1728388144:0;pwd
 : 1728388177:0;cat id_rsa.pub
 : 1728389311:0;# Construye y ejecuta el contenedor\
 docker-compose up --build\
@@ -5661,11 +5621,9 @@ docker-compose up --build\
 : 1728906142:0;ncat docker-compose.yml
 : 1728906235:0;cd project/monitoreo_secundario/grafana_vyos
 : 1728906308:0;docker images ls
-: 1728906400:0;bat --help
 : 1728906460:0;bat -n Dockerfile
 : 1728906527:0;bat docker-compose.yml
 : 1728906541:0;cat Dockerfile
-: 1728907127:0;vim scp://eojeda@192.168.248.100//home/eojeda/monitoreo_secundario/docker-compose.yml
 : 1728908620:0;sudo pacman -Syu\
 
 : 1728908963:0;mkdir loki
@@ -5684,13 +5642,11 @@ makepkg -si\
 cd yay\
 makepkg -si\
 
-: 1728909778:0;r
 : 1728909812:0;yay -S visual-studio-code-bin
 : 1728910597:0;cd /usr/share/fonts
 : 1728910629:0;unzip monaspace-v1.101.zip
 : 1728910651:0;sudo mv monaspace-v1.101 /usr/share/fonts
 : 1728911090:0;vim .zprofile
-: 1728911100:0;vim .zshenv
 : 1728912621:0;ping 192.168.254.24
 : 1728912624:0;ping 192.168.254.244
 : 1728915770:0;c;ear
@@ -5719,8 +5675,6 @@ makepkg -si\
 : 1728994068:0;telnet 192.168.254.52
 : 1728999658:0;mtr taringa.net
 : 1729011944:0;ping 192.168.254.245
-: 1729018368:0;s eojjeda@192.168.110.254 -p2222
-: 1729018373:0;s eojeda@192.168.110.254 -p2222
 : 1729018496:0;s eojeda@192.168.254.141
 : 1729018616:0;telnet 192.168.254.42
 : 1729018844:0;s eojeda@192.168.254.189
@@ -5749,14 +5703,12 @@ makepkg -si\
 : 1729098924:0;vim widget/memory.lua
 : 1729100155:0;vim docker-compose.yaml
 : 1729100479:0;bluetoothctl disconnect 18:B9:6E:08:61:45
-: 1729252361:0;vim .vim/plugin-config.vim
 : 1729253718:0;cd project/loki
 : 1729254152:0;mkdir monitoreo_secundariolimpio
 : 1729254165:0;rm -r monitoreo_secundariolimpio
 : 1729254176:0;mkdir moni
 : 1729254289:0;scp eojeda@192.168.248.100:/home/eojeda/monitoreo_secundario /home/manu/project/moni
 : 1729254309:0;scp -r eojeda@192.168.248.100:/home/eojeda/monitoreo_secundario /home/manu/project/moni
-: 1729254357:0;s eojeda@192.168.248.100
 : 1729254768:0;cd project/moni/monitoreo_secundario
 : 1729259269:0;cd project/moni
 : 1729260459:0;git clone https://gitlab.unaj.edu.ar/eojeda/monitorstack.git
@@ -5765,8 +5717,6 @@ makepkg -si\
 : 1729260894:0;rm docker-compose.yml
 : 1729260915:0;touch docker-compose.yml
 : 1729260919:0;docker status
-: 1729260925:0;git status
-: 1729271090:0;cd Downloads
 : 1729271146:0;scp UPS-MIB.zip XUPS-MIB.zip eojeda@zabbix.adm.unaj.edu.ar:/home/eojeda/
 : 1729271243:0;unzip XUPS-MIB.zip
 : 1729271260:0;ls -l | grep XUP
@@ -5780,8 +5730,6 @@ makepkg -si\
 : 1729273177:0;cat prometheus.yml
 : 1729273180:0;bat prometheus.yml
 : 1729682695:0;scp EATON-* XUPS-MIB.txt eojeda@zabbix.adm.unaj.edu.ar:/home/eojeda/
-: 1729682712:0;feh --randomize --bg-fill $HOME/image/wallpaper/*\
-;
 : 1729684735:0;mechvibes
 : 1729684757:0;kill -9 30114
 : 1729684774:0;kill -9 31229
@@ -5803,7 +5751,6 @@ makepkg -si\
 : 1729686811:0;cd bg
 : 1729686816:0;cd icons
 : 1729686821:0;tree -l
-: 1729686825:0;cd .
 : 1729686948:0;ls 
 : 1729686964:0;rm -rf influxdb*
 : 1729686967:0;ls 0l
@@ -5900,26 +5847,17 @@ makepkg -si\
 : 1729744089:0;kj
 : 1729744093:0;jdksajdk
 : 1729744097:0;jdksjad
-: 1729744181:0;cd ..
-: 1729744192:0;ls -la
 : 1729769360:0;bluetoothctl connect 18:B9:6E:08:61:45
 : 1729769621:0;cp project/.p10k.zsh ~/
 : 1729769664:0;xrandr --output HDMI-1 --off
 : 1729769671:0;xrandr --output eDP-1 --auto --output HDMI-1 --mode 1920x1080 --rate 60 --right-of eDP-1
 : 1729770017:0;vim .p10k.zsh
 : 1729770694:0;p10k configure
-: 1729770818:0;cd download
 : 1729770871:0;sudo cp MesloLGS* /usr/share/fonts/TTF
 : 1729770884:0;fc-cache
-: 1729770927:0;fc-cache -fv\
-
 : 1729771031:0;cd project
-: 1729771060:0;cd
-: 1729771120:0;ls -l
-: 1729804418:0;vim .vimrc
 : 1729806669:0;cd .cache/
 : 1729806673:0;vim history
-: 1729806941:0;vim .zshrc
 : 1729807560:0;v .xinitrc
 : 1729807663:0;bebe
 : 1729807838:0;config commit -m "mas configuracion de dracula y mas"
@@ -5936,18 +5874,14 @@ makepkg -si\
 : 1729809104:0;yay -S picom-jonaburg-git
 : 1729809133:0;yay -Ss picom\
 
-: 1729809234:0;sudo pacman -Sy
 : 1729809290:0;sudo pacman -S picom
-: 1729809368:0;;s
 : 1729819512:0;picom 
 : 1729819546:0;picom --experimental-backend 
-: 1729819555:0;cat .xinitrc
 : 1729819560:0;picom --experimental-backend -b
 : 1729820331:0;sudo pacman -R picom
 : 1729820344:0;yay -S picom-git
 : 1729820600:0;picom --experimental-backends -b
 : 1729820654:0;dsal
-: 1729820656:0;clear
 : 1729820921:0;dskad
 : 1729821019:0;vim .config/kitty/kitty.conf
 : 1729821096:0;picom --experimental-backends --config ~/.config/picom/picom.conf\
@@ -5957,19 +5891,15 @@ makepkg -si\
 \
 
 : 1729822696:0;sudo openvpn informatica.ovpn
-: 1729822713:0;sudo openvpn vpn/unaj/informatica.ovpn
 : 1729822719:0;s manue@192.168.122.2
-: 1729822739:0;s manu@192.168.122.2
 : 1729823162:0;v .config/awesome/rc.lua 
 : 1729823187:0;v .config/awesome/configuration/keys.lua 
-: 1729823228:0;v .config/awesome/ui/bar.lua
 : 1729823792:0;yay -R picom-git\
 
 : 1729823817:0;picom --version
 : 1729823894:0;sudo pacman -S picom\
 
 : 1729823899:0;picom
-: 1729824045:0;v .config/kitty/kitty.conf
 : 1729824243:0;vim .config/picom/picom.conf
 : 1729824259:0;picom --config ~/.config/picom/picom.conf
 : 1729824442:0;v .config/picom/picom.conf
@@ -5978,185 +5908,270 @@ makepkg -si\
 : 1729824779:0;vim .config/awesome/ui/menu.lua
 : 1729824805:0;vim .config/awesome/rc.lua
 : 1729824820:0;vim .config/awesome/configuration/layouts.lua
-: 1729824877:0;vim .config/awesome/widget/keyboardlayout.lua
-: 1729824897:0;vim .config/awesome/ui/bar.lua
 : 1729825454:0;config add .cache/history
 : 1729825470:0;vim .cache/history
-: 1729825476:0;ls
-: 1729825486:0;config add -u
-: 1729825489:0;config status
 : 1729825539:0;config commit -m "configuracion .xinitrc, picom, add cache/history"
-: 1729825548:0;config push dotfiles main
 : 1729825840:0;vim .config/Mechvibes/config.json
 : 1729825876:0;mechvibes 
-: 1729826258:0;vim .xinitrc
 : 1729826311:0;reboot
-: 1729826356:0;vim .xinitrc
-: 1729826503:0;ls
-: 1729826504:0;clear
-: 1729826535:0;vim project/netbox-docker/docker-compose.yml
-: 1729826552:0;config status
 : 1729826565:0;vim .xinitrc
 : 1729826588:0;mechvibes --help
-: 1729826796:0;config status
 : 1729827045:0;config add .xinitrc
-: 1729827049:0;config status
 : 1729827078:0;config commit -m "configuracion de mechvibes en .xinitrc"
-: 1729827081:0;config push dotfiles main
-: 1729827091:0;ls
-: 1729827536:0;v
-: 1729827618:0;ls
 : 1729827631:0;vim pepe.txt
-: 1725980817:0;clear
-: 1725980822:0;ls
 : 1725980842:0;cofnig ps
 : 1725980843:0;config ps
-: 1725980848:0;config status
-: 1725981045:0;sudo systemctl status ntpd
-: 1725981169:0;ls
-: 1725981171:0;clear
-: 1725981172:0;ls
 : 1725981175:0;ll
-: 1725981180:0;ls -l
-: 1725981182:0;clear
 : 1730060624:0;v /etc/ntp.conf
-: 1730060963:0;v .config/awesome/configuration/keys.lua
-: 1730061564:0;cat .xinitrc
 : 1730061688:0;sudo find / -name "kitty.lua"
-: 1730061788:0;clear
 : 1730061793:0;cd /usr/share/awesome/lib/awful/hotkeys_popup/keys/
-: 1730061794:0;ls
-: 1730061852:0;vim init.lua
 : 1730061866:0;vim vim.lua
-: 1730061871:0;ls
-: 1730062187:0;vim init.lua
-: 1730062309:0;ls
 : 1730062317:0;vim termite.lua
-: 1730062354:0;ls
-: 1730062355:0;clear
-: 1730062356:0;ls -l
-: 1730062361:0;cd ..
-: 1730062362:0;ls
-: 1730062371:0;v init.lua
-: 1730062393:0;vim widget.lua
 : 1730062494:0;ls>
-: 1730062506:0;cd ..
-: 1730062506:0;ls
 : 1730062519:0;vim key
 : 1730062524:0;vim key.lua
-: 1730062685:0;pwd
 : 1730062700:0;cd hotkeys_popup/keys
-: 1730062701:0;ls
-: 1730062706:0;vim kitty.lua
-: 1730062736:0;cd ..
-: 1730062737:0;ls
-: 1730062740:0;vim init.lua
 : 1730062759:0;ks
-: 1730062760:0;ls
-: 1730062766:0;cd ..
-: 1730062766:0;ls
 : 1730062793:0;vim keyboard.lua
 : 1730062878:0;vim menu.lua
-: 1730062923:0;clea
-: 1730062924:0;clear
-: 1730062925:0;ls
-: 1730063063:0;clear
-: 1730063130:0;ls
-: 1730063133:0;clear
-: 1730063133:0;ls
 : 1730063153:0;cd hotkeys_popup
-: 1730063154:0;ls
 : 1730063162:0;vim widget.lua
-: 1730063196:0;ls
 : 1730063203:0;dc keys
 : 1730063204:0;cd keys
-: 1730063205:0;ls
-: 1730063214:0;vim init.lua
-: 1730063230:0;ls
 : 1730063236:0;cd .bin
-: 1730063236:0;ls
-: 1730063238:0;clear
-: 1730063238:0;ls
 : 1730063245:0;vim kitty.lua
-: 1730063264:0;ls
 : 1730063267:0;vim init.lua
 : 1730063273:0;vim gns3-kitty
-: 1730063276:0;ls
 : 1730063284:0;vim 30-touchpad.conf
 : 1730063396:0;vim ~/.config/awesome/configuration/keys.lua
-: 1730063801:0;ls
 : 1730063819:0;v init.lua
-: 1730063983:0;v
-: 1730064266:0;config status
-: 1725981042:0;sudo systemctl status ntpd
-: 1730066476:0;clear
 : 1730066479:0;sudo systemctl status ntpd
 : 1730066496:0;v /usr/lib/systemd/system/ntpd.service
 : 1730067612:0;ping directvgo.com
-: 1730067620:0;ping google.com
 : 1730071700:0;vim .vim/plugins.vim
-: 1730071736:0;vim .vim/plugin-config.vim
-: 1730071766:0;ls
 : 1730071770:0;cd .vim
-: 1730071771:0;ls
 : 1730071862:0;cd plugged
-: 1730071863:0;ls
 : 1730071867:0;cd coc.nvim
-: 1730071867:0;ls
-: 1730071879:0;cd ..
-: 1730071880:0;ls
-: 1730071883:0;cd ..
-: 1730071883:0;ls
-: 1730071901:0;vim plugins.vim
-: 1730074518:0;v .vimrc
-: 1730075920:0;v
 : 1730075936:0;vim plugins.vim
-: 1730075958:0;v .config/awesome/configuration/keys.lua
 : 1730076993:0;vim pepe
-: 1730077270:0;ls
-: 1730077271:0;clea
 : 1730077272:0;rclear
-: 1730077274:0;clear
 : 1730077288:0;cat .vim/plugins.vim
 : 1730078170:0;v .vim/plugins.vim
-: 1730078273:0;v
-: 1730078310:0;v project/Zabbix-Project/docker-compose.yml
 : 1730078378:0;yay -S code-minimap
-: 1730078393:0;cd
-: 1730078394:0;ls
 : 1730078409:0;vim arch_install
 : 1730078890:0;v project/Zabbix-Project/docker-compose.yml
-: 1730078916:0;v project/netbox-docker/release.sh
-: 1730078941:0;v
 : 1730079129:0;v .vim/plugin-config.vim
-: 1730079179:0;v project/netbox-docker/release.sh
-: 1730079475:0;v
-: 1730079497:0;ls
-: 1730079512:0;vim .vim/plugin-config.vim
 : 1730079862:0;vim .config/awesome/widget/keyboardlayout.lua
-: 1730079882:0;ls
 : 1730079899:0;v project/netbox-docker/release.sh
 : 1730080023:0;v project/netbox-docker/configuration/configuration.py
-: 1730080836:0;v
-: 1730081041:0;cd
-: 1730081044:0;v .vimrc
 : 1730082324:0;v pepe.s
-: 1730082329:0;v pepe.json
 : 1730082364:0;v project/netbox-docker/renovate.json
 : 1730082426:0;v project/snmp_zabbix/mib2zabbix
-: 1730082465:0;v pepe.json
 : 1730083278:0;vim project/netbox-docker/docker-compose.yml
-: 1730083624:0;vim pepe.json
 : 1730084107:0;vim project/netbox-docker/configuration/configuration.py
 : 1730084139:0;vim .vimrc
-: 1730084602:0;v
 : 1730084623:0;vim pepe.json
-: 1730084915:0;v
-: 1730085556:0;vim .vim/plugin-config.vim
 : 1730086983:0;sudo find / -name fzf
 : 1730087004:0;v .config/fzf/fzfrc 
-: 1730087216:0;v
-: 1730088119:0;vim .vim/plugin-config.vim
-: 1730088158:0;v
-: 1730088175:0;config status
 : 1730088196:0;config add -u
+: 1730088219:0;config commit -m "configuracion home"
+: 1730088232:0;config push dotfiles main
+: 1730215984:0;sda
+: 1730216119:0;s eojeda@192.168.122.2
+: 1730227119:0;s manu@192.168.248.100
+: 1730227715:0;nc
+: 1730228005:0;sudo pacman -S traceroute\
+
+: 1730228357:0;os
+: 1730230079:0;sudo iptables -L -v -n | grep 3000\
+
+: 1730230084:0;sudo iptables -L -v -n\
+
+: 1730230155:0;sudo journalctl -xe\
+
+: 1730230178:0;sudo journalctl -f\
+
+: 1730230183:0;telnet 192.168.248.100 22
+: 1730230192:0;telnet 192.168.248.100 9090
+: 1730231310:0;s eojjeda@192.168.110.254 -p2222
+: 1730231314:0;s eojeda@192.168.110.254 -p2222
+: 1730232479:0;curl -v http://192.168.248.100:3000\
+
+: 1730234411:0;vim scp://eojeda@192.168.248.100//home/eojeda/monitoreo_secundario/docker-compose.yml
+: 1730235057:0;ip route
+: 1730235074:0;traceroute 192.168.248.100
+: 1730235118:0;exit
+: 1725980924:0;ip a
+: 1730241719:0;s manu@192.168.122.2
+: 1730244496:0;ping 192.168.254.65
+: 1730246163:0;ping 192.168.254.66
+: 1730246389:0;s eojeda@192.168.248.100
+: 1730258823:0;v .config/awesome/configuration/keys.lua
+: 1730258839:0;v .config/awesome/configuration/layouts.lua
+: 1730259172:0;vim .vim/plugin-config.vim
+: 1730259206:0;v
+: 1730259632:0;feh --randomize --bg-fill $HOME/image/wallpaper/*\
+;
+: 1730261303:0;echo -e "ðƒ¿ƒ³§ Correo ElectrÃ³nico"\
+
+: 1730261385:0;cd .config/awesome
+: 1730261389:0;v rc.lua
+: 1730261437:0;cd .config/awesome/themes/icons/layouts
+: 1730261575:0;cd .
+: 1730261590:0;v ui/bar.lua
+: 1730261733:0;fc-list | grep "Hack Nerd Font"\
+
+: 1730261769:0;\uea85
+: 1730261772:0;echo \uea85
+: 1730262884:0;v ui/menu.lua
+: 1730266512:0;yay -S nerd-fonts-git
+: 1730266798:0;v themes/theme.lua
+: 1725980908:0;startx
+: 1725980938:0;vim .vim/plugin-config.vimls
+: 1725980947:0;v .config/awesome/ui/bar.lua
+: 1730288897:0;vim .zshenv
+: 1730288970:0;vim .config/fzf/fzfrc 
+: 1730299579:0;îªƒ¥
+: 1730299689:0;
+: 1730299690:0;î¯ƒ¦
+: 1730299698:0;î¯ƒ©
+: 1730299914:0;https://www.nerdfonts.com/cheat-sheet
+: 1730300055:0;îƒ¾ƒµ
+: 1730300083:0;echo î¯ƒª
+: 1730300088:0;î¯ƒª
+: 1730300090:0;djka î¯ƒª
+: 1730300236:0;vim .config/awesome/ui/bar.lua
+: 1730304126:0;btop
+: 1730304733:0;cat .xinitrc
+: 1730305303:0;python -m venv ia
+: 1730305325:0;source ia/bin/activate
+: 1725980818:0;ping 8.8.8.
+: 1725980821:0;ping 8.8.8.8
+: 1725980825:0;ping google.com
+: 1725980968:0;feotech
+: 1725980972:0;feh
+: 1725980982:0;ne
+: 1725980984:0;neofetch
+: 1730347254:0;sudo pacman -Sy
+: 1730347263:0;sudo pacman -S obsidian
+: 1730347862:0;rm doc/Cerebro
+: 1730347866:0;rm -r doc/Cerebro
+: 1730347883:0;cd do
+: 1730347930:0;cd .config
+: 1730347933:0;cd obsidian
+: 1730347972:0;cd ..
+: 1730347974:0;du -sh
+: 1730347978:0;du -sh *
+: 1730397812:0;sudo openvpn vpn/unaj/informatica.ovpn
+: 1730398187:0;nslookup 
+: 1730398248:0;<sudo pacman -S dnsutils\
+
+: 1730398252:0;sudo pacman -S dnsutils\
+
+: 1730398322:0;s eojeda@192.168.111.254 -p2222
+: 1730398641:0;nslookup unaj.ar
+: 1730398736:0;nslookup unaj.ar 177.200.237.3
+: 1730399532:0;nslookup unaj.ar 177.200.236.3
+: 1730400828:0;nslookup unaj.ar 
+: 1730402021:0;rm -rf Cerebro
+: 1730402220:0;https://github.com/eybolo/Cerebro.git
+: 1730402226:0;git clone https://github.com/eybolo/Cerebro.git
+: 1730402452:0;r
+: 1730402457:0;cat .gitconfig
+: 1730402488:0;cat .gitmodules
+: 1730402558:0;nano .git/config\
+
+: 1730402635:0;nano .git/config\
+ls
+: 1730402648:0;cd doc
+: 1730402868:0;git@github.com:eybolo/Cerebro.git
+: 1730402872:0;git clone git@github.com:eybolo/Cerebro.git
+: 1730402882:0;cd Cerebro
+: 1730406431:0;s eojeda@192.168.111.9
+: 1730407042:0;nslookup unaj.ar 177.200.237.100
+: 1730407050:0;nslookup unaj.ar 177.200.236.100
+: 1730407569:0;nslookup innovacursos.com.ar
+: 1730408874:0;nslookup innovacursos.com.ar 8.8.8.8
+: 1730408877:0;nslookup unaj.ar 8.8.8.8
+: 1730409928:0;git remote set-url cerebro git@github.com:eybolo/Cerebro.git\
+
+: 1730410000:0;git remote rename origin cerebro
+: 1730410004:0;git remote set-url cerebro git@github.com:eybolo/Cerebro.git
+: 1730561509:0;ssh-keygen -t ed25519 -C "emanuelojeda10@gmail.com"\
+
+: 1730561767:0;cat config
+: 1730561822:0;bat config
+: 1730561854:0;cat id_obsidian.pub
+: 1730562669:0;git stauts
+: 1730562673:0;git status
+: 1730563523:0;v ~/.config
+: 1730563563:0;v ~/.gitconfig
+: 1730564087:0;ssh -i ~/.ssh/id_obsidian -T git@github.com
+: 1730569258:0;"ssh -v" git push
+: 1730570000:0;git config --global credential.helper libsecret
+: 1730570211:0;git config --global --list\
+
+: 1730570985:0;sudo pacman -S ksshaskpass\
+
+: 1725980855:0;nmtui
+: 1725980938:0;v .ssh/config
+: 1730573871:0;git remote set-url origin github-cerebro:eybolo/Cerebro.git\
+
+: 1730573879:0;git remote set-url cerebro github-cerebro:eybolo/Cerebro.git\
+
+: 1730573888:0;git remote -v
+: 1730573926:0;cd .ssh
+: 1730573929:0;ls -l
+: 1730574082:0;v .config/kitty/kitty.conf
+: 1730574101:0;mv id_obsidian id_cerebro
+: 1730574122:0;mv id_obsidian.pub id_cerebro.pub
+: 1730574129:0;v config
+: 1730574168:0;git push cerebro main 
+: 1730595883:0;clea
+: 1730596304:0;v ~/.config/picom/picom.conf
+: 1730601868:0;fc-list | grep "roboto"\
+
+: 1730601872:0;fc-list | grep "Roboto"\
+
+: 1730601937:0;cd download
+: 1730601953:0;cd Download
+: 1730601957:0;cd Downloads
+: 1730601958:0;;s
+: 1730601964:0;unzip Roboto_Mono.zip
+: 1730602034:0;cp RobotoMono-* ~/.local/share/fonts/
+: 1730602040:0;fc-cache -fv\
+
+: 1730604421:0;v ~/.vim/plugins.vim
+: 1730604466:0;v pwd
+: 1730604491:0;v doc/Cerebro/.obsidian/themes/Dracula\ Official/theme.css
+: 1730604613:0;v Dracula\ Official/theme.css
+: 1730605040:0;cd doc/Ce
+: 1730605229:0;sudo find / -name .obsidian.vimrc
+: 1730605253:0;sudo find / -name ".obsidian.vimrc"
+: 1730605354:0;ls -la
+: 1730605400:0;cd
+: 1730605485:0;vim .zshrc
+: 1730605599:0;bat -n pep
+: 1730605602:0;bat -n pepe
+: 1730605687:0;bat --paging=never --no-line-numbers .vimrc\
+
+: 1730605709:0;bat --no-line-numbers .vimrc\
+
+: 1730605718:0;bat --help
+: 1730605878:0;bat --style=numbers .vimrc
+: 1730605911:0;cat .vimrc
+: 1730605960:0;v .obsidian.vimrc
+: 1730607255:0;pwd
+: 1730607324:0;v vimrc-support.css
+: 1730608292:0;cd doc/Cerebro
+: 1730608293:0;ls
+: 1730608309:0;v .obsidian.vimrc 
+: 1730608557:0;v pepe.json
+: 1730608597:0;v .vimrc
+: 1730608702:0;v doc/Cerebro/.obsidian.vimrc
+: 1730608925:0;vim --version | grep clipboard\
+
+: 1730609363:0;config status
+: 1730609365:0;clear
+: 1725980912:0;config status
+: 1725980918:0;config add -u

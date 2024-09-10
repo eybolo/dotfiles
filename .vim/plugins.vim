@@ -42,6 +42,6 @@ Plug 'tpope/vim-surround'
 "jPlug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
 Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'wfxr/minimap.vim'
+"Plug 'wfxr/minimap.vim'
 Plug 'luochen1990/rainbow'
 call plug#end()

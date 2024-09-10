@@ -162,7 +162,7 @@ alias rm="rm -ivr"
 alias mv="mv -iv"
 alias cp="cp -iv"
 alias s="kitty +kitten ssh"
-alias cat="bat --paging=never"
+alias cat="bat --paging=never  --style=plain"
 # git dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 

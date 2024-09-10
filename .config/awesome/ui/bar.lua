@@ -18,13 +18,16 @@ net_wired = net_widgets.indicator({
     })
 
 -- Tags 
-awful.util.tagnames =  { "", "", "", "","", " "}
--- awful.util.tagnames =  { "", " ", "", "", "", "", "", "", "" }
+--awful.util.tagnames =  { "🖥️","🌐","💬","📝","" }
+-- Configuración de la fuente para la taglist
+beautiful.taglist_font = "Hack Nerd Font 14"  -- Cambia 14 al tamaño deseado
+--beautiful.taglist_spacing = 5  -- Ajusta este valor según el espaciado que necesites
+awful.util.tagnames =  { " ","󰖟 "," ","󱎴 ","󰙏 "}
 -- awful.util.tagnames =  { "dev",  "www", "sys", "doc", "vbox", "chat", "mus", "vid", "gfx" }
 -- awful.util.tagnames =  { "", "", " ", "","", "", "", "", "", "", "" }
 -- awful.util.tagnames =  { "I", "II", "III", "IV", "V", "VI" }
 -- awful.util.tagnames =  { "", "", "", "", "", "", "", "", "" }
--- awful.util.tagnames =  { "", "", "", "", "", "", "", "", "" }
+--awful.util.tagnames =  { "", "", "", "", "", "", "", "", "" }
 -- awful.util.tagnames =  { "", "", "", "", "", "", "", "", "" }
 -- awful.util.tagnames =  { "一", "二", "三", "四", "五", "六", "七", "八", "九" }
 -- awful.util.tagnames =  { "", "", "", "", "", "", "", "", "" }
@@ -112,6 +115,7 @@ awful.screen.connect_for_each_screen(function(s)
    
     -- Each screen has its own tag table.
     awful.tag(awful.util.tagnames, s,awful.layout.layouts[1])
+
      -- Create a promptbox for each screen
     s.mypromptbox = awful.widget.prompt()
 	

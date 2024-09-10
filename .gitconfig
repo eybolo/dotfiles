@@ -43,3 +43,5 @@
   unmerged = magenta bold reverse
   untracked = red
   updated = green bold
+[credential]
+	helper = libsecret
