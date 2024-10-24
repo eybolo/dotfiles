@@ -1,3 +1,8 @@
+#precmd() {
+    # Guardar el tiempo actual en LAST_COMMAND_TIME
+#    LAST_COMMAND_TIME="$(date +'%H:%M:%S')"
+#}
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -169,7 +174,7 @@ source $(dirname $(gem which colorls))/tab_complete.sh
 source /usr/share/fzf/key-bindings.zsh
 source /usr/share/fzf/completion.zsh
 source $HOME/.config/fzf/fzfrc
-source $HOME/.config/cheat/cheat.zsh
+#source $HOME/.config/cheat/cheat.zsh
 # bat :
 
 # help colors
@@ -194,3 +199,7 @@ unsetopt beep
 ##if [ $URXVT_INSTANCES -eq 0 ]; then
  #   neofetch
 #fi
+#
+#
+#
+

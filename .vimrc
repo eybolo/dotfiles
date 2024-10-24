@@ -42,6 +42,7 @@ set tabstop=4
 set shiftwidth=4	
 set softtabstop=4
 set expandtab
+
 "Displaying status line always
 set laststatus=2
 
