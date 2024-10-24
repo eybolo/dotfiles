@@ -1,8 +1,3 @@
-#precmd() {
-    # Guardar el tiempo actual en LAST_COMMAND_TIME
-#    LAST_COMMAND_TIME="$(date +'%H:%M:%S')"
-#}
-
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -95,6 +90,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
+# ...
+# ...
 
 # =====================================================
 # Plugins
@@ -102,6 +99,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # colour using 256 palets
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=244"
+
+source ~/.config/zsh-syntax-highlighting.zsh
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
@@ -156,11 +155,14 @@ MODE_INDICATOR="%F{white}+%f"
 # kitty
 alias d="kitty +kitten diff"
 alias icat="kitty +kitten icat"
-alias ll="colorls"
+alias v="vim"
+alias ls="colorls"
+alias lss='/bin/ls'  # Para usar el comando 'ls' sin colorls
 alias rm="rm -ivr"
 alias mv="mv -iv"
 alias cp="cp -iv"
 alias s="kitty +kitten ssh"
+alias cat="bat --paging=never"
 # git dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
@@ -199,7 +201,3 @@ unsetopt beep
 ##if [ $URXVT_INSTANCES -eq 0 ]; then
  #   neofetch
 #fi
-#
-#
-#
-

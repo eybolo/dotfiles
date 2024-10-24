@@ -99,9 +99,8 @@ let g:airline_powerline_fonts=1
 
 
 " gruvbox
-let g:gruvbox_contrast_dark = "hard"
+"let g:gruvbox_contrast_dark = "hard"
 
 " Set color scheme
-colorscheme gruvbox 
+colorscheme dracula 
 set termguicolors
-

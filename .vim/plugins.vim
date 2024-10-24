@@ -43,4 +43,6 @@ Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-surround'
 "jPlug 'tiagofumo/vim-nerdtree-syntax-highlight'
 "Plug 'ryanoasis/vim-devicons'
+Plug 'dracula/vim', { 'as': 'dracula' }
+
 call plug#end()
