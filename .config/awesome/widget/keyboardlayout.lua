@@ -30,4 +30,3 @@ return wibox.widget {
     spacing = dpi(2),
     layout = wibox.layout.fixed.horizontal
 }
- 

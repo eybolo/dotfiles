@@ -1773,7 +1773,6 @@ TERMINFO=/home/ORIGINALUSER/.terminfo exec bash -i
 : 1673875665:0;vim kitty.conf
 : 1673875706:0;config add .config/kitty
 : 1673875716:0;config .cache/history
-: 1673875738:0;config add .cache/history
 : 1673875787:0;vim project
 : 1673875856:0;cd autostart
 : 1673876019:0;cd koodo-reader
@@ -5921,13 +5920,9 @@ makepkg -si\
 : 1729806669:0;cd .cache/
 : 1729806673:0;vim history
 : 1729806941:0;vim .zshrc
-: 1729807053:0;vim .cache/history
 : 1729807560:0;v .xinitrc
 : 1729807663:0;bebe
-: 1729807784:0;config add -u
-: 1729807788:0;config status
 : 1729807838:0;config commit -m "mas configuracion de dracula y mas"
-: 1729807848:0;config push dotfiles main
 : 1729808038:0;ps aux | grep picom
 : 1729808153:0;lsdad
 : 1729808193:0;ksdka
@@ -5977,7 +5972,6 @@ makepkg -si\
 : 1729824045:0;v .config/kitty/kitty.conf
 : 1729824243:0;vim .config/picom/picom.conf
 : 1729824259:0;picom --config ~/.config/picom/picom.conf
-: 1729824310:0;vim .xinitrc
 : 1729824442:0;v .config/picom/picom.conf
 : 1729824550:0;vim .config/awesome/configuration/signals.lua
 : 1729824694:0;vim .config/awesome/configuration/keys.lua
@@ -5986,16 +5980,183 @@ makepkg -si\
 : 1729824820:0;vim .config/awesome/configuration/layouts.lua
 : 1729824877:0;vim .config/awesome/widget/keyboardlayout.lua
 : 1729824897:0;vim .config/awesome/ui/bar.lua
-: 1729825086:0;ls
-: 1729825147:0;reboot
-: 1729825329:0;vim .xinitrc
-: 1729825343:0;reboot
-: 1729825405:0;ls
-: 1729825423:0;config status
-: 1729825431:0;config add -u
 : 1729825454:0;config add .cache/history
-: 1729825457:0;config status
 : 1729825470:0;vim .cache/history
 : 1729825476:0;ls
-: 1729825479:0;config status
 : 1729825486:0;config add -u
+: 1729825489:0;config status
+: 1729825539:0;config commit -m "configuracion .xinitrc, picom, add cache/history"
+: 1729825548:0;config push dotfiles main
+: 1729825840:0;vim .config/Mechvibes/config.json
+: 1729825876:0;mechvibes 
+: 1729826258:0;vim .xinitrc
+: 1729826311:0;reboot
+: 1729826356:0;vim .xinitrc
+: 1729826503:0;ls
+: 1729826504:0;clear
+: 1729826535:0;vim project/netbox-docker/docker-compose.yml
+: 1729826552:0;config status
+: 1729826565:0;vim .xinitrc
+: 1729826588:0;mechvibes --help
+: 1729826796:0;config status
+: 1729827045:0;config add .xinitrc
+: 1729827049:0;config status
+: 1729827078:0;config commit -m "configuracion de mechvibes en .xinitrc"
+: 1729827081:0;config push dotfiles main
+: 1729827091:0;ls
+: 1729827536:0;v
+: 1729827618:0;ls
+: 1729827631:0;vim pepe.txt
+: 1725980817:0;clear
+: 1725980822:0;ls
+: 1725980842:0;cofnig ps
+: 1725980843:0;config ps
+: 1725980848:0;config status
+: 1725981045:0;sudo systemctl status ntpd
+: 1725981169:0;ls
+: 1725981171:0;clear
+: 1725981172:0;ls
+: 1725981175:0;ll
+: 1725981180:0;ls -l
+: 1725981182:0;clear
+: 1730060624:0;v /etc/ntp.conf
+: 1730060963:0;v .config/awesome/configuration/keys.lua
+: 1730061564:0;cat .xinitrc
+: 1730061688:0;sudo find / -name "kitty.lua"
+: 1730061788:0;clear
+: 1730061793:0;cd /usr/share/awesome/lib/awful/hotkeys_popup/keys/
+: 1730061794:0;ls
+: 1730061852:0;vim init.lua
+: 1730061866:0;vim vim.lua
+: 1730061871:0;ls
+: 1730062187:0;vim init.lua
+: 1730062309:0;ls
+: 1730062317:0;vim termite.lua
+: 1730062354:0;ls
+: 1730062355:0;clear
+: 1730062356:0;ls -l
+: 1730062361:0;cd ..
+: 1730062362:0;ls
+: 1730062371:0;v init.lua
+: 1730062393:0;vim widget.lua
+: 1730062494:0;ls>
+: 1730062506:0;cd ..
+: 1730062506:0;ls
+: 1730062519:0;vim key
+: 1730062524:0;vim key.lua
+: 1730062685:0;pwd
+: 1730062700:0;cd hotkeys_popup/keys
+: 1730062701:0;ls
+: 1730062706:0;vim kitty.lua
+: 1730062736:0;cd ..
+: 1730062737:0;ls
+: 1730062740:0;vim init.lua
+: 1730062759:0;ks
+: 1730062760:0;ls
+: 1730062766:0;cd ..
+: 1730062766:0;ls
+: 1730062793:0;vim keyboard.lua
+: 1730062878:0;vim menu.lua
+: 1730062923:0;clea
+: 1730062924:0;clear
+: 1730062925:0;ls
+: 1730063063:0;clear
+: 1730063130:0;ls
+: 1730063133:0;clear
+: 1730063133:0;ls
+: 1730063153:0;cd hotkeys_popup
+: 1730063154:0;ls
+: 1730063162:0;vim widget.lua
+: 1730063196:0;ls
+: 1730063203:0;dc keys
+: 1730063204:0;cd keys
+: 1730063205:0;ls
+: 1730063214:0;vim init.lua
+: 1730063230:0;ls
+: 1730063236:0;cd .bin
+: 1730063236:0;ls
+: 1730063238:0;clear
+: 1730063238:0;ls
+: 1730063245:0;vim kitty.lua
+: 1730063264:0;ls
+: 1730063267:0;vim init.lua
+: 1730063273:0;vim gns3-kitty
+: 1730063276:0;ls
+: 1730063284:0;vim 30-touchpad.conf
+: 1730063396:0;vim ~/.config/awesome/configuration/keys.lua
+: 1730063801:0;ls
+: 1730063819:0;v init.lua
+: 1730063983:0;v
+: 1730064266:0;config status
+: 1725981042:0;sudo systemctl status ntpd
+: 1730066476:0;clear
+: 1730066479:0;sudo systemctl status ntpd
+: 1730066496:0;v /usr/lib/systemd/system/ntpd.service
+: 1730067612:0;ping directvgo.com
+: 1730067620:0;ping google.com
+: 1730071700:0;vim .vim/plugins.vim
+: 1730071736:0;vim .vim/plugin-config.vim
+: 1730071766:0;ls
+: 1730071770:0;cd .vim
+: 1730071771:0;ls
+: 1730071862:0;cd plugged
+: 1730071863:0;ls
+: 1730071867:0;cd coc.nvim
+: 1730071867:0;ls
+: 1730071879:0;cd ..
+: 1730071880:0;ls
+: 1730071883:0;cd ..
+: 1730071883:0;ls
+: 1730071901:0;vim plugins.vim
+: 1730074518:0;v .vimrc
+: 1730075920:0;v
+: 1730075936:0;vim plugins.vim
+: 1730075958:0;v .config/awesome/configuration/keys.lua
+: 1730076993:0;vim pepe
+: 1730077270:0;ls
+: 1730077271:0;clea
+: 1730077272:0;rclear
+: 1730077274:0;clear
+: 1730077288:0;cat .vim/plugins.vim
+: 1730078170:0;v .vim/plugins.vim
+: 1730078273:0;v
+: 1730078310:0;v project/Zabbix-Project/docker-compose.yml
+: 1730078378:0;yay -S code-minimap
+: 1730078393:0;cd
+: 1730078394:0;ls
+: 1730078409:0;vim arch_install
+: 1730078890:0;v project/Zabbix-Project/docker-compose.yml
+: 1730078916:0;v project/netbox-docker/release.sh
+: 1730078941:0;v
+: 1730079129:0;v .vim/plugin-config.vim
+: 1730079179:0;v project/netbox-docker/release.sh
+: 1730079475:0;v
+: 1730079497:0;ls
+: 1730079512:0;vim .vim/plugin-config.vim
+: 1730079862:0;vim .config/awesome/widget/keyboardlayout.lua
+: 1730079882:0;ls
+: 1730079899:0;v project/netbox-docker/release.sh
+: 1730080023:0;v project/netbox-docker/configuration/configuration.py
+: 1730080836:0;v
+: 1730081041:0;cd
+: 1730081044:0;v .vimrc
+: 1730082324:0;v pepe.s
+: 1730082329:0;v pepe.json
+: 1730082364:0;v project/netbox-docker/renovate.json
+: 1730082426:0;v project/snmp_zabbix/mib2zabbix
+: 1730082465:0;v pepe.json
+: 1730083278:0;vim project/netbox-docker/docker-compose.yml
+: 1730083624:0;vim pepe.json
+: 1730084107:0;vim project/netbox-docker/configuration/configuration.py
+: 1730084139:0;vim .vimrc
+: 1730084602:0;v
+: 1730084623:0;vim pepe.json
+: 1730084915:0;v
+: 1730085556:0;vim .vim/plugin-config.vim
+: 1730086983:0;sudo find / -name fzf
+: 1730087004:0;v .config/fzf/fzfrc 
+: 1730087216:0;v
+: 1730088119:0;vim .vim/plugin-config.vim
+: 1730088158:0;v
+: 1730088175:0;config status
+: 1730088196:0;config add -u

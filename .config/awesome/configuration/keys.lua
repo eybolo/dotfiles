@@ -9,7 +9,6 @@ local HOME_DIR = os.getenv("HOME")
 local volume_widget = require('awesome-wm-widgets.volume-widget.volume')
 --require "awful.hotkeys_popup.keys.vim"
 require "awful.hotkeys_popup.keys.kitty"
-
 -- vars/misc
 -- ~~~~~~~~~
 
@@ -164,8 +163,8 @@ awful.keyboard.append_global_keybindings({
 
 
 --===================
---TAGS 
---=================== 
+--TAGS
+--===================
 
 -- Tags related keybindings
 awful.keyboard.append_global_keybindings({

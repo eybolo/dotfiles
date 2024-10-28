@@ -16,6 +16,9 @@ set numberwidth=1
 " Enable Mouse
 set mouse=a
 
+" Número de líneas alrededor del cursor al desplazarse
+set scrolloff=10
+
 " Enable clipboard system
 set clipboard=unnamedplus
 
@@ -33,8 +36,7 @@ set encoding=utf-8
 
 " matching parenthesis
 set showmatch
-
-
+    
 set relativenumber
 
 " Number of spaces a <Tab> in the text stands for
@@ -68,6 +70,24 @@ set background=dark
 
 "Enable 256 colours
 set t_Co=256
+
+set nobackup
+
+set noswapfile "Desactivar swap file 
+
+set autoread "Recarga automatic archivos cambiado fuera de vim
+
+set list "Muestra caracteres de espacio en blanco y tabuladores
+
+set colorcolumn=100 "Resalta la columna 100
+
+set textwidth=100 "Ancho de texto a 100 caracteres
+
+set autoindent  " Habilitar la indentación automática
+
+set smartindent  " Habilitar la indentación inteligente
+
+
 
 " ---------------------------------------------------------------
 " => Mapping 

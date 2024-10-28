@@ -37,22 +37,30 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 "let g:NERDTreeLimitedSyntax=1
 "let g:NERDTreeHighlightCursorline=0
 
-
-
 "===========================
-" IdentLine 
+" IdentLine
 "===========================
 
-let g:indentLine_char_list = ['|', '\u00a6', '\u2506', '\u250a']
+"let g:indentLine_char_list = ['|', '\u00a6', '\u2506', '\u250a']
+let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 
 " Disable conceal for JSON and Markdown
-
 let g:vim_json_conceal=0
 
 let g:markdown_syntax_conceal=0
 
 "===========================
-" IdentLine 
+" Autopairs
+"===========================
+
+let g:AutoPairsFlyMode = 1
+let g:AutoPairsMapBS = 1
+
+" Desactivar en archivos markdown
+autocmd FileType markdown let b:AutoPairs = 0
+
+"===========================
+" Vim-signify
 "===========================
 
 set updatetime=100
@@ -358,10 +366,21 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 let g:coc_global_extensions = [
       \ 'coc-html', 
       \ 'coc-docker', 
+      \ 'coc-python', 
+      \ 'coc-json', 
+      \ 'coc-yaml', 
+      \ 'coc-ansible', 
+      \ 'coc-lua', 
+      \ 'coc-git', 
+      \ 'coc-highlight', 
+      \ 'coc-sh', 
+      \ 'coc-sql', 
+      \ 'coc-svg', 
+      \ 'coc-nginx', 
       \]
 
 "===========================
-" vim-gitgutter 
+" vim-gitgutter
 "===========================
 " Use fontawesome icons as signs
 let g:gitgutter_sign_added = '+'
@@ -375,3 +394,15 @@ let g:gitgutter_sign_modified_removed = '<'
 "nmap <Leader>gp :GitGutterPrevHunk<cr> 
 nmap <Leader>gn <Plug>(GitGutterNextHunk)
 nmap <Leader>gp <Plug>(GitGutterPrevHunk)
+
+"===========================
+"minimap
+"===========================
+let g:minimap_width = 10
+let g:minimap_auto_start = 1
+let g:minimap_auto_start_win_enter = 1"
+
+"===========================
+"Rainbow
+"===========================
+"let g:rainbow_active = 1 set to 0 if you want to enable it later via :RainbowToggle"
