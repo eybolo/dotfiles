@@ -364,18 +364,25 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 let g:coc_global_extensions = [
-      \ 'coc-html', 
-      \ 'coc-docker', 
-      \ 'coc-python', 
-      \ 'coc-json', 
-      \ 'coc-yaml', 
-      \ 'coc-lua', 
-      \ 'coc-git', 
-      \ 'coc-highlight', 
-      \ 'coc-sh', 
-      \ 'coc-sql', 
-      \ 'coc-svg', 
+      \ 'coc-html',
+      \ 'coc-docker',
+      \ 'coc-python',
+      \ 'coc-json',
+      \ 'coc-yaml',
+      \ 'coc-lua',
+      \ 'coc-git',
+      \ 'coc-highlight',
+      \ 'coc-sh',
+      \ 'coc-sql',
+      \ 'coc-svg',
+      \ '@yaegassy/coc-ansible'
       \ ]
+
+let g:coc_filetype_map = {
+  \ 'yaml.ansible': 'ansible',
+  \ }
+
+au BufRead,BufNewFile */ansible/*.yml set filetype=yaml.ansible
 
 "===========================
 " vim-gitgutter

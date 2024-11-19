@@ -44,4 +44,6 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'dracula/vim', { 'as': 'dracula' }
 "Plug 'wfxr/minimap.vim'
 Plug 'luochen1990/rainbow'
+Plug 'pearofducks/ansible-vim'
+
 call plug#end()
