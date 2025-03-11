@@ -1,4 +1,3 @@
-: 1667221873:0;cat README.md
 : 1667222002:0;cd .cache
 : 1667222014:0;cd zsh
 : 1667222109:0;config commit 
@@ -984,7 +983,6 @@ TERMINFO=/home/ORIGINALUSER/.terminfo exec bash -i
 : 1669690455:0;sudo openvpn --config informatica.ovpn
 : 1669690469:0;sudo openvpn --config vpn/informatica.ovpn
 : 1669690475:0;sudo openvpn --config vpn/unaj/informatica.ovpn
-: 1669690994:0;cat /etc/resolv.conf
 : 1669691338:0;vim vpn/unaj/informatica.ovpn
 : 1669691431:0;ping 192.168.110.56
 : 1669691773:0;tracepath --help
@@ -1141,7 +1139,6 @@ TERMINFO=/home/ORIGINALUSER/.terminfo exec bash -i
 : 1672239846:0;ping 192.168.111.79
 : 1672240003:0;ssh eojeda@192.168.111.79
 : 1672279407:0;OA
-: 1672300961:0;xrandr --listmonitors
 : 1672300979:0;xrandr --delmonitor 1
 : 1672301127:0;xrandr --listactivemonitors
 : 1672301172:0;xrandr --delmonitor HDMI-1
@@ -1566,7 +1563,6 @@ TERMINFO=/home/ORIGINALUSER/.terminfo exec bash -i
 : 1672751941:0;sd
 : 1672752288:0;which ll
 : 1672752292:0;colorls
-: 1672752529:0;hola
 : 1672752718:0;echo $ZSH
 : 1672752759:0;vim .oh-my-zsh/oh-my-zsh.sh
 : 1672753146:0;source .zshrc
@@ -1660,12 +1656,9 @@ TERMINFO=/home/ORIGINALUSER/.terminfo exec bash -i
 : 1673349089:0;hwclock -r
 : 1673349098:0;hwclock --show
 : 1673349112:0;sudo hwclock --show
-: 1673349157:0;timedatectl
 : 1673349243:0;sudo pacman -S ntp
 : 1673349281:0;sudo systemctl status ntp
 : 1673349312:0;ntpq -p
-: 1673349394:0;sudo hwclock -w
-: 1673349397:0;hwclock -w
 : 1673435703:0;curl cheat.sh/ls
 : 1673438081:0;vim Blue\ Topaz/theme.css
 : 1673439622:0;su
@@ -1980,7 +1973,6 @@ TERMINFO=/home/ORIGINALUSER/.terminfo exec bash -i
 : 1675792577:0;mv download/Format-Security-plus-Study-Guide.pdf doc
 : 1675792601:0;mv download/pdfcoffee.com_offensive-security-labs-pdf-pdf-free.pdf doc
 : 1675945042:0;vim riego
-: 1675949950:0;cal 
 : 1675953699:0;ssh eojeda@192.168.248.254 -p2222
 : 1675959454:0;systemctl --vesion
 : 1675959458:0;systemctl --version
@@ -2039,7 +2031,6 @@ TERMINFO=/home/ORIGINALUSER/.terminfo exec bash -i
 : 1677587552:0;dmesg | egrep -i --color 'serial|ttyS'
 : 1677587559:0;sudo dmesg | egrep -i --color 'serial|ttyS'
 : 1677593401:0;nslookup guarani-test.unaj.edu.ar
-: 1677593775:0;s eojeda@192.168.111.55
 : 1677594065:0;s eojeda@192.168.111.57
 : 1677604137:0;vim note.unaj
 : 1677604793:0;sudo pacman -S minicom
@@ -2174,7 +2165,6 @@ TERMINFO=/home/ORIGINALUSER/.terminfo exec bash -i
 : 1681319284:0;s eojeda@192.168.248.254 -p2222
 : 1681477305:0;s eojeda@192.168.122.83
 : 1681820689:0;sudo rebooy
-: 1681906924:0;cd video
 : 1681997074:0;docker pull jenkins/jenkins
 : 1682009879:0;ping 192.168.122.24
 : 1682009882:0;ping 192.168.122.241
@@ -2193,8 +2183,6 @@ TERMINFO=/home/ORIGINALUSER/.terminfo exec bash -i
 : 1684851517:0;shutdown --help
 : 1685630334:0;ping 192.168.122.240
 : 1685630338:0;ping 192.168.122.239
-: 1685631724:0;ping 192.168.122.200
-: 1685705621:0;e
 : 1685709775:0;ping 192.168.254.82
 : 1685713865:0;vim hola
 : 1685716787:0;telnet 192.168.254.82
@@ -2289,7 +2277,6 @@ done
 : 1688402209:0;dig 170.210.158.16
 : 1688471730:0;ping 192.168.110.63
 : 1688482175:0;mkdir kaspersky
-: 1688486472:0;file
 : 1688491022:0;sudo pacman -S thunar
 : 1688491066:0;cat /etc/issue 
 : 1688491091:0;nautilus
@@ -2364,7 +2351,6 @@ done
 : 1694523392:0;cat download/Switch_INFO\ 09-01-23.txt
 : 1694615839:0;ping 192.168.126.248
 : 1694616274:0;ping 192.168.126.243
-: 1694624840:0;s eojjeda@192.168.111.254 -p2222
 : 1694691634:0;cat download/Modelo\ CISCO\ SWITCH.txt
 : 1694691773:0;telnet 192.168.254.96
 : 1694693457:0;ping 192.168.254.94
@@ -2384,7 +2370,6 @@ done
 : 1696424924:0;s eojeda@192.168.251.9
 : 1696427020:0;s eojeda@192.168.110.1
 : 1696427044:0;clwee
-: 1696851192:0;ca;
 : 1696861339:0;ping 192.168.245.5
 : 1696864017:0;ping 192.168.254.71
 : 1696864051:0;ping 192.168.254.70
@@ -2395,7 +2380,6 @@ done
 : 1696864825:0;ping 192.168.254.612
 : 1696864827:0;ping 192.168.254.62
 : 1697033270:0;apropos raid
-: 1697114896:0;lsblk
 : 1697120521:0;hostanem
 : 1697120522:0;hostname
 : 1697120530:0;uname 0a
@@ -2522,7 +2506,6 @@ done
 : 1705927232:0;piing 192.168.254.67
 : 1705927234:0;ping 192.168.254.67
 : 1706196422:0;ping 192.168.252.8
-: 1707911257:0;yay -S google-chrome
 : 1708086591:0;s eojeda@192.168.110.55
 : 1708514850:0;sudo ip link set dev wlp1s0 up
 : 1708515375:0;ping 192.169.122.254
@@ -2541,7 +2524,6 @@ done
 : 1708600851:0;cd v
 : 1708600877:0;cd private
 : 1708600882:0;cd vpn
-: 1708600887:0;cd unaj
 : 1708601390:0;pacman -Sy archlinux-keyring && pacman -Sy
 : 1708601394:0;sudo pacman -Sy archlinux-keyring && pacman -Sy
 : 1708601409:0;sudo pacman -Sy archlinux-keyring && sudo pacman -Sy
@@ -2959,7 +2941,6 @@ pwd
   targets:\
     - 192.168.122.93\
     - 192.168.122.25 
-: 1712678876:0;rclea
 : 1712678936:0;cat targets.yml
 : 1712678958:0;vim targets.yml
 : 1712680315:0;./automatizar_yaml.sh
@@ -3332,13 +3313,11 @@ q
 : 1718030563:0;ssh eojeda@192.168.111.9
 : 1718032109:0;ping 192.168.254.48
 : 1718278735:0;telnet 192.168.254.2
-: 1718285216:0;cal 2024
 : 1718289110:0;s eojjeda@192.168.110.30
 : 1718289115:0;s eojeda@192.168.110.30
 : 1718289419:0;s eojeda@192.168.111.72
 : 1718289430:0;ping 192.168.111.72
 : 1718289880:0;s eojeda@192.168.111.56
-: 1718289923:0;s eojeda@192.168.111.53
 : 1718290833:0;s eojeda@192.168.110.8
 : 1718290975:0;s eojeda@192.168.110.222
 : 1718291134:0;s eojeda@192.168.110.222 
@@ -3546,7 +3525,6 @@ q
 : 1724077287:0;ping 192.168.110.20
 : 1724078410:0;s eojeda@192.168.248.28
 : 1724331103:0;ma
-: 1724671874:0;telnet 192.168.254.80
 : 1724671894:0;telnet 192.168.254.76
 : 1724671909:0;ping 192.168.254.76y
 : 1724671914:0;ping 192.168.254.76
@@ -3561,7 +3539,6 @@ q
 : 1724844500:0;bluetoothctl power on\
 
 : 1724844511:0;bluetoothctl show
-: 1724844523:0;bluetoothctl 
 : 1724844572:0;sudo usermod -aG bluetooth $(whoami)\
 
 : 1724848781:0;ping 192.168.254.117
@@ -3642,7 +3619,6 @@ q
 : 1725367888:0;s eojeda@192.168.122.40
 : 1725367995:0;s eojeda@192.168.122.41
 : 1725377536:0;vim sw_cisco.txt
-: 1725448369:0;ansible --version
 : 1725448397:0;mv sw_cisco.txt sw_cisco
 : 1725449839:0;nmap 192.168.254.42
 : 1725449871:0;vim cisco_info.yml
@@ -3678,17 +3654,13 @@ q
 : 1725457405:0;python3 telnet_script.py 192.168.254.42 28kk3mq9 "show arp" "show version"\
 
 : 1725457699:0;vim telnet_
-: 1725458166:0;which pip
 : 1725458172:0;whereis pip
 : 1725458182:0;locate pip
-: 1725458216:0;sudo pacman -S python-pip\
-
 : 1725458249:0;cp telnet_script.py telnet_script.py.bak
 : 1725458349:0;python3 telnet_script_with_formatting.py 192.168.254.42 28kk3mq9 "show arp"\
 
 : 1725458367:0;python3 telnet_script.py 192.168.254.42 28kk3mq9 "show arp"\
 
-: 1725458449:0;pip --version
 : 1725458463:0;pip install texttable\
 
 : 1725458536:0;cp telnet_script.py.bak telnet_script.py
@@ -3782,7 +3754,6 @@ q
 
 : 1725483307:0;cd tmp
 : 1725483328:0;vim ansible-tmp-1725483006.849843-130337-69530776267773/AnsiballZ_command.py
-: 1725483398:0;cd project/ansible/
 : 1725483646:0;rm -rf /home/manu/.ansible/tmp\
 
 : 1725483659:0;cd .an
@@ -3809,7 +3780,6 @@ q
 
 : 1725485397:0;telnet 192.168.254.23
 : 1725485802:0;telnet 192.168.254.59
-: 1725485834:0;telnet 192.168.254.83
 : 1725486820:0;snmpwalk -v2c -c public 192.168.254.0/24\
 
 : 1725486854:0;nmap -p 22,23,80,443,1993 --open 192.168.254.0/24\
@@ -3882,7 +3852,6 @@ q
 : 1725538870:0;ansible-playbook -i ../hosts show_mac_address.yml \
 
 : 1725539327:0;vim show_memory.yml
-: 1725539371:0;lls
 : 1725539763:0;cat show_memory/*
 : 1725539816:0;ansible-playbook -i ../hosts show_memory.yml \
 
@@ -4018,7 +3987,6 @@ q
 : 1725982409:0;s root@192.168.251.1
 : 1725986288:0;s root@192.168.251.9
 : 1725986296:0;s root@192.168.251.10
-: 1725987072:0;s root@192.168.251.5
 : 1725989376:0;s root@192.168.251.3
 : 1726054453:0;rm -f svgviewer-output*
 : 1726054664:0;scp svgviewer-output* eojeda@192.168.248.100:/home/eojeda/monitoreo_secundario/grafana_svg/icons/marker/ 
@@ -4449,7 +4417,6 @@ snmpwalk -v 2c -c public <IP_DEL_DISPOSITIVO> <OID>\
 : 1727110875:0;vim scp://eojeda@192.168.248.100//home/eojeda/monitoreo_secundario/snp_exporter/snmp.yml
 : 1727111302:0;snmpwalk -v2c -c cactis 192.168.254.42 1.3.6.1.4.1.9.9.48.1.1.1.6
 : 1727112220:0;sudo ip route
-: 1727112979:0;s eojeda@192.168.110.56
 : 1727176332:0;snmpwalk -v2c -c cactis 192.168.254.42 1.3.6.1.2.1.47.1.2.1.1.2
 : 1727176382:0;snmpwalk -v2c -c cactis 192.168.254.42 1.3.6.1.2.1.17
 : 1727176472:0;\\ 
@@ -4558,7 +4525,6 @@ snmpwalk -v 2c -c public <IP_DEL_DISPOSITIVO> <OID>\
 
 : 1727199119:0;rm -f Switch\ Ac*
 : 1727199126:0;rm -f Patch\ Panel\ *
-: 1727199207:0;rm -f *
 : 1727262762:0;sudo systemctl status sshd
 : 1727263696:0;cat Switch\ Acceso.txt
 : 1727263720:0;cat SWDistr.txt
@@ -4736,7 +4702,6 @@ snmpwalk -v 2c -c public <IP_DEL_DISPOSITIVO> <OID>\
 : 1727877230:0;telnet 192.168.254.111
 : 1727877235:0;telnet 192.168.254.112
 : 1727878760:0;cat cd
-: 1727878797:0;cls
 : 1727954557:0;git clone https://gitlab.unaj.edu.ar/eojeda/Zabbix-Project.git
 : 1727956988:0;mkdir docs
 : 1727956991:0;mkdir configs
@@ -4772,7 +4737,6 @@ http://localhost/api_jsonrpc.php\
 }' \\
 http://127.0.0.1/api_jsonrpc.php\
 
-: 1728040259:0;sudo reboot
 : 1728040685:0;cd Zabbix-Project
 : 1728040874:0;docker network ls
 : 1728041096:0;docker rm rsyslog
@@ -5530,7 +5494,6 @@ docker-compose up --build\
 : 1728390046:0;mkdir logs
 : 1728390086:0;mv logs logs_loki
 : 1728390100:0;mv logs_loki log_loki
-: 1728390161:0;cd ,,
 : 1728390578:0;mv log_loki logs
 : 1728390802:0;vim script.sjh
 : 1728391306:0;mkdir scripts
@@ -5597,7 +5560,6 @@ docker-compose up --build\
 
 : 1728908963:0;mkdir loki
 : 1728908976:0;wget https://raw.githubusercontent.com/grafana/loki/v3.0.0/production/docker-compose.yaml -O docker-compose.yaml
-: 1728909409:0;sl
 : 1728909493:0;cd Zabbix-Project/
 : 1728909496:0;docker compose down
 : 1728909510:0;slsls
@@ -5721,7 +5683,6 @@ makepkg -si\
 : 1729686967:0;ls 0l
 : 1729686989:0;rm SNMPv2-MIB.my
 : 1729687001:0;rm snmp.yml
-: 1729687011:0;la
 : 1729687052:0;vim blackbox_traffic_specific.pcap
 : 1729687060:0;rm blackbox_traffic_specific.pcap
 : 1729687103:0;cd logs
@@ -5766,7 +5727,6 @@ makepkg -si\
 : 1729692333:0;cd prometheus_data
 : 1729692397:0;cd grafana_svg
 : 1729692436:0;mv grafana_svg/* ../../monitorstack/grafana
-: 1729692505:0;cd ls
 : 1729692529:0;rm -rf grafana_svg
 : 1729692566:0;cd grafana-config
 : 1729692591:0;mv grafana.ini ../../../monitorstack/grafana
@@ -5781,7 +5741,6 @@ makepkg -si\
 : 1729694543:0;s eojeda@192.168.111.67
 : 1729694865:0;s eojeda@192.168.111.68
 : 1729702947:0;mv grafana.ini ../../moni/monitoreo_secundario/grafana
-: 1729703315:0;docker ps
 : 1729703419:0;rm -r grafana.ini
 : 1729703439:0;docker compose up
 : 1729703895:0;id -i
@@ -5806,17 +5765,13 @@ makepkg -si\
 : 1729744089:0;kj
 : 1729744093:0;jdksajdk
 : 1729744097:0;jdksjad
-: 1729769360:0;bluetoothctl connect 18:B9:6E:08:61:45
 : 1729769621:0;cp project/.p10k.zsh ~/
-: 1729769664:0;xrandr --output HDMI-1 --off
-: 1729769671:0;xrandr --output eDP-1 --auto --output HDMI-1 --mode 1920x1080 --rate 60 --right-of eDP-1
 : 1729770017:0;vim .p10k.zsh
 : 1729770694:0;p10k configure
 : 1729770871:0;sudo cp MesloLGS* /usr/share/fonts/TTF
 : 1729770884:0;fc-cache
 : 1729806669:0;cd .cache/
 : 1729806673:0;vim history
-: 1729807560:0;v .xinitrc
 : 1729807663:0;bebe
 : 1729807838:0;config commit -m "mas configuracion de dracula y mas"
 : 1729808038:0;ps aux | grep picom
@@ -5891,7 +5846,6 @@ makepkg -si\
 : 1730063153:0;cd hotkeys_popup
 : 1730063162:0;vim widget.lua
 : 1730063203:0;dc keys
-: 1730063204:0;cd keys
 : 1730063236:0;cd .bin
 : 1730063245:0;vim kitty.lua
 : 1730063267:0;vim init.lua
@@ -5899,7 +5853,6 @@ makepkg -si\
 : 1730063284:0;vim 30-touchpad.conf
 : 1730063396:0;vim ~/.config/awesome/configuration/keys.lua
 : 1730063819:0;v init.lua
-: 1730066479:0;sudo systemctl status ntpd
 : 1730066496:0;v /usr/lib/systemd/system/ntpd.service
 : 1730067612:0;ping directvgo.com
 : 1730071700:0;vim .vim/plugins.vim
@@ -5942,17 +5895,12 @@ makepkg -si\
 
 : 1730230183:0;telnet 192.168.248.100 22
 : 1730230192:0;telnet 192.168.248.100 9090
-: 1730231310:0;s eojjeda@192.168.110.254 -p2222
-: 1730231314:0;s eojeda@192.168.110.254 -p2222
 : 1730232479:0;curl -v http://192.168.248.100:3000\
 
 : 1730234411:0;vim scp://eojeda@192.168.248.100//home/eojeda/monitoreo_secundario/docker-compose.yml
-: 1730235057:0;ip route
 : 1730235074:0;traceroute 192.168.248.100
-: 1730235118:0;exit
 : 1730244496:0;ping 192.168.254.65
 : 1730246163:0;ping 192.168.254.66
-: 1730246389:0;s eojeda@192.168.248.100
 : 1730258823:0;v .config/awesome/configuration/keys.lua
 : 1730258839:0;v .config/awesome/configuration/layouts.lua
 : 1730259172:0;vim .vim/plugin-config.vim
@@ -5963,10 +5911,7 @@ makepkg -si\
 : 1730261385:0;cd .config/awesome
 : 1730261389:0;v rc.lua
 : 1730261437:0;cd .config/awesome/themes/icons/layouts
-: 1730261575:0;cd .
 : 1730261590:0;v ui/bar.lua
-: 1730261733:0;fc-list | grep "Hack Nerd Font"\
-
 : 1730261769:0;\uea85
 : 1730261772:0;echo \uea85
 : 1730262884:0;v ui/menu.lua
@@ -5988,7 +5933,6 @@ makepkg -si\
 : 1730300090:0;djka î¯ƒª
 : 1730300236:0;vim .config/awesome/ui/bar.lua
 : 1730304126:0;btop
-: 1730304733:0;cat .xinitrc
 : 1730305303:0;python -m venv ia
 : 1730305325:0;source ia/bin/activate
 : 1725980818:0;ping 8.8.8.
@@ -6009,7 +5953,6 @@ makepkg -si\
 
 : 1730398252:0;sudo pacman -S dnsutils\
 
-: 1730398322:0;s eojeda@192.168.111.254 -p2222
 : 1730398641:0;nslookup unaj.ar
 : 1730398736:0;nslookup unaj.ar 177.200.237.3
 : 1730399532:0;nslookup unaj.ar 177.200.236.3
@@ -6026,7 +5969,6 @@ makepkg -si\
 ls
 : 1730402868:0;git@github.com:eybolo/Cerebro.git
 : 1730402872:0;git clone git@github.com:eybolo/Cerebro.git
-: 1730406431:0;s eojeda@192.168.111.9
 : 1730407042:0;nslookup unaj.ar 177.200.237.100
 : 1730407050:0;nslookup unaj.ar 177.200.236.100
 : 1730407569:0;nslookup innovacursos.com.ar
@@ -6058,12 +6000,10 @@ ls
 
 : 1730573888:0;git remote -v
 : 1730573926:0;cd .ssh
-: 1730574082:0;v .config/kitty/kitty.conf
 : 1730574101:0;mv id_obsidian id_cerebro
 : 1730574122:0;mv id_obsidian.pub id_cerebro.pub
 : 1730574129:0;v config
 : 1730574168:0;git push cerebro main 
-: 1730595883:0;clea
 : 1730596304:0;v ~/.config/picom/picom.conf
 : 1730601868:0;fc-list | grep "roboto"\
 
@@ -6095,32 +6035,23 @@ ls
 : 1730607324:0;v vimrc-support.css
 : 1730608292:0;cd doc/Cerebro
 : 1730608309:0;v .obsidian.vimrc 
-: 1730608597:0;v .vimrc
 : 1730608702:0;v doc/Cerebro/.obsidian.vimrc
 : 1730608925:0;vim --version | grep clipboard\
 
-: 1725980918:0;config add -u
-: 1725980932:0;config status
 : 1725980949:0;config commit -m "mas configuracion"
-: 1725980951:0;config push dotfiles main
 : 1725981007:0;cat .ssh/config
 : 1730686913:0;scp .ssh/config manu@192.168.122.2:/home/manu/.ssh/
 : 1730686958:0;scp .ssh/id_cerebro* manu@192.168.122.2:/home/manu/.ssh/
-: 1730844042:0;cd download
-: 1730844058:0;cd Downloads
 : 1730844068:0;unzip telegram-android-master.zip
 : 1730947335:0;mechvibes
 : 1730947346:0;ksdjkajd
 : 1730947351:0;p mechives
 : 1730947361:0;p me
 : 1730947368:0;p mech
-: 1731351964:0;sudo openvpn vpn/unaj/informatica.ovpn
-: 1731351985:0;s eojeda@192.168.122.2
 : 1731352439:0;scp -r manu@192.168.122.2:/home/manu/projects/monitorstack project
 : 1731352467:0;scp -r manu@192.168.122.2:/home/manu/project/monitorstack project
 : 1731352626:0;cd monitorstack
 : 1731352639:0;v docker-compose.yml
-: 1731352692:0;cal
 : 1731353785:0;sudo pacman -S tree
 : 1731353839:0;mv dashboards.yml default.yaml
 : 1731354725:0;ls dashboards
@@ -6133,13 +6064,10 @@ ls
 : 1731356637:0;mkdir alerting
 : 1731356650:0;rm -r alerting
 : 1731356886:0;cat dashboards/cluster.json
-: 1731356911:0;docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)\
-
 : 1731357138:0;cd da
 : 1731357147:0;v pepe.json
 : 1731357365:0;v default.yaml
 : 1731357462:0;cat ../../docker-compose.yml
-: 1731358152:0;cd project/monitorstack
 : 1731358176:0;cd grafana
 : 1731358181:0;cd provisioning
 : 1731358206:0;cd alerting
@@ -6152,7 +6080,6 @@ ls
 : 1731359516:0;docker compose up --build
 : 1731359674:0;scp -rf ~/project/monitorstack manu@192.168.122.2:/home/manu/project/
 : 1731360275:0;scp -r grafana manu@192.168.122.2:/home/manu/project/monitorstack/
-: 1731360288:0;s manu@192.168.122.2
 : 1731360298:0;cd project/ls
 : 1731360455:0;scp -r project/monitorstack/grafana manu@192.168.122.2:/home/manu/project/monitorstack/
 : 1731367417:0;cd Cerebro
@@ -6267,7 +6194,6 @@ sudo gem pristine wdm --version 0.2.0\
 : 1731523311:0;sudo gem uninstall vagrant
 : 1731524211:0;virtualbox --version
 : 1731524270:0;/sbin/vboxconfig
-: 1731524365:0;sudo pacman -Syu
 : 1731525285:0;sudo pacman -R vagrant
 : 1731525294:0;sudo pacman -S vagrant\
 
@@ -6360,14 +6286,11 @@ lsmod | grep vbox\
 
 : 1731527128:0;modprobe: FATAL: Module vboxdrv not found in directory /lib/modules/6.10.10-arch1-1sudo /sbin/vboxconfig\
 
-: 1731527145:0;V
 : 1731527146:0;lsmod | grep vboxdrv\
 
 : 1731527531:0;sudo pacman -Rns virtualbox\
 
 : 1731527550:0;sudo pacman -Rns virtualbox-host-modules-arch\
-
-: 1731527566:0;sudo pacman -S virtualbox\
 
 : 1731527594:0;uname -r
 : 1731527607:0;uname -a
@@ -6386,7 +6309,6 @@ lsmod | grep vbox\
 
 : 1731528164:0;ls /sbin | grep vbox*
 : 1731528200:0;dkms status
-: 1731528253:0;reboot
 : 1731528432:0;sudo modprobe vboxdrv\
 
 : 1731543973:0;rm Vagrantfile
@@ -6397,15 +6319,12 @@ lsmod | grep vbox\
 : 1731545652:0;ssh vagrant@192.168.56.12 -i /home/manu/project/vagrant/.vagrant/machines/debian11_vm2/virtualbox/private_key
 : 1731550067:0;du -sh .vagrant\
 
-: 1731550155:0;df -h
 : 1731550707:0;vagrant stop
 : 1731551151:0;ping 192.168.0.160
 : 1731551154:0;ip aa
-: 1731551155:0;ip a
 : 1731552082:0;sudo pacman -S ansible\
 
 : 1731552476:0;cd prometheus
-: 1731552480:0;mkdir ansible
 : 1731552482:0;cd ca
 : 1731552523:0;v hosts
 : 1731552659:0;ansible all -m ping -i hosts\
@@ -6420,7 +6339,6 @@ lsmod | grep vbox\
 : 1731553856:0;ansible servidores -m ping -i inventory.ini -u vagrant
 : 1731554021:0;ansible -u vagrant --private-key=/home/manu/.vagrant.d/insecure_private_key servidores -m ping -i inventory.ini
 : 1731554040:0;ansible -u vagrant --private-key=/home/manu/vagrant/insecure_private_key servidores -m ping -i inventory.ini
-: 1731554067:0;cd project/vagrant
 : 1731554093:0;ansible -u vagrant --private-key=/home/manu/project/vagrant/.vagrant/machines/debian11_vm2/virtualbox/private_key servidores -m ping -i inventory.ini
 : 1731554412:0;ansible -i /home/manu/project/ansible/inventory.ini -u vagrant --private-key=/home/manu/vagrant/private_key all -m ping\
 
@@ -6433,49 +6351,26 @@ lsmod | grep vbox\
 : 1731556717:0;ll
 : 1731556735:0;vagrant ssh debian11_vm2\
 
-: 1731556773:0;cd -
 : 1731556776:0;vagrant ssh debian11_vm1\
 
 : 1731556925:0;ansible -u vagrant --private-key=/home/manu/.vagrant.d/insecure_private_keys/vagrant.key.ed25519 servidores -m ping -i inventory.inih
-: 1731557368:0;v ~/.ssh/known_hosts
 : 1731557380:0;ansible -u vagrant --private-key=/home/manu/.vagrant.d/insecure_private_keys/vagrant.key.ed25519 servidores -m ping -i inventory.ini
-: 1731557488:0;vagrant ssh-config\
-
 : 1731558073:0;ls ~/.ssh/id_rsa_vagrant.pub'
 : 1731558074:0;ls ~/.ssh/id_rsa_vagrant.pub
-: 1731611619:0;ls =l
-: 1731611683:0;cd vagrant
 : 1731611699:0;vagrant halt
-: 1731611731:0;vagrant destroy
 : 1731611747:0;vagrant destroy debian11_vm2 debian11_vm11
-: 1731611807:0;pwd
 : 1731611818:0;l
 : 1731611901:0;vagrant global-status
 : 1731612159:0;vagrant destroy debian11_vm2 debian11_vm1
-: 1731612178:0;v Vagrantfile
-: 1731612267:0;cat Vagrantfile
 : 1731612575:0;k
 : 1731612784:0;mv ~/.ssh/id_rsa_vagrant.pub ~/.ssh/eojeda.pub
 : 1731612794:0;cp ~/.ssh/eojeda.pub .
-: 1731614171:0;ssh eojeda@192.168.56.11
-: 1731614476:0;vagrant reload
-: 1731614846:0;vagrant provision
 : 1731614871:0;useradd --help
-: 1731615112:0;ssh eojeda@192.168.56.11 -i ~/.ssh/id_rsa_vagrant
-: 1731615140:0;ssh eojeda@192.168.56.12 -i ~/.ssh/id_rsa_vagrant
 : 1731615508:0;vim Vagrantfile
 : 1731615518:0;vagrant destroy -f\
 
-: 1731615966:0;cd ansible
-: 1731615995:0;v inventory.ini
 : 1731616005:0;ansible servidores -m ping -i inventory.ini
-: 1731616093:0;ls ~/.ssh
-: 1731616140:0;ssh-keygen -R 192.168.56.11\
-
-: 1731616141:0;ssh-keygen -R 192.168.56.12\
-
 : 1731616145:0;ansible --private-key=/home/manu/.ssh/id_rsa_vagrant servidores -m ping -i inventory.ini
-: 1731616200:0;ping 192.168.56.11
 : 1731616202:0;ping 192.168.56.12
 : 1731616251:0;ssh -i /home/manu/.ssh/id_rsa_vagrant eojeda@192.168.56.12\
 
@@ -6489,190 +6384,716 @@ lsmod | grep vbox\
 : 1731710243:0;ls -l ; pwd
 : 1731710249:0;wc -l
 : 1731710763:0;rm -r playbook.yml
-: 1728402653:0;ping 8.8.8.8
-: 1731859835:0;vagrant status
 : 1731860137:0;cd an
-: 1731860184:0;s
 : 1731860336:0;cd ..; cd vagrant
-: 1731860351:0;vagrant up
-: 1731860433:0;ansible-playbook -i inventory.ini playbook.yml
 : 1731860934:0;v 
 : 1731861235:0;dig registry.npmjs.org
 : 1731861250:0;ping registry.npmjs.org
 : 1731861347:0;curl -x https://registry.npmjs.org/coc-ansible
 : 1731861400:0;curl -i https://registry.npmjs.org/coc-ansible
 : 1731862758:0;v .vim/plugin-config.vim 
-: 1731864193:0;cd
 : 1731864267:0;cd arch
-: 1731864269:0;cd ..
-: 1731864273:0;ls -la
-: 1731864277:0;ls -l
 : 1731864283:0;ls -a
 : 1731864327:0;v .bin/in
 : 1731864333:0;v .bin/init.lua
-: 1731864679:0;cd project
 : 1731864683:0;git clone https://github.com/eybolo/easy_arch.git
 : 1731864732:0;cd easy_arch
 : 1731865683:0;sudo pacman -S yamlint
 : 1731865693:0;sudo pacman -S yamllint
 : 1731865701:0;v config_system
 : 1731865712:0;v mi_enviroment
-: 1731523580:0;nmtui
-: 1731872207:0;sudo pacman -Sy
 : 1731872214:0;sudo pacman -S ansible-lint
-: 1731872303:0;cd 
-: 1731872304:0;clear
 : 1731872380:0;mv playbook.yml playbook.yml.ansible
 : 1731872417:0;v playbook.yml.ansible
 : 1731872455:0;cp playbook.yml.ansible playbook.yaml.ansible
-: 1731872461:0;v playbook.yaml.ansible
-: 1731872564:0;ls
 : 1731872578:0;mv playbook.yml.ansible playbook.yml
 : 1731872904:0;v ~/project/monitorstack/prometheus/prometheus.yml
 : 1731873055:0;v project/easy_arch/mi_enviroment
-: 1731873064:0;v .vim/plugin-config.vim
 : 1731873079:0;v .vim/plugins.vim
 : 1731873111:0;vim playbook.yml
-: 1731873351:0;v playbook.yml
-: 1731873359:0;cd project/ansible
-: 1731873485:0;v ~/.vim/plugins.vim
-: 1731873506:0;v
-: 1731873522:0;v pepe.yml
-: 1731873532:0;cd project/ansible
-: 1731873537:0;v pepe.yml
-: 1731873548:0;v
 : 1731873563:0;v ~/.vim/plugins.vim
-: 1731873572:0;v
-: 1731873590:0;cd project/ansible
-: 1731873591:0;ls
-: 1731873595:0;v pepe.yml
-: 1731873610:0;v playbook.yml
 : 1731873616:0;v playbook.yaml.ansible
 : 1731873627:0;v
-: 1731873644:0;cd project/ansible
-: 1731873644:0;ls
-: 1731873650:0;v pepe.yml
 : 1731873809:0;mkdir task
 : 1731873811:0;cd task
 : 1731873820:0;mv ../pepe.yml .
-: 1731873826:0;v pepe.yml
 : 1731873855:0;cp pepe.yml site.tmk
 : 1731873863:0;mv site.tmk site.yml
-: 1731873866:0;v site.yml
-: 1731873902:0;ls
-: 1731873908:0;v pepe.yml
 : 1731873915:0;v site.yml
-: 1731874020:0;cd ..
 : 1731874029:0;mv task tasts
 : 1731874031:0;cd tasts
-: 1731874033:0;cd ..
 : 1731874044:0;mv tasts tasks
-: 1731874047:0;cd tasks
-: 1731874051:0;v pepe.yml
-: 1731876240:0;ls
-: 1731876242:0;cd ..
-: 1731876243:0;ls
 : 1731876390:0;cp tasks/pepe.yml ..
 : 1731876392:0;v pe
-: 1731876398:0;ls
 : 1731876403:0;cd tasks
-: 1731876404:0;ls
 : 1731876420:0;cp pepe.yml ../
-: 1731876424:0;cd ..
-: 1731876424:0;ls
-: 1731876427:0;v pepe.yml
-: 1731876463:0;cd ..
-: 1731876463:0;ls
-: 1731876465:0;cd 
 : 1731876472:0;v .vim/plugin-config.vim
-: 1731876513:0;cd project/ansible
 : 1731876515:0;v pepe.yml
-: 1731876607:0;ls
-: 1731876609:0;v inventory.ini
 : 1731876623:0;rm playbook.yaml.ansible
-: 1731876624:0;ls
-: 1731876705:0;ansible-playbook -i inventory.ini playbook.yaml
-: 1731876708:0;ls
-: 1731876716:0;ansible-playbook -i inventory.ini playbook.yml
-: 1731876876:0;cd project/vagrant
-: 1731876876:0;ls
 : 1731877147:0;mkdir ansible
 : 1731877152:0;mv Vagrantfile ansible
-: 1731877154:0;cd ansible
-: 1731877155:0;ls
-: 1731877157:0;pwd
-: 1731877167:0;vagrant up
-: 1731877237:0;cd ..
-: 1731877238:0;ls
 : 1731877245:0;mv eojeda.pub ansible
-: 1731877250:0;ls -l
-: 1731877253:0;cd ansible
-: 1731877255:0;vagrant up
-: 1731877308:0;ls
-: 1731877423:0;vagrant status
 : 1731877439:0;vagrant status ?
 : 1731877443:0;vagrant status --help
-: 1731877558:0;cal
-: 1731877594:0;cal 2024
-: 1731877827:0;clear
-: 1731877828:0;pwd
-: 1731877831:0;ls
-: 1731877831:0;pwd
 : 1731877838:0;ansible-playbook -i inventory.ini playbook.yaml
-: 1731877840:0;ansible-playbook -i inventory.ini playbook.yml
-: 1731877968:0;v playbook.yml
-: 1731877983:0;ansible-playbook -i inventory.ini playbook.yml
-: 1731877988:0;ls -l
-: 1731878009:0;ssh-keygen -R 192.168.56.12\
-
-: 1731878011:0;ssh-keygen -R 192.168.56.11\
-
-: 1731878015:0;ansible-playbook -i inventory.ini playbook.yml
-: 1731878096:0;cd ..
-: 1731878097:0;ls -la
-: 1731878104:0;cd ansible
-: 1731878109:0;cd ..
-: 1731878111:0;ls -la
 : 1731878117:0;cp .vagrant ansible
 : 1731878124:0;cp -r .vagrant ansible
 : 1731878154:0;cp -rf .vagrant ansible
-: 1731878165:0;cd ansible
-: 1731878169:0;ls
-: 1731878177:0;ls -l
-: 1731878206:0;vagrant destroy vm1
-: 1731878215:0;vagrant destroy vm2
-: 1731878231:0;ls -la
-: 1731878239:0;vagrant up
-: 1731878363:0;ssh eojeda@192.168.56.12 -i ~/.ssh/id_rsa_vagrant
-: 1731878405:0;ansible-playbook -u eojeda -i inventory.ini playbook.yml
-: 1731878408:0;ls
-: 1731878422:0;ansible-playbook -u eojeda -i inventory.ini playbook.yml
 : 1731878472:0;ssh-keygen -R 192.168.56.12\
 
 : 1731878474:0;ssh-keygen -R 192.168.56.11\
 
-: 1731878477:0;ansible-playbook -u eojeda -i inventory.ini playbook.yml
-: 1731878497:0;v playbook.yml
-: 1731878505:0;v inventory.ini
 : 1731878518:0;ssh eojeda@192.168.56.12 -i ~/.ssh/id_rsa_vagrant
-: 1731878527:0;ssh eojeda@192.168.56.11 -i ~/.ssh/id_rsa_vagrant
 : 1731878538:0;ansible-playbook -i inventory.ini playbook.yml
 : 1731878548:0;ansible-playbook -u eojeda -i inventory.ini playbook.yml
 : 1731878652:0;ls ~/.ssh
 : 1731878968:0;ansible-playbook -u eojeda --private-key=/home/manu/.ssh/id_rsa_vagrant  -i inventory.ini playbook.yml
-: 1731879926:0;cat playbook.yml
-: 1731880088:0;v playbook.yml
 : 1731896544:0;ansible --version
 : 1731896572:0;ansible -v
 : 1731975769:0;ssh --hel
-: 1731981418:0;config status
-: 1731981470:0;ls -la
-: 1731981495:0;ls
-: 1731981500:0;config status
 : 1731981518:0;config restore README.md
-: 1731981523:0;config status
-: 1731981525:0;ls
 : 1731981529:0;cat README.md
-: 1731981543:0;config push dotfiles main
-: 1731981561:0;config commit -m "ansible vim"
 : 1731981574:0;config add -u
+: 1731981576:0;config commit -m "ansible vim"
+: 1731981577:0;config push dotfiles main
+: 1731981584:0;config status
+: 1732041009:0;cat .ansible
+: 1732041013:0;cat .ansible.cfg
+: 1732044077:0;la
+: 1732044078:0;pqs
+: 1728402513:0;cd project/vagrant/ansible
+: 1732057277:0;. ~/.ansible.cfg
+: 1732072429:0;vim crear_usuarios.yml
+: 1732127154:0;v crear_usuarios.yml
+: 1732127389:0;v .an
+: 1732127578:0;vagrant ssh-config\
+
+: 1732127659:0;ssh eojeda@192.168.56.11
+: 1732127778:0;ca Vagrantfile
+: 1732127905:0;cp Vagrantfile Vagrantfile.bak
+: 1732127987:0;s eojeda@192.168.56.11
+: 1732128062:0;ansible-playbook -u eojeda --private-key=/home/manu/.ssh/id_rsa_vagrant  -i inventory.ini crear_usuarios.yml
+: 1732128992:0;ssh eojeda@192.168.56.11 -i ~/.ssh/id_rsa_vagrant
+: 1732131311:0;cat Vagrantfile.bak
+: 1732132957:0;vagrant destroy all
+: 1732132961:0;vagrant destroy vm2
+: 1732132969:0;vagrant destroy vm1
+: 1732133091:0;vagrant ssh vm2
+: 1732137570:0;ls ~/download
+: 1732137575:0;ls ~/Download
+: 1732137579:0;ls ~/Downloads
+: 1732144336:0;ansible-galaxy init apache_role\
+
+: 1732144352:0;cd apache_role
+: 1732144365:0;rm -r apache_role
+: 1732144369:0;rm -rf apache_role
+: 1732735774:0;sudo conntrack -L
+: 1733097366:0;s eojjeda@192.168.110.254 -p2222
+: 1733953517:0;ca;
+: 1734400184:0;file
+: 1734400188:0;open 
+: 1734400191:0;opne .
+: 1734400194:0;open .
+: 1734450839:0;cd download
+: 1734450848:0;cd Downloads
+: 1734450880:0;mv WhatsApp\ Image\ 2024-12-17\ at\ 12.09.31.jpeg edesur_reclamo.jpeg
+: 1734557110:0;mkdir youtube_jeff
+: 1734557143:0;mkdir video1
+: 1734557211:0;pw
+: 1734557587:0;vagrant init  generic/debian12debian
+: 1734560302:0;ansible example -m ping 
+: 1734560318:0;ping 10.0.2.2
+: 1734561158:0;cd va
+: 1734561866:0;ping 192.168.56.11
+: 1734561874:0;vagrant shh
+: 1734561927:0;cat playbook.yml
+: 1734562055:0;ansible-doc -t become -l 
+: 1734567015:0;v .vagrant/provisioners/ansible/inventory/vagrant_ansible_inventory
+: 1734567219:0;cat Vagrantfile
+: 1734567265:0;vagrant ssh-config
+: 1734571506:0;rm .ansible.cfg
+: 1734571812:0;ls =l
+: 1734571824:0;rm inventory
+: 1734572120:0;mv ~/.ansible.cfg ~/.ansible.cfg.bak
+: 1734635126:0;cls
+: 1734635174:0;mkdir ansible-ejemplos
+: 1734635187:0;cd ls
+: 1734635198:0;cd youtube_jeff
+: 1734635201:0;cd video1
+: 1734635235:0;cp playbook.yml ../../ansible-ejemplos/verificar_sudo.yml
+: 1734635244:0;ls -l ../../ansible-ejemplos
+: 1734636714:0;v playbook.yml
+: 1734636741:0;cat ../../ansible-ejemplos/verificar_sudo.yml
+: 1734638215:0;cd project/ansible/ansible-ejemplos
+: 1734638217:0;cat verificar_sudo.yml
+: 1734639419:0;vagrant reload
+: 1734639665:0;vagrant provision
+: 1734721731:0;cd youtube_jeff/video1
+: 1734721746:0;mkdir video2
+: 1734721748:0;cd video
+: 1734721753:0;cd video2
+: 1734721767:0;vagrant init  generic/debian12
+: 1734721770:0;v Vagrantfile
+: 1734722504:0;cal 2024
+: 1734722507:0;cal 
+: 1734725239:0;v inventory
+: 1734726209:0;ls ~/.vagrant.d
+: 1734726247:0;cat ~/.vagrant.d/insecure_private_key
+: 1734727063:0;v .ansible.cfg
+: 1734727082:0;v ~/.ansible.cfg
+: 1734727094:0;ansible multi -i inventory  -a "hostname"
+: 1734727585:0;ansible multi -i inventory  -a "hostname" -f 1
+: 1734727947:0;ansible multi -i inventory  -a "df -h"
+: 1734728238:0;ansible multi -i inventory  -a "date"
+: 1734728583:0;ansible -i inventory db -m setup
+: 1734729598:0;vagrant ssh vm1
+: 1734729602:0;vagrant ssh vm
+: 1734729840:0;ansible -i inventory db -m setup -k
+: 1734729846:0;ansible -i inventory db -m setup -K
+: 1734877687:0;cd project/ansible/youtube_jeff/video2
+: 1734877706:0;cp video2 video3
+: 1734877710:0;cp -r video2 video3
+: 1734877713:0;cd video3
+: 1734877942:0;ansible -i inventory multi -b -B 3600 -a "apt update"
+: 1734878274:0;ansible -i inventory db -b -m async_status -a "jid=j845893860361.1642"
+: 1734878414:0;ansible -i inventory db -b -m async_status -a "jid=j286037540764.1624"
+: 1734878422:0;cat inventory
+: 1734878651:0;ansible -i inventory db -b -m async_status -a "jid=j708886574246.2097"
+: 1734879012:0;ansible -i inventory multi -b -a "tail /var/log/messages"
+: 1734879037:0;ansible -i inventory multi -b -B 3600 -P 0 -a "apt update"
+: 1734879050:0;ansible -i inventory multi -b -a "ls -l /var/log/"
+: 1734879087:0;ansible -i inventory multi -b -a "tail /var/log/dpkg.log"
+: 1734879112:0;vagrant ssh app3
+: 1734879272:0;ansible -i inventory multi -b -a "tail /var/log/dpkg.log" | grep purge | wc -l
+: 1734879287:0;ansible -i inventory multi -b -m shell -a "tail /var/log/dpkg.log" | grep purge | wc -l
+: 1734879308:0;ansible -i inventory multi -b -m shell -a "tail /var/log/dpkg.log | grep purge | wc -l"
+: 1734891113:0;ansible-doc apt
+: 1734891522:0;ansible-doc copy
+: 1734894218:0;sl
+: 1734894224:0;ansible-inventory list
+: 1734894246:0;ansible-inventory --list
+: 1734894288:0;ansible-inventory --list -i inventory
+: 1738250040:0;cal 2025
+: 1728402808:0;sudo systemctl status ntpd
+: 1728402820:0;sudo systemctl restart ntpd
+: 1728402870:0;dat 
+: 1728402871:0;e
+: 1738876979:0;s eojjeda@192.168.111.254 -p2222
+: 1738876983:0;s eojeda@192.168.111.254 -p2222
+: 1738877454:0;ping 192.168.111.121
+: 1738877842:0;ping 192.168.111.125
+: 1738877993:0;s eojeda@192.168.111.125
+: 1738878068:0;ping 192.168.111.122
+: 1738878072:0;ping 192.168.111.123
+: 1738878135:0;v /home/manu/.ssh/known_hosts:27
+: 1738878183:0;s eojeda@192.168.111.121
+: 1738878217:0;ping 192.168.111.131
+: 1738878223:0;ping 192.168.111.132
+: 1738878228:0;ping 192.168.111.133
+: 1738878233:0;ping 192.168.111.134
+: 1738878239:0;ping 192.168.111.135
+: 1738878246:0;s eojjeda@192.168.111.132
+: 1738878252:0;s eojeda@192.168.111.132
+: 1738878421:0;ping 192.168.111.201
+: 1738878425:0;ping 192.168.111.202
+: 1738878432:0;ping 192.168.111.203
+: 1738878436:0;ping 192.168.111.204
+: 1738878443:0;ping 192.168.111.205
+: 1738878445:0;ping 192.168.111.206
+: 1738878451:0;ping 192.168.111.207
+: 1738878454:0;ping 192.168.111.208
+: 1738878458:0;ping 192.168.111.209
+: 1738878461:0;ping 192.168.111.210
+: 1738878469:0;ping 192.168.111.211
+: 1738878472:0;ping 192.168.111.212
+: 1738878474:0;ping 192.168.111.213
+: 1738878478:0;ping 192.168.111.214
+: 1738878485:0;ping 192.168.111.215
+: 1738878487:0;ping 192.168.111.216
+: 1738878491:0;ping 192.168.111.218
+: 1738878493:0;ping 192.168.111.219
+: 1739143412:0;'Monaspace Radon', monospace
+: 1739144191:0;cd repols
+: 1739145727:0;fc-list | grep "Hack Nerd Font"\
+
+: 1739145731:0;fc-list | grep "Cascadia"\
+
+: 1739238144:0;cd vagrant
+: 1739312383:0;cd project/vagrant
+: 1739313863:0;cd ,,
+: 1739314145:0;cd ansible
+: 1739314152:0;mkdir learn
+: 1739314155:0;cd learn
+: 1739314382:0;cd project/ansible/ls
+: 1739314383:0;cd project/ansible/
+: 1739314702:0;cp -r youtube_jeff/video3 practice/
+: 1739314716:0;mv video3 install_package
+: 1739322829:0;cd project/ansible
+: 1739322995:0;ansible -i inventory.ini multi -m ping\
+
+: 1739323042:0;ansible -i inventory.ini multi -a "df -h"\
+
+: 1739323054:0;ansible -i inventory.ini multi -a "ip a"\
+
+: 1739323363:0;cd practice
+: 1739327564:0;ansible-playbook -i inventory.ini install_packages.yml\
+
+: 1739392963:0;ssh user1@app1
+: 1739393101:0;ping 192.168.56.11\
+
+: 1739394535:0;ansible -m setup localhost | grep "ansible_python_interpreter"\
+
+: 1739394754:0;cd project/monitorstack
+: 1739394893:0;which python3
+: 1739395088:0;which passlib
+: 1739395103:0;sudo pacman -S python-passlib\
+
+: 1739395187:0;sudo pacman -S python3-passlib\
+
+: 1739395307:0;python -c "import passlib"
+: 1739395352:0;python3 -c "import passlib; print('passlib instalado correctamente')"\
+
+: 1739395422:0;pip3 install passlib\
+
+: 1739395449:0;sudo pacman -S python-pip\
+
+: 1739395463:0;pip3 --version\
+
+: 1739395475:0;pip install passlib\
+
+: 1739395479:0;which pip
+: 1739395487:0;pip --version
+: 1739395552:0;sudo pacman -Rns python-pip\
+
+: 1739395561:0;curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py\
+
+: 1739395588:0;sudo python3 get-pip.py\
+
+: 1739395639:0;sudo pacman -S python-pip
+: 1739395642:0;pip
+: 1739395645:0;pip3
+: 1739395651:0;which pip3
+: 1739395822:0;sudo rm -rf /usr/lib/python3.6/site-packages/pip/\
+sudo pacman -Syu python-pip
+: 1739396884:0;/usr/bin/pip3 --version
+: 1739397061:0;systemctl status vboxdrv\
+
+: 1739397063:0;sudo systemctl status vboxdrv\
+
+: 1739397067:0;sudo systemctl start vboxdrv\
+
+: 1739397103:0;sudo pacman -S virtualbox\
+
+: 1739397270:0;cd project/ansible/practice/install_package
+: 1739397513:0;ssh user1@192.168.56.11\
+
+: 1739413050:0;vagranl
+: 1739413303:0;ssh-keygen -t rsa -b 4096 -f keys/user1.pub -N ""\
+
+: 1739413315:0;ssh-keygen -t rsa -b 4096 -f keys/user2.pub -N ""\
+
+: 1739413320:0;ssh-keygen -t rsa -b 4096 -f keys/user3.pub -N ""\
+
+: 1739413363:0;rm *
+: 1739413372:0;rm -f *
+: 1739413388:0;ssh-keygen -t rsa -b 4096 -f keys/user3 -N ""\
+
+: 1739413395:0;ssh-keygen -t rsa -b 4096 -f user3 -N ""\
+
+: 1739413399:0;ssh-keygen -t rsa -b 4096 -f user2 -N ""\
+
+: 1739413402:0;ssh-keygen -t rsa -b 4096 -f user1 -N ""\
+
+: 1739413512:0;vagrant ssh
+: 1739413599:0;vagrant --help
+: 1739413870:0;ls -la
+: 1739416073:0;cd install_package
+: 1739416095:0;cd -
+: 1739416265:0;vagrant db
+: 1739416318:0;vagrant status
+: 1739416336:0;vagrant app1
+: 1739416340:0;vagrant shh app1
+: 1739416369:0;vagrant ssh db
+: 1739416445:0;vagrant ssh app2
+: 1739416563:0;ping db
+: 1739417727:0;ls keys
+: 1739417743:0;ssh user1@192.168.56.12 -i keys/user1
+: 1739418525:0;vagrant ssh app1
+: 1739418588:0;v /etc/ssh/sshd_config
+: 1739419514:0;vagrant destroy
+: 1739419549:0;vagrant up
+: 1739419850:0;ansible-playbook -u user1 --private-key=key/user1  -i inventory.ini create_users.yml
+: 1739419882:0;v ~/.ssh/known_hosts
+: 1739419935:0;s user1@192.168.56.13 -i keys/user1
+: 1739419941:0;ssh user1@192.168.56.13 -i keys/user1
+: 1739419992:0;ssh user2@192.168.56.13 -i keys/user2
+: 1739483323:0;s eojeda@192.168.111.53
+: 1739483352:0;s eojeda@192.168.111.55
+: 1739484459:0;cp project/ansible/practice
+: 1739484507:0;mkdir unaj
+: 1739484535:0;cp -r practice/create_users unaj
+: 1739484537:0;cd unaj
+: 1739484588:0;v create_users/users.yml
+: 1739484830:0;cd ke
+: 1739484836:0;cd create_users
+: 1739484839:0;cd keys
+: 1739484874:0;rm user1 user2 user3
+: 1739484890:0;mv user1.pub eojeda.pub
+: 1739484909:0;v ~/.ssh/id_rsa.pub
+: 1739484939:0;v eojeda.pub
+: 1739484959:0;mv user2.pub mpelizare.pub
+: 1739484994:0;mv user3.pub lszczuczko.pub
+: 1739485000:0;v lszczuczko.pub
+: 1739485048:0;v mpelizare.pub
+: 1739485076:0;v fpaiz.pub
+: 1739485132:0;v mayala.pub
+: 1739485168:0;v gpilla.pub
+: 1739485173:0;ls -l
+: 1739486018:0;ansible-playbook create_users.yml -i 192.168.111.200, -u root
+: 1739486189:0;ansible-playbook -i inventory.ini create_users.yml -u root\
+ 
+: 1739486319:0;sudo pacman -S sshpass\
+
+: 1736759784:0;s eojeda@192.168.111.201
+: 1739487020:0;ansible-playbook -i inventory.ini create_users.yml -u root --ask-pass\
+
+: 1739487610:0;ssh root@192.168.111.200\
+
+: 1739488680:0;s eojeda@192.168.111.200
+: 1739488742:0;cd ansible/practice/install_package
+: 1739488754:0;cd project/ansible/unaj/create_users
+: 1739488765:0;ansible-playbook -i inventory.ini create_users.yml -u eojeda --ask-pass\
+
+: 1739488834:0;ansible-playbook -i inventory.ini create_users.yml\
+
+: 1739488844:0;ping 192.168.111.200
+: 1739489443:0;v inventory.ini
+: 1739489492:0;ansible-playbook -i inventario.ini create_users.yml -u eojeda --ask-pass --ask-become-pass\
+
+: 1739490299:0;cat inventory.ini
+: 1739490495:0;ansible-playbook -i inventory.ini create_users.yml -u eojeda --ask-pass --ask-become-pass -vvvv\
+
+: 1739490584:0;cat create_users.yml
+: 1739490812:0;cat users.yml
+: 1739491051:0;v create_users.yml
+: 1739491138:0;ssh eojeda@192.168.111.200
+: 1739491176:0;ansible-playbook -i inventory.ini create_users.yml -u eojeda --ask-pass --ask-become-pass\
+
+: 1739491333:0;s eojjeda@192.168.111.200\
+
+: 1739491341:0;s eojeda@192.168.111.200\
+
+: 1739492416:0;cd project/ansible/practice/create_users
+: 1739622855:0;cd VirtualBox\ VMs/
+: 1739622888:0;du -sh /
+: 1739622903:0;du ~/
+: 1739622912:0;du -sh ~/
+: 1739622921:0;du -sh ~/*
+: 1739622991:0;lsblk
+: 1739675265:0;cat /sys/module/kvm_intel/parameters/nested\
+
+: 1739675274:0;cat /sys/module/kvm_amd/parameters/nested\
+
+: 1739675289:0;V
+: 1739675291:0;sudo modprobe -r kvm_intel\
+sudo modprobe kvm_intel\
+
+: 1739675417:0;echo "options kvm_intel nested=1" | sudo tee /etc/modprobe.d/kvm_intel.conf\
+
+: 1739675521:0;cat /proc/cpuinfo | grep vmx\
+
+: 1739675688:0;VBoxManage showvminfo "NombreDeTuVM" | grep "Nested VT-x"\
+
+: 1739675888:0;sudo systemctl restart vboxdrv\
+
+: 1739675941:0;VBoxManage modifyvm "Proxmox Server 1" --nested-hw-virt on\
+
+: 1739675946:0;VBoxManage showvminfo "Proxmox Server 1" | grep "Nested VT-x"\
+
+: 1739677287:0;VBoxManage modifyvm "pv1" --nested-hw-virt on\
+
+: 1739677341:0;VBoxManage showvminfo "pve1" | grep "Nested VT-x"\
+
+: 1739677689:0;ip a
+: 1739677701:0;ping 192.168.1.100
+: 1739677753:0;ip route
+: 1739681023:0;ssh root@192.168.0.100
+: 1739713306:0;df -h
+: 1739713651:0;VBoxManage modifyvm "proxmo 1" --nested-hw-virt on\
+
+: 1739713658:0;VBoxManage modifyvm "proxmox 1" --nested-hw-virt on\
+
+: 1736759762:0;VBoxManage modifyvm "pve1" --nested-hw-virt on\
+
+: 1739721612:0;ping 192.168.0.100
+: 1739724062:0;ps aux | grep vbox
+: 1739724072:0;ps aux | grep box
+: 1739724130:0;pkill VirtualBox\
+
+: 1739753070:0;s root@192.168.0.100
+: 1739819383:0;curl -v "http://localhost:9115/probe?target=https://unaj.edu.ar&module=http_2xx"\
+
+: 1739819409:0;curl -v "http://localhost:9115/probe?target=https://conusur.unaj.edu.ar&module=http_2xx"\
+
+: 1739819455:0;curl -v "http://192.168.122.2:9115/probe?target=https://conusur.unaj.edu.ar&module=http_2xx"\
+
+: 1739819528:0;curl -v "http://192.168.122.2:9115/probe?target=https://unaj.edu.ar&module=http_2xx"\
+
+: 1739819565:0;curl -v "http://192.168.122.2:9115/probe?target=https://guarani.unaj.edu.ar&module=http_2xx"\
+
+: 1739819770:0;curl -I https://unaj.edu.ar\
+
+: 1739819849:0;docker restart blackbox_exporter\
+
+: 1739823100:0;curl -s "192.168.122.2:9115/probe?target=https://guarani.unaj.edu.ar/_health&module=http_prometheus&debug=true" | grep "level=error"\
+
+: 1739823120:0;curl -s "192.168.122.2:9115/probe?target=https://guarani.unaj.edu.ar/_health&module=http2_xxx&debug=true" | grep "level=error"\
+
+: 1739823132:0;curl -s "192.168.122.2:9115/probe?target=https://guarani.unaj.edu.ar/_health&module=http_2xx&debug=true" | grep "level=error"\
+
+: 1739935593:0;s eojeda@192.168.248.100
+: 1740020705:0;scp Downloads/snmp\ \(3\).yml manu@192.168.122.2:/home/eojeda
+: 1740020789:0;scp Downloads/snmp\ \(3\).yml manu@192.168.122.2:/home/manu
+: 1736759665:0;sudo systemctl status ntpd\
+
+: 1736759794:0;timedatectl status\
+
+: 1740235359:0;v .xinitrc
+: 1740235632:0;hwclock -w
+: 1740235638:0;sudo hwclock -w
+: 1736759691:0;timedatectl set-ntp true
+: 1736759714:0;ntpd -qg
+: 1740268148:0;xrandr --output eDP-1 --auto --output HDMI-1 --mode 1920x1080 --rate 60 --right-of eDP-1
+: 1740268251:0;xrandr --output eDP-1 --auto --output HDMI-1 --mode 1920x1080 --rate 60 --right-of HDMI-2
+: 1740268283:0;xrandr --output eDP-1 --auto --output HDMI-2
+: 1740268545:0;xrandr --output HDMI-2 --right-of eDP-1 --auto\
+
+: 1740325983:0;ansible-galaxy collection install netbox.netbox\
+
+: 1740357353:0;cat project/monitorstack/netbox-script/netbox_script.py
+: 1740357509:0;v .vimrc
+: 1740421916:0;s eojeda@192.168.110.254 -p2222
+: 1740424401:0;telnet 192.168.254.80
+: 1740424414:0;telnet 192.168.254.83
+: 1740430016:0;s eojeda@192.168.110.56
+: 1740430472:0;s eojeda@192.168.111.9
+: 1736759602:0;hol amnudp
+: 1736759610:0;dsdadllas
+: 1736759612:0;dls 
+: 1736759624:0;dsadadasdaddsdsd
+: 1736759627:0;lls
+: 1736759705:0;sdadaddddddddddddddddddsdadaddasdadasdaholamundo        dsadasdadasdasdddddd    hola mundo la conchadedskadakjdjkjdakjojdkajdclear
+: 1740705913:0;dsadhj 
+: 1740705916:0;c   clear
+: 1740718577:0;s eojeda@192.168.110.100
+: 1740719805:0;exit
+: 1740780269:0;ps aux | grep vnc
+: 1740781032:0;s eojjeda@192.168.122.67
+: 1740855751:0;ping 192.168.122.67
+: 1740855755:0;s eojeda@192.168.122.67
+: 1740855865:0;telnet 192.168.122.67 22
+: 1740860139:0;cat /etc/resolv.conf
+: 1740860878:0;s eojjeda@192.168.122.68
+: 1740861811:0;ping 192.168.122.69
+: 1740862353:0;s eojeda@192.168.122.69
+: 1740870673:0;ping 192.168.122.68
+: 1740870681:0;s eojeda@192.168.122.68
+: 1740872919:0;ssh eojeda@192.168.122.68
+: 1740971894:0;yay -S terraform-bin\
+
+: 1740972023:0;sudo pacman -S terraform
+: 1740977156:0;terraform ubut
+: 1740977316:0;cd  IaC/terraform
+: 1740977340:0;terraform plan
+: 1740977633:0;curl -k -H "Authorization: PVEAPIToken=terraform@pamrovider=c9e6b6b4-e838-4991-bb01-510eb69f9d64" https://192.168.122.200:8006/api2/json/nodes\
+
+: 1740977691:0;curl -k -H "Authorization: PVEAPIToken=terraform@pamprovider=c9e6b6b4-e838-4991-bb01-510eb69f9d64" http://192.168.122.200:8006/api2/json/nodes\
+
+: 1740977744:0;curl --http1.1 -k -H "Authorization: PVEAPIToken=terraform@pamprovider=c9e6b6b4-e838-4991-bb01-510eb69f9d64" https://192.168.122.200:8006/api2/json/nodes\
+
+: 1740977870:0;curl -k -H "Authorization: PVEAPIToken=terraform@pamprovider=c9e6b6b4-e838-4991-bb01-510eb69f9d64" https://192.168.122.200:8006/api2/json/nodes\
+
+: 1740977914:0;openssl s_client -connect 192.168.122.200:8006 -servername pve\
+
+: 1740980046:0;curl -k -X GET "https://tuproxmox:8006/api2/json/nodes" \\
+     -H "Authorization: PVEAPIToken=terraform@pame838-4991-bb01-510eb69f9d64"\
+
+: 1740980073:0;curl -k -X GET "https://192.168.122.200:8006/api2/json/nodes" \\
+     -H "Authorization: PVEAPIToken=terraform@pame838-4991-bb01-510eb69f9d64"\
+
+: 1740980140:0;curl -k -X GET "https://tuproxmox:8006/api2/json/nodes/proxmox1/qemu" \\
+     -H "Authorization: PVEAPIToken=terraform@pame838-4991-bb01-510eb69f9d64"\
+
+: 1740980153:0;curl -k -X GET "https://192.168.122.200:8006/api2/json/nodes/proxmox1/qemu" \\
+     -H "Authorization: PVEAPIToken=terraform@pame838-4991-bb01-510eb69f9d64"\
+
+: 1740980438:0;curl -H "Authorization: PVEAPIToken=terraform@pame838-4991-bb01-510eb69f9d64" https://192.168.122.200:8006/api2/json/
+: 1740980511:0;curl -k -X GET "https://192.168.122.200:8006/api2/json/nodes" \\
+     -H 'Authorization: PVEAPIToken=terraform@pam!terraformAPI=c9e6b6b4-e838-4991-bb01-510eb69f9d64'\
+
+: 1740980547:0;curl -k -X GET "https://192.168.122.200:8006/api2/json/nodes" \\
+     -H 'Authorization: PVEAPIToken=terraform@pam!terraformAPI=c9e6b6b4-e838-4991-bb01-510eb69f9d64' | jq .\
+
+: 1741000618:0;bluetoothctl connect 18:B9:6E:08:61:45
+: 1741000746:0;sudo systemctl restart bluetooth\
+
+: 1741003705:0;s root@192.168.251.5
+: 1741005275:0;ssh eojeda@192.168.122.200
+: 1741015212:0;pwd
+: 1741015244:0;terraform init\
+terraform apply -auto-approve\
+
+: 1741015270:0;cd templates
+: 1741023107:0;cd ubuntu-12
+: 1741023127:0;\
+terraform apply\
+
+: 1741023239:0;cd u
+: 1741037261:0;TF_LOG=DEBUG terraform apply\
+
+: 1736759736:0;cd templates/ubuntu-12
+: 1741053096:0;ssh root@192.168.122.200
+: 1741054647:0;s
+: 1741054878:0;s root@192.168.122.200
+: 1741085464:0;bluetoothctl 
+: 1741099191:0;terraform init\
+
+: 1741099226:0;terraform init -upgrade\
+
+: 1741099395:0;rm -rf .terraform\
+terraform init -upgrade
+: 1741099429:0;terraform providers\
+
+: 1741099563:0;terraform apply -auto-approve\
+
+: 1741102185:0;cd project/Doc
+: 1741102241:0;cp -r IaC/terraform-proxmox ~/project
+: 1741128789:0;mv terraform-proxmox terraform-proxmox.bak
+: 1741128798:0;mkdir terraform-proxmox
+: 1741128901:0;cd Doc/IaC/terraform-proxmox
+: 1741129085:0;cat te
+: 1741129217:0;cd project
+: 1741129241:0;cd project/Doc/IaC/terraform-proxmox
+: 1741129253:0;cd en
+: 1741129270:0;cd .
+: 1741129272:0;cd ..
+: 1741129276:0;cat ,a
+: 1741129290:0;cat provider.tf
+: 1741129419:0;cd terraform-proxmox
+: 1741129430:0;cd enviroments
+: 1741129434:0;cd dev
+: 1741129476:0;cd project/Doc/IaC
+: 1741129625:0;cd 
+: 1741131165:0;cd project/terraform-proxmox
+: 1741131168:0;cd ubuntu
+: 1741131214:0;terraform plan\
+
+: 1741131268:0;terraform apply -auto-approve
+: 1736759764:0;cat .xinitrc
+: 1736759660:0;sudo systemctl restart ntpd\
+
+: 1736759662:0;ntpd -gq 
+: 1736759802:0;time
+: 1736759810:0;clock
+: 1736759815:0;times
+: 1736759829:0;timedatectl
+: 1741437378:0;K8SUGKK
+: 1741442956:0;ping 192.168.122.200
+: 1741442996:0;s eojeda@192.168.122.200
+: 1741474743:0;ping 8.8.8.8
+: 1741532673:0;sudo pacman -Sy
+: 1741532678:0;sudo pacman -Syu
+: 1741534266:0;yay -S google-chrome
+: 1741534330:0;sudo reboot
+: 1741576693:0;v .ssh/known_hosts
+: 1741576750:0;xrandr --output HDMI-1 --off
+: 1741576880:0;R
+: 1741576910:0;hola
+: 1741576948:0;xrandr --output eDP-1  --off
+: 1741576962:0;xrandr --listmonitors
+: 1741576998:0;xrandr --output eDP-1 --auto --output eDP-1
+: 1741577151:0;Cccccxxxxxxxxxxxxxcccczzxzxzxzccvvv     mnmnmn,,n,bbb.//.
+: 1741577333:0;'''']]]]]]][[[
+: 1741577337:0;}}}{{{{{{
+: 1741578040:0;nmtui
+: 1741578057:0;clea
+: 1741578063:0;rclea
+: 1741645941:0;cal
+: 1741649465:0;reboot
+: 1741649851:0;terraform --help
+: 1741650310:0;mkdir project/terraform
+: 1741650313:0;cd project/terraform
+: 1741650388:0;mkdir learn-terraform-docker-container
+: 1741650390:0;cd learn-terraform-docker-container
+: 1741650555:0;clear
+: 1741650689:0;v main.tf
+: 1741650696:0;ls
+: 1741650721:0;terraform init
+: 1741651044:0;docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)\
+
+: 1741651058:0;terraform apply
+: 1741651064:0;docker ps
+: 1741651094:0;cat main.tf
+: 1741652170:0;cd
+: 1741652172:0;sudo openvpn vpn/unaj/informatica.ovpn
+: 1741652179:0;s eojjeda@192.168.122.2
+: 1741652182:0;s eojeda@192.168.122.2
+: 1741652214:0;s manu@192.168.122.2
+: 1741661894:0;poweroff
+: 1741717503:0;nano hola.txt
+: 1741719519:0;v ls
+: 1741719640:0;v .config/kitty/kitty.conf
+: 1741720276:0;nano hola.txt
+: 1741720977:0;nano .nanorc
+: 1741721107:0;clear
+: 1741721108:0;ls
+: 1741721110:0;clear
+: 1741721111:0;ls
+: 1741721114:0;nano .nanorc
+: 1741721436:0;nano hola.txt
+: 1741721448:0;cat hola.txt
+: 1741721459:0;nano hola.txt
+: 1741721941:0;nano hola.tx
+: 1741721944:0;nano hola.txt
+: 1741722258:0;ls
+: 1741722262:0;cl
+: 1741722263:0;
+: 1741723540:0;sudo openvpn vpn/unaj/informatica.ovpn &
+: 1741723557:0;s eojeda@192.168.110.100
+: 1741723903:0;clear
+: 1741723976:0;l
+: 1741723978:0;ls 
+: 1741724045:0;clear
+: 1741724096:0;s eojjeda@192.168.110.100
+: 1741724101:0;s eojeda@192.168.110.100
+: 1741724731:0;v .config/kitty/kitty.conf
+: 1741724861:0;jkhkjhds
+: 1741724932:0;s eojeda@192.168.110.100
+: 1741736834:0;config status
+: 1741736844:0;v .xinitrc
+: 1741736849:0;ls
+: 1741736854:0;config status
+: 1741736896:0;cd .local/share/fonts/
+: 1741736904:0;pwd
+: 1741736910:0;cd .uuid
+: 1741736911:0;ls
+: 1741736918:0;ls -l
+: 1741736924:0;config status
+: 1741736930:0;ls
+: 1741736935:0;cd
+: 1741736938:0;config status
+: 1741736946:0;v .local/share/fonts/.uuid
+: 1741736961:0;config status
+: 1741736975:0;cat .local/share/fonts/.uuid
+: 1741736991:0;ls
+: 1741737016:0;v .local/share/fonts/.uuid
+: 1741737028:0;rm .local/share/fonts/.uuid
+: 1741737036:0;config status
+: 1741737044:0;ls
+: 1741737046:0;clear
+: 1741737046:0;ls
+: 1741737052:0;ip a
+: 1741737056:0;clear
+: 1741737057:0;ls
+: 1741737238:0;config status
+: 1741737274:0;config add -u
