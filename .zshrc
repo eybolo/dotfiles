@@ -112,6 +112,8 @@ plugins=(
   zsh-syntax-highlighting
   zsh-autosuggestions
   vi-mode
+  docker
+  kubectl
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -165,6 +167,8 @@ alias s="kitty +kitten ssh"
 alias cat="bat --paging=never  --style=plain"
 # git dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias cs='curl -s cheat.sh/:list | fzf --prompt="Buscar cheat: " --preview="curl -s cheat.sh/{}" --preview-window=up:70% | xargs -I{} curl cheat.sh/{}'
+
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
