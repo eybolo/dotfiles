@@ -1,7 +1,8 @@
 " ---------------------------------------------------------------
 " => Plugins
 " ---------------------------------------------------------------
-
+"
+" Instala automaticamente vim-plug
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '/autoload/plug.vim'))
   silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
@@ -10,40 +11,25 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
-
+"Syntax highlighting para archivos kitty
 Plug 'fladson/vim-kitty'
-" Colection of language packs
+
+" Coleccion de paquetes de lenguages
 Plug 'sheerun/vim-polyglot'
 
-Plug 'neoclide/coc.nvim', {'branch':'release'}
+" TEMA
+Plug 'dracula/vim', { 'as': 'dracula' }
 
 " Status bar and themes
 Plug 'vim-airline/vim-airline'
-"Plug 'itchyny/lightline.vim'
-"Plug 'josa42/vim-lightline-coc'
-"Plug 'vim-airline/vim-airline-themes'
 
-Plug 'yggdroot/indentline'
-
+" Cierra automaticamente parentesis, corchetes, llaves, etc.
 Plug 'jiangmiao/auto-pairs'
-"Plug 'powerline/powerline'
 
-"Plug 'dense-analysis/ale'
+" Explorador de archivos
 Plug 'preservim/NERDTree'
-" Plug 'christoomey/vim-tmux-navigator',
 
+" Muestra líneas añadidas, modificadas o eliminadas según Git
 Plug 'airblade/vim-gitgutter'
-Plug 'tpope/vim-fugitive'
-Plug 'morhetz/gruvbox'
-Plug 'mhinz/vim-signify'
-
-" Parentheses, brackets, quotes
-Plug 'tpope/vim-surround'
-"jPlug 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plug 'ryanoasis/vim-devicons'
-Plug 'dracula/vim', { 'as': 'dracula' }
-"Plug 'wfxr/minimap.vim'
-Plug 'luochen1990/rainbow'
-Plug 'pearofducks/ansible-vim'
 
 call plug#end()

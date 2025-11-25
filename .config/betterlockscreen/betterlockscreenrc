@@ -1,0 +1,42 @@
+# ~/.config/betterlockscreenrc
+
+# Colores TokyoNight
+font="Hack Nerd Font Mono"
+
+insidevercolor=1a1b26ff      # Fondo verificando
+insidewrongcolor=db4b4bff    # Fondo contraseña incorrecta
+insidecolor=16161eff         # Fondo normal
+
+ringvercolor=7dcfffff        # Anillo verificando (cyan)
+ringwrongcolor=f7768eff      # Anillo contraseña incorrecta (rojo)
+ringcolor=7aa2f7ff           # Anillo normal (azul)
+
+keyhlcolor=9ece6aff          # Color de teclas presionadas (verde)
+bshlcolor=ff9e64ff           # Color de backspace (naranja)
+separatorcolor=414868ff      # Color del separador (gris)
+
+verifcolor=7dcfffff          # Texto "Verificando..." (cyan)
+wrongcolor=f7768eff          # Texto "Incorrecto" (rojo)
+timecolor=c0caf5ff           # Color de la hora (blanco azulado)
+time_format="%H:%M:%S"       # Formato de hora
+
+datecolor=a9b1d6ff           # Color de la fecha (blanco grisáceo)
+date_format="%A, %d %B"      # Formato de fecha
+
+greetercolor=bb9af7ff        # Color del mensaje de bienvenida (magenta)
+layoutcolor=565f89ff         # Color del layout de teclado (gris2)
+indpos="x+110:h-70"          # Posición del indicador
+timepos="ix-300:iy-410"      # Posición de la hora
+datepos="tx+0:ty+25"         # Posición de la fecha
+greeterpos="ix:iy+350"       # Posición del mensaje
+
+# Efectos visuales
+blur_level=1                # Desenfoque (0-20, 0 = sin desenfoque)
+dim_level=0                 # Oscurecimiento (0-100)
+pixel_scale=0                # Pixelado (si usas efecto pixel)
+
+# Opciones adicionales
+locktext=" Locked"
+veriftext="󰔟 Verifying..."
+wrongtext=" Authentication Failed!"
+noinputtext=""

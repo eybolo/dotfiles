@@ -1,177 +1,97 @@
----------------------------
--- Default awesome theme --
----------------------------
+-- ========================================================
+-- AwesomeWM Theme Configuration
+-- ========================================================
+-- Tema principal para AwesomeWM con esquema de colores neón/cyberpunk
+-- Los colores se cargan desde themes/colors.lua (variable global)
 
-local theme_assets = require("beautiful.theme_assets")
+-- ========================================================
+-- Dependencias
+-- ========================================================
 local xresources = require("beautiful.xresources")
 local dpi = xresources.apply_dpi
-
 local gfs = require("gears.filesystem")
-local themes_path = gfs.get_themes_dir()
-
 local beautiful = require("beautiful")
--- Layout Dir :
-local layout_icon_path  = os.getenv("HOME") .. "/.config/awesome/themes/icons/layouts/"
-local lip       = layout_icon_path
 
--- COLORS :
-colors = {}
-colors.black    = "#14181D"
-colors.red      = "#DD4B6A"
-colors.green    = "#87c7a1"
-colors.yellow   = "#de8f78"
-colors.blue     = "#6791c9"
-colors.magenta 	= "#bc83e3"
-colors.cyan     = "#70b9cc"
-colors.white    = "#c4c4c4"
-colors.gris     = "#505050"
+-- ========================================================
+-- Paths y Configuración Base
+-- ========================================================
+local layout_icon_path = os.getenv("HOME") .. "/.config/awesome/themes/icons/layouts/"
 
--- transparent
-colors.transparent  = "#00000000"
-colors.container    = "#1C2325"
-
--- Bright colors
-colors.brightblack      = "#313E42"
-colors.brightred        = "#ee6a70"
---colors.brightgreen      = "#99CC00"
-colors.brightgreen = "#AAF91E"
-colors.brightyellow     = "#ffb29b"
-colors.brightblue       = "#7ba5dd"
-colors.brightmagenta    = "#cb92f2"
-colors.brightcyan        = "#7fc8db"
-colors.brightwhite       = "#cccccc"
-
-
+-- ========================================================
+-- Inicialización del Theme
+-- ========================================================
 theme = {}
 
---theme.font          = "Cascadia Code Bold 10"
---theme.iconfont          = "Font Awesome 6 free Solid 10"
-theme.font          = "Hack Nerd Font Bold 10"
-theme.iconfont      = "Hack Nerd Font Bold 12"
+-- ========================================================
+-- Fuentes
+-- ========================================================
+beautiful.font = "Hack Nerd Font 9"           -- Fuente general del sistema
+beautiful.taglist_font = "Hack Nerd Font 14"  -- Fuente para los tags
+theme.font = "Hack Nerd Font Bold 10"         -- Fuente para widgets y textos
+theme.iconfont = "Hack Nerd Font Mono 14"     -- Fuente para iconos
 
--- Establecer la fuente
-beautiful.font = "Hack Nerd Font 10"  -- Ajusta el tamaño según sea necesario
-theme.bg_normal 		= "#222222" 
-theme.bg_focus  		= colors.brightblack
-theme.bg_urgent     		= colors.black
-theme.bg_minimize   		= colors.red
-theme.bg_systray    		= colors.black
-theme.systray_icon_spacing      = dpi(4)
+-- ========================================================
+-- Hotkeys Popup Theme
+-- ========================================================
+theme.hotkeys_bg = colors.black
+theme.hotkeys_fg = colors.white
+theme.hotkeys_border_width = 2
+theme.hotkeys_border_color = colors.magenta
+theme.hotkeys_modifiers_fg = colors.cyan
+theme.hotkeys_label_bg = colors.yellow
+theme.hotkeys_label_fg = colors.black
+theme.hotkeys_font = "Hack Nerd Font 10"
+theme.hotkeys_description_font = "Hack Nerd Font 9"
+theme.hotkeys_group_margin = 15
 
--- Taglist :
-theme.taglist_spacing 	    = dpi(1)
---theme.taglist_bg_focus                          = colors.magenta
-theme.taglist_fg_focus      = colors.red
-theme.taglist_fg_empty      = colors.gris
---theme.taglist_bg_empty                          = colors.black
-theme.taglist_fg_urgent	    = colors.green
+-- ========================================================
+-- Colores de Fondo (Backgrounds)
+-- ========================================================
+theme.bg_normal = colors.black                -- Fondo normal de ventanas
+theme.bg_focus = colors.brightblack           -- Fondo de ventana enfocada
+theme.bg_urgent = colors.black                -- Fondo de ventana urgente
+theme.bg_minimize = colors.red                -- Fondo de ventana minimizada
+theme.bg_systray = colors.black               -- Fondo del system tray
 
-theme.fg_normal 	= colors.white
-theme.fg_focus    	= colors.blue
-theme.fg_urgent     	= colors.brightred
-theme.fg_minimize   	= colors.brightblack
+-- ========================================================
+-- Colores de Texto (Foregrounds)
+-- ========================================================
+theme.fg_normal = colors.white                -- Texto normal
+theme.fg_focus = colors.blue                  -- Texto de ventana enfocada
+theme.fg_urgent = colors.brightred            -- Texto de ventana urgente
+theme.fg_minimize = colors.brightblack        -- Texto de ventana minimizada
 
-theme.useless_gap       = dpi(3)
-theme.border_width      = dpi(2)
---theme.border_normal = "#000000"
-theme.border_normal     = "#000000"
--- theme.border_focus  = "#535d6c"
---theme.border_focus      = "#00FFFF"
---theme.border_marked     = "#91231c"
+-- ========================================================
+-- Bordes y Espaciado
+-- ========================================================
+theme.useless_gap = dpi(3)                    -- Espacio entre ventanas
+theme.border_width = dpi(2)                   -- Ancho del borde de ventanas
+theme.border_normal = "#000000"               -- Color de borde normal (negro)
 
--- Variables set for theming the menu:
--- menu_[bg|fg]_[normal|focus]
--- menu_[border_color|border_width]
-theme.menu_submenu_icon = themes_path.."default/submenu.png"
-theme.menu_height = dpi(15)
-theme.menu_width  = dpi(100)
+-- ========================================================
+-- System Tray
+-- ========================================================
+theme.systray_icon_spacing = dpi(4)           -- Espaciado entre iconos del systray
 
--- You can add as many variables as
--- you wish and access them by using
--- beautiful.variable in your rc.lua
---theme.bg_widget = "#cc0000"
---
---[[
--- Define the image to load
-theme.titlebar_close_button_normal = themes_path.."default/titlebar/close_normal.png"
-theme.titlebar_close_button_focus  = themes_path.."default/titlebar/close_focus.png"
+-- ========================================================
+-- Taglist (Workspaces)
+-- ========================================================
+theme.taglist_spacing = dpi(6)                -- Espaciado entre tags
+theme.taglist_fg_focus = colors.magenta       -- Color del tag activo
+theme.taglist_fg_empty = colors.gris          -- Color de tags vacíos
+theme.taglist_fg_urgent = colors.green        -- Color de tag con ventana urgente
 
-theme.titlebar_minimize_button_normal = themes_path.."default/titlebar/minimize_normal.png"
-theme.titlebar_minimize_button_focus  = themes_path.."default/titlebar/minimize_focus.png"
+-- ========================================================
+-- Layout Icons
+-- ========================================================
+theme.layout_floating = layout_icon_path .. "floating.png"
+theme.layout_fullscreen = layout_icon_path .. "fullscreen.png"
+theme.layout_tilebottom = layout_icon_path .. "tilebottom.png"
+theme.layout_tileleft = layout_icon_path .. "tileleft.png"
+theme.layout_tile = layout_icon_path .. "tile.png"
+theme.layout_tiletop = layout_icon_path .. "tiletop.png"
 
-theme.titlebar_ontop_button_normal_inactive = themes_path.."default/titlebar/ontop_normal_inactive.png"
-theme.titlebar_ontop_button_focus_inactive  = themes_path.."default/titlebar/ontop_focus_inactive.png"
-theme.titlebar_ontop_button_normal_active = themes_path.."default/titlebar/ontop_normal_active.png"
-theme.titlebar_ontop_button_focus_active  = themes_path.."default/titlebar/ontop_focus_active.png"
-
-theme.titlebar_sticky_button_normal_inactive = themes_path.."default/titlebar/sticky_normal_inactive.png"
-theme.titlebar_sticky_button_focus_inactive  = themes_path.."default/titlebar/sticky_focus_inactive.png"
-theme.titlebar_sticky_button_normal_active = themes_path.."default/titlebar/sticky_normal_active.png"
-theme.titlebar_sticky_button_focus_active  = themes_path.."default/titlebar/sticky_focus_active.png"
-
-theme.titlebar_floating_button_normal_inactive = themes_path.."default/titlebar/floating_normal_inactive.png"
-theme.titlebar_floating_button_focus_inactive  = themes_path.."default/titlebar/floating_focus_inactive.png"
-theme.titlebar_floating_button_normal_active = themes_path.."default/titlebar/floating_normal_active.png"
-theme.titlebar_floating_button_focus_active  = themes_path.."default/titlebar/floating_focus_active.png"
-
-theme.titlebar_maximized_button_normal_inactive = themes_path.."default/titlebar/maximized_normal_inactive.png"
-theme.titlebar_maximized_button_focus_inactive  = themes_path.."default/titlebar/maximized_focus_inactive.png"
-theme.titlebar_maximized_button_normal_active = themes_path.."default/titlebar/maximized_normal_active.png"
-theme.titlebar_maximized_button_focus_active  = themes_path.."default/titlebar/maximized_focus_active.png"
-
---theme.wallpaper = themes_path.."default/background.png"
---theme.wallpaper = "/home/manu/image/wallpaper/keyboard.png"
-
--- You can use your own layout icons like this:
-theme.layout_fairh = themes_path.."default/layouts/fairhw.png"
-theme.layout_fairv = themes_path.."default/layouts/fairvw.png"
-theme.layout_floating  = themes_path.."default/layouts/floatingw.png"
-theme.layout_magnifier = themes_path.."default/layouts/magnifierw.png"
-theme.layout_max = themes_path.."default/layouts/maxw.png"
-theme.layout_fullscreen = themes_path.."default/layouts/fullscreenw.png"
-theme.layout_tilebottom = themes_path.."default/layouts/tilebottomw.png"
-theme.layout_tileleft   = themes_path.."default/layouts/tileleftw.png"
-theme.layout_tile = themes_path.."default/layouts/tilew.png"
-theme.layout_tiletop = themes_path.."default/layouts/tiletopw.png"
-theme.layout_spiral  = themes_path.."default/layouts/spiralw.png"
-theme.layout_dwindle = themes_path.."default/layouts/dwindlew.png"
-theme.layout_cornernw = themes_path.."default/layouts/cornernww.png"
-theme.layout_cornerne = themes_path.."default/layouts/cornernew.png"
-theme.layout_cornersw = themes_path.."default/layouts/cornersww.png"
-theme.layout_cornerse = themes_path.."default/layouts/cornersew.png"
---]]
--- Generate Awesome icon:
-theme.awesome_icon = theme_assets.awesome_icon(
-    theme.menu_height, theme.bg_focus, theme.fg_focus
-)
-
-
--- Layoutbox icons :
-
-theme.layout_floating       = lip.. "floating.png"
-theme.layout_fullscreen     = lip.. "fullscreen.png"
-theme.layout_tilebottom     = lip.. "tilebottom.png"
-theme.layout_tileleft       = lip.. "tileleft.png"
-theme.layout_tile           = lip.. "tile.png"
-theme.layout_tiletop        = lip.. "tiletop.png"
-
-
--- Define the icon theme for application icons. If not set then the icons
--- from /usr/share/icons and /usr/share/icons/hicolor will be used.
---theme.icon_theme = nil
---[[
- function make_fa_icon( code )
-	return wibox.widget {
-	font = theme.icon_font .. theme.icon_size,
-	markup = ' <span color="' .. theme.icon_color ..'">' .. code .. '</span> ',
-	align = 'center',
-	valign = 'center',
-	widget = wibox.widget.textbox
-	}
-end
-
-facpuicon = make_fa_icon('\u{f2db}')
-
---]]
+-- ========================================================
+-- Return Theme
+-- ========================================================
 return theme
---  vim: filetype=lua:expandtab:shiftwidth=4:tabstop=8:softtabstop=4:textwidth=80

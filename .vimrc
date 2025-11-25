@@ -1,9 +1,7 @@
 " ---------------------------------------------------------------
 " => Config
 " ---------------------------------------------------------------
-"python3 from powerline.vim import setup as powerline_setup
-"python3 powerline_setup()
-"python3 del powerline_setup
+
 " disable Vi compatibility
 set nocompatible
 
@@ -21,13 +19,6 @@ set scrolloff=10
 
 " Enable clipboard system
 set clipboard=unnamedplus
-
-" Copiar al portapapeles
-vnoremap <C-c> "+y
-nnoremap <C-c> "+y
-
-" Pegar desde el portapapeles
-nnoremap <C-v> "+p
 
 " syntax highlighting on.
 syntax on
@@ -75,33 +66,38 @@ set history=1000
 " Background color brightness
 set background=dark
 
-"Enable 256 colours
-set t_Co=256
-
+" No hacer backup
 set nobackup
 
-set noswapfile "Desactivar swap file 
+"Desactivar swap file 
+set noswapfile
 
-set autoread "Recarga automatic archivos cambiado fuera de vim
+"Recarga automatic archivos cambiado fuera de vim
+set autoread
 
-set list "Muestra caracteres de espacio en blanco y tabuladores
+"Muestra caracteres de espacio en blanco y tabuladores
+set list
 
-set colorcolumn=100 "Resalta la columna 100
+"Resalta la columna 100
+set colorcolumn=100
 
-set textwidth=100 "Ancho de texto a 100 caracteres
+"Ancho de texto a 100 caracteres
+set textwidth=100
 
-set autoindent  " Habilitar la indentación automática
+" Habilitar la indentación automática
+set autoindent
 
-set smartindent  " Habilitar la indentación inteligente
+" Habilitar la indentación inteligente
+set smartindent
 
-
+" Set color scheme
+set termguicolors
 
 " ---------------------------------------------------------------
 " => Mapping 
 " ---------------------------------------------------------------
 
-
-nnoremap <SPACE> <Nop>
+noremap <SPACE> <Nop>
 
 " Set the SPACE as the leader key.
 inoremap jj <esc>
@@ -112,22 +108,11 @@ let mapleader = ' '
 nmap <leader>w :w<cr>
 nmap <leader>q :q<cr>
 
-so ~/.vim/plugins.vim
-so ~/.vim/plugin-config.vim
-
-"set guifont=DroidSansMono\ Nerd\ Font\ 11 
 " ---------------------------------------------------------------
 " => Config Plugins 
 " ---------------------------------------------------------------
 
-"let g:airline_theme='powerlineish'
-"let g:airline_theme='molokai'
-let g:airline_powerline_fonts=1
+so ~/.vim/plugins.vim
+so ~/.vim/plugin-config.vim
 
-
-" gruvbox
-"let g:gruvbox_contrast_dark = "hard"
-
-" Set color scheme
 colorscheme dracula 
-set termguicolors

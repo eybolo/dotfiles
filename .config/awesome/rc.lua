@@ -1,53 +1,51 @@
 -- ========================================================
--- Requirements 
+-- AwesomeWM Main Configuration File (rc.lua)
 -- ========================================================
+-- Archivo principal que carga todos los módulos y configura
+-- el window manager. Este archivo orquesta la inicialización
+-- completa de AwesomeWM.
 
--- If LuaRocks is installed, make sure that packages installed through it are
--- found (e.g. lgi). If LuaRocks is not installed, do nothing.
+-- ========================================================
+-- LuaRocks Support
+-- ========================================================
+-- Permite usar paquetes instalados con LuaRocks
+-- Si LuaRocks no está instalado, simplemente se ignora
 pcall(require, "luarocks.loader")
---local dpi = require("beautiful").xresources.apply_dpi
 
-require("awful.autofocus")
-local beautiful = require("beautiful")
+-- ========================================================
+-- Core Dependencies
+-- ========================================================
+require("awful.autofocus")              -- Autofocus automático de ventanas
+local beautiful = require("beautiful")  -- Sistema de temas
 
--- Notifications :
-require("configuration.notifications")
+-- ========================================================
+-- Color Palette (Load First)
+-- ========================================================
+-- Los colores deben cargarse ANTES del tema para estar
+-- disponibles globalmente en todos los módulos
+require("themes.colors")
 
-home_folder = os.getenv("HOME")
-theme_folder = home_folder .. "/.config/awesome/themes"
+-- ========================================================
+-- Theme Initialization
+-- ========================================================
+-- Carga el tema principal (fuentes, colores UI, iconos, etc.)
+beautiful.init(os.getenv("HOME") .. "/.config/awesome/themes/theme.lua")
 
-beautiful.init( theme_folder .. "/theme.lua")
-
--- Keys :
-require("configuration.keys")
-
-
--- Signals :
---require("configuration.signals")
-
--- Layouts 
-require("configuration.layouts")
-
-
--- Rules :
-require("configuration.rules")
-
--- Menu :
-require("ui.menu")
-
--- Bar :
-require("ui.bar")
+-- ========================================================
+-- Notification System
+-- ========================================================
+-- Deshabilita D-Bus para notificaciones (evita conflictos)
+package.loaded["naughty.dbus"] = {}
 
 
+-- ========================================================
+-- Configuration Modules
+-- ========================================================
+require("configuration.keys")      -- Atajos de teclado y mouse
+require("configuration.layouts")   -- Layouts disponibles (tile, floating, etc.)
+require("configuration.rules")     -- Reglas para ventanas y aplicaciones
 
-
-
-
-
-
-
-
-
-
-
-
+-- ========================================================
+-- User Interface Modules
+-- ========================================================
+require("ui.bar")                  -- Barra superior/inferior (wibar)
