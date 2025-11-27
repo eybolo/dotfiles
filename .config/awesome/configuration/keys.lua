@@ -9,7 +9,6 @@
 -- ========================================================
 local awful = require("awful")
 local hotkeys_popup = require("awful.hotkeys_popup")
-require("awful.hotkeys_popup.keys.kitty")
 
 -- Widget externo para control de volumen
 local volume_widget = require('ui.widget.awesome-wm-widgets.volume-widget.volume')

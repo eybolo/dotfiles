@@ -14,20 +14,14 @@ local kitty = {}
 ---------------------------------------------------------------------------
 --- Añade reglas para detectar cuándo mostrar los hotkeys de Kitty
 --
--- Ejemplo de uso:
+-- Ejemplo:
 --   kitty.add_rules_for_terminal({ rule = { name = { "kitty" }}})
 --
--- Esto mostrará los hotkeys solo cuando una ventana tenga 'kitty' en su título.
--- Si no se proporcionan reglas, los hotkeys se mostrarán siempre.
---
--- @function add_rules_for_terminal
--- @tparam table rule Reglas para detectar ventana con Kitty
 function kitty.add_rules_for_terminal(rule)
-    -- Asignar la misma regla a todos los grupos de hotkeys
     for group_name, group_data in pairs({
-        ["kitty: tabs"] = rule,
-        ["kitty: windows"] = rule,
-        ["kitty: scrolling"] = rule,
+        ["Kitty (Tabs)"]      = rule,
+        ["Kitty (Windows)"]   = rule,
+        ["Kitty (Scrolling)"] = rule,
     }) do
         hotkeys_popup.add_group_rules(group_name, group_data)
     end
@@ -38,45 +32,45 @@ end
 ---------------------------------------------------------------------------
 local kitty_keys = {
     -- Grupo: Gestión de pestañas
-    ["kitty: tabs"] = {{
-        modifiers = {"Ctrl+Shift"},
+    ["Kitty (Tabs)"] = {{
+        modifiers = {"Ctrl", "Shift"},
         keys = {
-            t          = "new tab",              -- Nueva pestaña
-            q          = "close tab",            -- Cerrar pestaña
-            ['Right']  = "Next tab",             -- Siguiente pestaña
-            ['Left']   = "Previous tab",         -- Pestaña anterior
-            l          = "Next layout",          -- Cambiar layout
-            ['.']      = "move tab forward",     -- Mover pestaña adelante
-            [',']      = "move tab backward",    -- Mover pestaña atrás
-            ['alt+t']  = "set tab title",        -- Cambiar título
+            t          = "new tab",
+            q          = "close tab",
+            Right      = "next tab",
+            Left       = "previous tab",
+            l          = "next layout",
+            ["." ]     = "move tab forward",
+            ["," ]     = "move tab backward",
+            ["alt+t"]  = "set tab title",
         }
     }},
 
     -- Grupo: Gestión de ventanas (splits)
-    ["kitty: windows"] = {{
-        modifiers = {"Ctrl+Shift"},
+    ["Kitty (Windows)"] = {{
+        modifiers = {"Ctrl", "Shift"},
         keys = {
-            ['Return'] = "new window",           -- Nueva ventana (split)
-            n          = "new os window",        -- Nueva ventana del OS
-            w          = "close window",         -- Cerrar ventana
-            [']']      = "next window",          -- Siguiente ventana
-            ['[']      = "previous window",      -- Ventana anterior
-            f          = "move windows forward", -- Mover adelante
-            b          = "move windows backward",-- Mover atrás
+            Return = "new window",
+            n      = "new os window",
+            w      = "close window",
+            ["]"]   = "next window",
+            ["["]   = "previous window",
+            f      = "move windows forward",
+            b      = "move windows backward",
         }
     }},
 
     -- Grupo: Navegación y scroll
-    ["kitty: scrolling"] = {{
-        modifiers = {"Ctrl+Shift"},
+    ["Kitty (Scrolling)"] = {{
+        modifiers = {"Ctrl", "Shift"},
         keys = {
-            ['Up']       = "line up",            -- Scroll arriba (línea)
-            ['Down']     = "line down",          -- Scroll abajo (línea)
-            ['Page_Up']  = "page up",            -- Scroll arriba (página)
-            ['Page_Down']= "page down",          -- Scroll abajo (página)
-            ['Home']     = "top",                -- Ir al inicio
-            ['End']      = "bottom",             -- Ir al final
-            z            = "previous shell prompt", -- Prompt anterior
+            Up         = "line up",
+            Down       = "line down",
+            Page_Up    = "page up",
+            Page_Down  = "page down",
+            Home       = "top",
+            End        = "bottom",
+            z          = "previous shell prompt",
         }
     }},
 }
@@ -85,4 +79,3 @@ local kitty_keys = {
 hotkeys_popup.add_hotkeys(kitty_keys)
 
 return kitty
-
