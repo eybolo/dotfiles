@@ -39,6 +39,12 @@ package.loaded["naughty.dbus"] = {}
 
 
 -- ========================================================
+-- Custom Hotkeys (NEW)
+-- ========================================================
+require("hotkeys")  -- Carga tus hotkeys personalizados
+
+
+-- ========================================================
 -- Configuration Modules
 -- ========================================================
 require("configuration.keys")      -- Atajos de teclado y mouse

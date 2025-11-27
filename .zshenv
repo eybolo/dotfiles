@@ -1,6 +1,7 @@
 # XDG DIRECTORIES personal 
 export XDG_PROJECT_DIR="$HOME/project"
 export XDG_CODE_DIR="$HOME/code"
+export XDG_BIN="$HOME/bin"
 export XDG_APP_DIR="$HOME/app"
 export XDG_TMP_DIR="$HOME/tmp"
 export XDG_VM_DIR="$HOME/vm"
