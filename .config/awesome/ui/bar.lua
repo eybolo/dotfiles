@@ -79,7 +79,7 @@ end
 -- ========================================================
 -- Widget Imports
 -- ========================================================
-
+local volume_pipewire = require('ui.widget.volumen_pipewire')
 -- Custom Widgets
 local clock_widget = require('ui.widget.clock')
 local brightness_widget = require("ui.widget.brightness")
@@ -90,7 +90,7 @@ local updates_widget = require('ui.widget.updates')
 local cpu_widget = require("ui.widget.cpu.cpu")
 
 -- External Widgets (awesome-wm-widgets)
-local volume_widget = require('ui.widget.awesome-wm-widgets.volume-widget.volume')
+--local volume_widget = require('ui.widget.awesome-wm-widgets.volume-widget.volume')
 local batteryarc_widget = require("ui.widget.awesome-wm-widgets.batteryarc-widget.batteryarc")
 local todo_widget = require("ui.widget.awesome-wm-widgets.todo-widget.todo")
 local calendar_widget = require("ui.widget.awesome-wm-widgets.calendar-widget.calendar")
@@ -335,11 +335,12 @@ awful.screen.connect_for_each_screen(function(s)
                 -- Right Widgets (Utilities & Status)
                 -- ============================================
                 {
+                    barcontainer(volume_pipewire.widget),
                     barcontainer(todo_widget()),
                     barcontainer(net_wired),
                     barcontainer(net_wireless),
                     barcontainer(updates_widget),
-                    barcontainer(volume_widget{widget_type = 'icon_and_text'}),
+                    --barcontainer(volume_widget{widget_type = 'icon_and_text'}),
                     (has_battery() and barcontainer(batteryarc_widget()) or nil),
                     barcontainer(keyboardlayout_widget),
                     barcontainer(clock_widget),
